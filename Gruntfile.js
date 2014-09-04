@@ -26,7 +26,7 @@ module.exports = function(grunt) {
         },
         dist: {
             files: {
-                'dist/<%=path.js%>/<%= pkg.name %>.min.js' : ['<%=path.node%>/jquery/dist/jquery.js', '<%=path.js%>/init.js'],
+                'dist/<%=path.js%>/<%= pkg.name %>.min.js' : ['<%=path.bw%>/angular/angular.js','<%=path.node%>/jquery/dist/jquery.js', '<%=path.js%>/app.js'],
                 'dist/<%=path.css%>/style.min.css': ['<%=path.bw%>/bootstrap/dist/css/bootstrap.css', 'dist/<%=path.css%>/style.min.css']
             }
         }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="katechismus">
 <head>
     <title></title>
     <link rel="stylesheet" type="test/css" href="css/style.min.css">
@@ -20,9 +20,16 @@
             </div>
             <div class="text-center">
                 <a href="#" class="toggle-nav btn btn-lg btn-default">Toggle Nav</a>
+                <div ng-controller="PageController as pg">
+                    <h1>{{pg.page.title}}</h1>
+                    <div ng-repeat="p in pg.page.paragraphs">
+                        <p>{{ p }}</p>
+                    </div>
+
+                </div>
             </div>
             <h1 class="text-center">Canisi</h1>
-            <p class="lead text-center">De gehele catechismus online</p>
+            <p class="lead text-center">{{ 'Angular ' + 'doe maar lekker'}}De gehele catechismus online</p>
         </div>
     </div>
     <script src="js/canisi.min.js"></script>
