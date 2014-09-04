@@ -1,0 +1,22 @@
+{
+  "name": "Canisi",
+  "version": "0.0.0",
+  "homepage": "https://github.com/tideman/canisi",
+  "authors": [
+    "t.kroon <t.kroon@lukkien.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0"
+  }
+}
