@@ -15,7 +15,8 @@ module.exports = function(grunt) {
         css: 'css',
         js: 'js',
         node: 'node_modules',
-        dist: 'dist'
+        dist: 'dist',
+        bw: 'bower_components'
     },
     // Task configuration.
     concat: {
@@ -24,14 +25,16 @@ module.exports = function(grunt) {
             stripBanners: false
         },
         dist: {
-            src: ['<%=path.node%>/jquery/dist/jquery.js', '<%=path.js%>/init.js'],
-            dest: 'dist/<%=path.js%>/<%= pkg.name %>.min.js'
+            files: {
+                'dist/<%=path.js%>/<%= pkg.name %>.min.js' : ['<%=path.node%>/jquery/dist/jquery.js', '<%=path.js%>/init.js'],
+                'dist/<%=path.css%>/style.min.css': ['<%=path.bw%>/bootstrap/dist/css/bootstrap.css', 'dist/<%=path.css%>/style.min.css']
+            }
         }
     },
     sass: {
         dist: {
             files: {
-                'dist/<%=path.css%>/style.css': '<%=path.sass%>/main.sass'
+                'dist/<%=path.css%>/style.min.css': '<%=path.sass%>/main.sass'
             }
         }
     },
@@ -40,8 +43,14 @@ module.exports = function(grunt) {
             browsers: ['last 3 versions']
         },
         dist: {
-            src: 'dist/<%=path.css%>/style.css',
-            dest: 'dist/<%=path.css%>/style.css'
+            src: 'dist/<%=path.css%>/style.min.css',
+            dest: 'dist/<%=path.css%>/style.min.css'
+        }
+    },
+    cssmin: {
+        dist: {
+            src: 'dist/<%=path.css%>/style.min.css',
+            dest: 'dist/<%=path.css%>/style.min.css'
         }
     },
     uglify: {
@@ -49,7 +58,7 @@ module.exports = function(grunt) {
         banner: '<%= banner %>'
       },
       dist: {
-        src: '<%= concat.dist.dest %>',
+        src: 'dist/<%=path.js%>/<%= pkg.name %>.min.js',
         dest: 'dist/<%=path.js%>/<%= pkg.name %>.min.js'
       }
     },
@@ -76,6 +85,7 @@ module.exports = function(grunt) {
 
     // These plugins provide necessary tasks.
     grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-qunit');
     grunt.loadNpmTasks('grunt-contrib-watch');
@@ -84,7 +94,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-connect');
 
     // Default task.
-    grunt.registerTask('dist', ['concat', 'uglify']);
+    grunt.registerTask('dist', ['concat', 'cssmin', 'uglify']);
     grunt.registerTask('styles', ['sass', 'autoprefixer']);
     grunt.registerTask('serve', ['connect', 'watch']);
     grunt.registerTask('dev', ['sass', 'autoprefixer', 'concat']);
