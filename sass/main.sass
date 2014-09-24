@@ -1,3 +1,33 @@
+/* about ------------------------ */
+.page-about.ng-leave
+    -webkit-animation: slideOutLeft 0.5s both ease-in
+    -moz-animation: slideOutLeft 0.5s both ease-in
+    animation: slideOutLeft 0.5s both ease-in
+
+.page-about.ng-enter
+    -webkit-animation: slideInRight 0.5s both ease-in
+    -moz-animation: slideInRight 0.5s both ease-in
+    animation: slideInRight 0.5s both ease-in
+
+/* slide in from the right */
+@keyframes slideInRight
+    from
+        transform: translateX(100%)
+    to
+        transform: translateX(0)
+
+@-moz-keyframes slideInRight
+    from
+        -moz-transform: translateX(100%)
+    to
+        -moz-transform: translateX(0)
+
+@-webkit-keyframes slideInRight
+    from
+        -webkit-transform: translateX(100%)
+    to
+        -webkit-transform: translateX(0)
+
 #site-wrapper
     position: relative
     overflow: hidden
@@ -29,5 +59,5 @@
 
 body
     box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5)
-    background-color: #333
+    background-color: #123456
     color: #fff

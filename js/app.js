@@ -2,10 +2,33 @@
  * Created by tijmen on 04/09/14.
  */
 (function() {
-    var katechismusbook = angular.module('katechismus', []);
+    var canisiApp = angular.module('canisiApp', ['ngRoute', 'ngAnimate']);
 
-    katechismusbook.controller('PageController', function() {
-        this.page = text;
+    canisiApp.config(function($routeProvider, $locationProvider) {
+        $locationProvider.html5Mode(true);
+        $routeProvider
+            .when('/', {
+                templateUrl: 'home.html',
+                controller: 'homeController'
+            })
+            .when('/about', {
+                templateUrl: 'register.html',
+                controller: 'registerController'
+            })
+
+    });
+
+    canisiApp.controller('homeController', function($scope,$http) {
+
+        $http.get("/data/data.json")
+        .success(function(response) {
+                $scope.page = response;
+        });
+
+    });
+
+    canisiApp.controller('registerController', function($scope) {
+        $scope.pageClass = 'page-about';
     });
 
     var text = {
@@ -25,14 +48,12 @@
  =            ON DOM READY            =
  ====================================*/
 $(function() {
-
     // Toggle Nav on Click
     $('.toggle-nav').click(function() {
         // Calling a function in case you want to expand upon this.
+        console.log("CLICK!");
         toggleNav();
     });
-
-
 });
 
 
@@ -40,6 +61,7 @@ $(function() {
  =            CUSTOM FUNCTIONS            =
  ========================================*/
 function toggleNav() {
+    console.log('toggleNAv');
     if ($('#site-wrapper').hasClass('show-nav')) {
         // Do things on Nav Close
         $('#site-wrapper').removeClass('show-nav');
