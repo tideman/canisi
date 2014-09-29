@@ -1,4 +1,9 @@
 /*global module:false*/
+var modRewrite = require('connect-modrewrite');
+var mountFolder = function (connect, dir) {
+    return connect.static(require('path').resolve(dir));
+};
+
 module.exports = function(grunt) {
 
   // Project configuration.
@@ -26,7 +31,7 @@ module.exports = function(grunt) {
         },
         dist: {
             files: {
-                'dist/<%=path.js%>/<%= pkg.name %>.min.js' : ['<%=path.bw%>/angular/angular.js','<%=path.bw%>/angular-animate/angular-animate.js','<%=path.bw%>/angular-route/angular-route.js','<%=path.node%>/jquery/dist/jquery.js', '<%=path.js%>/app.js'],
+                'dist/<%=path.js%>/<%= pkg.name %>.min.js' : ['<%=path.bw%>/angular/angular.js','<%=path.bw%>/angular-touch/angular-touch.js','<%=path.bw%>/angular-animate/angular-animate.js','<%=path.bw%>/angular-route/angular-route.js','<%=path.node%>/jquery/dist/jquery.js', '<%=path.js%>/app.js'],
                 'dist/<%=path.css%>/style.min.css': ['<%=path.bw%>/bootstrap/dist/css/bootstrap.css', 'dist/<%=path.css%>/style.min.css']
             }
         }
@@ -65,21 +70,31 @@ module.exports = function(grunt) {
     watch: {
       livereload: {
           options: { livereload: true },
-          files: ['dist/**/*.html', '<%=path.sass%>/**/*'],
+          files: ['dist/**/*.html', '<%=path.sass%>/**/*', '<%=path.js%>/**/*'],
           tasks: ['dev']
       }
 
     },
-    connect: {
-        server: {
-          options: {
-              hostname: 'localhost',
-              open: true,
-              port: 9001,
-              livereload: true,
-              base: 'dist'
-          }
-        }
+
+        connect: {
+            options: {
+                hostname: 'localhost',
+                open: true,
+                port: 9001,
+                livereload: true,
+                base: 'dist'
+            },
+            server: {
+                options: {
+                    middleware: function (connect) {
+                        return [
+                            modRewrite (['!\\.html|\\.js|\\.svg|\\.css|\\.png|\\.jpg$ /index.html [L]']),
+                            mountFolder(connect, 'dist')
+                        ];
+                    }
+                }
+            }
+
     }
   });
 
@@ -96,7 +111,7 @@ module.exports = function(grunt) {
     // Default task.
     grunt.registerTask('dist', ['concat', 'cssmin', 'uglify']);
     grunt.registerTask('styles', ['sass', 'autoprefixer']);
-    grunt.registerTask('serve', ['connect', 'watch']);
+    grunt.registerTask('serve', ['connect:server', 'watch']);
     grunt.registerTask('dev', ['sass', 'autoprefixer', 'concat']);
 
 };

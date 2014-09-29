@@ -1,4 +1,4 @@
-/*! canisi - v - 2014-09-24
+/*! canisi - v - 2014-09-29
 * Copyright (c) 2014 ; Licensed  */
 /*!
  * Bootstrap v3.1.1 (http://getbootstrap.com)
@@ -5785,6 +5785,10 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+.page {
+  max-width: 960px;
+  margin: 0 auto; }
 
 /* about ------------------------ */
 .page-about.ng-leave {

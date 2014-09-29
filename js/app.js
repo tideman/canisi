@@ -5,17 +5,16 @@
     var canisiApp = angular.module('canisiApp', ['ngRoute', 'ngAnimate']);
 
     canisiApp.config(function($routeProvider, $locationProvider) {
-        $locationProvider.html5Mode(true);
         $routeProvider
             .when('/', {
-                templateUrl: 'home.html',
+                templateUrl: '/partials/home.html',
                 controller: 'homeController'
             })
             .when('/about', {
-                templateUrl: 'register.html',
+                templateUrl: '/partials/register.html',
                 controller: 'registerController'
             })
-
+        $locationProvider.html5Mode(true);
     });
 
     canisiApp.controller('homeController', function($scope,$http) {
@@ -24,6 +23,17 @@
         .success(function(response) {
                 $scope.page = response;
         });
+
+        $scope.showNav = function () {
+            console.log('toggleNAv');
+            if ($('#site-wrapper').hasClass('show-nav')) {
+                // Do things on Nav Close
+                $('#site-wrapper').removeClass('show-nav');
+            } else {
+                // Do things on Nav Open
+                $('#site-wrapper').addClass('show-nav');
+            }
+        }
 
     });
 
@@ -44,34 +54,13 @@
 
 
 
-/*====================================
- =            ON DOM READY            =
- ====================================*/
-$(function() {
-    // Toggle Nav on Click
-    $('.toggle-nav').click(function() {
-        // Calling a function in case you want to expand upon this.
-        console.log("CLICK!");
-        toggleNav();
-    });
-});
+
 
 
 /*========================================
  =            CUSTOM FUNCTIONS            =
  ========================================*/
-function toggleNav() {
-    console.log('toggleNAv');
-    if ($('#site-wrapper').hasClass('show-nav')) {
-        // Do things on Nav Close
-        $('#site-wrapper').removeClass('show-nav');
-    } else {
-        // Do things on Nav Open
-        $('#site-wrapper').addClass('show-nav');
-    }
 
-    //$('#site-wrapper').toggleClass('show-nav');
-}
 
 //close nav with escape
 $(document).keyup(function(e) {
