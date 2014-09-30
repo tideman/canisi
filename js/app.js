@@ -10,7 +10,11 @@
                 templateUrl: '/partials/home.html',
                 controller: 'homeController'
             })
-            .when('/about', {
+            .when('/register', {
+                templateUrl: '/partials/register.html',
+                controller: 'registerController'
+            })
+            .when('/about/:id', {
                 templateUrl: '/partials/register.html',
                 controller: 'registerController'
             })
@@ -18,7 +22,7 @@
     });
 
     canisiApp.controller('homeController', function($scope,$http) {
-
+        $scope.pageClass = 'page-home';
         $http.get("/data/data.json")
         .success(function(response) {
                 $scope.page = response;
@@ -38,7 +42,7 @@
     });
 
     canisiApp.controller('registerController', function($scope) {
-        $scope.pageClass = 'page-about';
+        $scope.pageClass = 'page-register';
     });
 
     var text = {
