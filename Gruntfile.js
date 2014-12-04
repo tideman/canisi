@@ -31,7 +31,7 @@ module.exports = function(grunt) {
         },
         dist: {
             files: {
-                'dist/<%=path.js%>/<%= pkg.name %>.min.js' : ['<%=path.bw%>/angular/angular.js','<%=path.bw%>/angular-touch/angular-touch.js','<%=path.bw%>/angular-animate/angular-animate.js','<%=path.bw%>/angular-route/angular-route.js','<%=path.node%>/jquery/dist/jquery.js', '<%=path.js%>/app.js'],
+                'dist/<%=path.js%>/<%= pkg.name %>.min.js' : ['<%=path.bw%>/angular/angular.js','<%=path.bw%>/angular-resource/angular-resource.js','<%=path.bw%>/angular-touch/angular-touch.js','<%=path.bw%>/angular-animate/angular-animate.js','<%=path.bw%>/angular-route/angular-route.js','<%=path.node%>/jquery/dist/jquery.js', '<%=path.js%>/app.js'],
                 'dist/<%=path.css%>/style.min.css': ['<%=path.bw%>/bootstrap/dist/css/bootstrap.css', 'dist/<%=path.css%>/style.min.css']
             }
         }
@@ -88,7 +88,7 @@ module.exports = function(grunt) {
                 options: {
                     middleware: function (connect) {
                         return [
-                            modRewrite (['!\\.html|\\.js|\\.svg|\\.eot|\\.ttf|\\.woff|\\.css|\\.png|\\.jpg$ /index.html [L]']),
+                            modRewrite (['!\\.html|\\.js|\\.ico|\\.svg|\\.eot|\\.ttf|\\.woff|\\.css|\\.png|\\.jpg$ /index.html [L]']),
                             mountFolder(connect, 'dist')
                         ];
                     }

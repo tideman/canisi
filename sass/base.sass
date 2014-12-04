@@ -1,28 +1,29 @@
-.page
-    bottom: 0
-    padding: 200px 20px 20px 20px
-
-    position: absolute
-    text-align: center
-    top: 0
-    width: 100%
-
+html, body
+    height: 100%
+    font-family: bonvenocflight
+    font-size: 18px
+    background-color: $quill-gray
 
 #site-wrapper
     position: relative
     overflow: hidden
     width: 100%
-    height: 5000px
+    height: 100%
 
 #site-canvas
     width: 100%
     height: 100%
-    position: relative
     transform: translateX(0)
     transform: translate3d(0, 0, 0)
     transition: 300ms ease all
     backface-visibility: hidden
     padding: 5% 0
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5)
+    bottom: 0
+    padding: 20px
+    position: absolute
+    text-align: center
+    top: 0
 
 .show-nav #site-canvas
     transform: translateX(300px)
@@ -34,12 +35,12 @@
     position: absolute
     top: 0
     left: -300px
-    background: $sisal
+    background-color: $quill-gray
     padding: 15px
+    z-index: 1
 
 body
     box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5)
-    background-color: $quill-gray
     color: $scorpion
     font-size: 16px
 
@@ -50,10 +51,52 @@ h1,h2,h3,h4,h5,h6
 
 h1
     text-transform: uppercase
-    font-size: 4em
+    font-size: 3.0em
 
+h3
+    font-size: 1.20em
+
+.preface
+    padding: 30px 0px
+    width: 90%
+    margin: 0 auto
 a
     color: $schooner
 
 a:hover
     color: $edward
+
+.page
+    max-width: 960px
+    margin: 0 auto
+    height: 100vh
+
+.menu
+    padding: 0
+    li
+        list-style-type: none
+        text-align: left
+
+.menu-btn
+    position: absolute
+    font-size: 2em
+    top: 0
+    left: 5px
+
+.monstrans
+    width: 400px
+    height: 540px
+    background: url(../images/monstrans.svg)
+    background-size: 400px 540px
+    margin: 0 auto
+
+p
+    text-align: left
+
+.triangle
+    width: 0px
+    height: 0px
+    border-style: inset
+    border-left: 480px solid transparent
+    border-right: 480px solid transparent
+    border-top: 480px solid transparent

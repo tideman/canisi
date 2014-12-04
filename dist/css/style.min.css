@@ -1,4 +1,4 @@
-/*! canisi - v - 2014-09-30
+/*! canisi - v - 2014-12-04
 * Copyright (c) 2014 ; Licensed  */
 /*!
  * Bootstrap v3.1.1 (http://getbootstrap.com)
@@ -5825,30 +5825,30 @@ button.close {
 .icon-thumbs-up:before {
   content: ""; }
 
+.icon-menu:before {
+  content: ""; }
+
 @font-face {
   font-family: "bonvenocflight";
   src: url("/fonts/BonvenoCF-Light-webfont.eot");
   src: url("/fonts/BonvenoCF-Light-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/BonvenoCF-Light-webfont.woff") format("woff"), url("/fonts/BonvenoCF-Light-webfont.ttf") format("truetype"), url("/fonts/BonvenoCF-Light-webfont.svg#bonvenocflight") format("svg");
   font-weight: normal;
   font-style: normal; }
-.page {
-  bottom: 0;
-  padding: 200px 20px 20px 20px;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  width: 100%; }
+html, body {
+  height: 100%;
+  font-family: bonvenocflight;
+  font-size: 18px;
+  background-color: #DFE0D9; }
 
 #site-wrapper {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 5000px; }
+  height: 100%; }
 
 #site-canvas {
   width: 100%;
   height: 100%;
-  position: relative;
   -webkit-transform: translateX(0);
       -ms-transform: translateX(0);
           transform: translateX(0);
@@ -5858,7 +5858,13 @@ button.close {
           transition: 300ms ease all;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  padding: 5% 0; }
+  padding: 5% 0;
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  padding: 20px;
+  position: absolute;
+  text-align: center;
+  top: 0; }
 
 .show-nav #site-canvas {
   -webkit-transform: translateX(300px);
@@ -5873,12 +5879,12 @@ button.close {
   position: absolute;
   top: 0;
   left: -300px;
-  background: #D0C7BA;
-  padding: 15px; }
+  background-color: #DFE0D9;
+  padding: 15px;
+  z-index: 1; }
 
 body {
   box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
-  background-color: #DFE0D9;
   color: #5C595A;
   font-size: 16px; }
 
@@ -5889,13 +5895,56 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   text-transform: uppercase;
-  font-size: 4em; }
+  font-size: 3em; }
+
+h3 {
+  font-size: 1.2em; }
+
+.preface {
+  padding: 30px 0px;
+  width: 90%;
+  margin: 0 auto; }
 
 a {
   color: #878179; }
 
 a:hover {
   color: #A4A9A6; }
+
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  height: 100vh; }
+
+.menu {
+  padding: 0; }
+  .menu li {
+    list-style-type: none;
+    text-align: left; }
+
+.menu-btn {
+  position: absolute;
+  font-size: 2em;
+  top: 0;
+  left: 5px; }
+
+.monstrans {
+  width: 400px;
+  height: 540px;
+  background: url(../images/monstrans.svg);
+  background-size: 400px 540px;
+  margin: 0 auto; }
+
+p {
+  text-align: left; }
+
+.triangle {
+  width: 0px;
+  height: 0px;
+  border-style: inset;
+  border-left: 480px solid transparent;
+  border-right: 480px solid transparent;
+  border-top: 480px solid transparent; }
 
 .page.ng-leave {
   z-index: 9999; }
@@ -5919,11 +5968,11 @@ a:hover {
   animation: scaleUp 0.5s both ease-in; }
 
 /* about ------------------------ */
-.page-register.ng-leave {
+.page-chapter.ng-leave {
   -webkit-animation: slideOutLeft 0.5s both ease-in;
   animation: slideOutLeft 0.5s both ease-in; }
 
-.page-register.ng-enter {
+.page-chapter.ng-enter {
   -webkit-animation: slideInRight 0.5s both ease-in;
   animation: slideInRight 0.5s both ease-in; }
 
@@ -5989,3 +6038,20 @@ a:hover {
 @-webkit-keyframes slideOutLeft {
   to {
     -webkit-transform: translateX(-100%); } }
+.navigate-left {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  text-decoration: none; }
+  .navigate-left:hover {
+    color: #A4A9A6;
+    text-decoration: none; }
+
+.navigate-right {
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  text-decoration: none; }
+  .navigate-right:hover {
+    color: #A4A9A6;
+    text-decoration: none; }

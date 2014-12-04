@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Canisi: Katechismus van de katholieke kerk </title>
     <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="test/css" href="css/style.min.css">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
@@ -24,17 +25,25 @@
 <body ng-app="canisiApp">
     <div id="site-wrapper">
         <div id="site-canvas">
-            <div id="site-menu">
-                <a href="#" class="toggle-nav">close</a>
+            <div id="site-menu" ng-controller="menuController">
                 <h2>Menu</h2>
-                    <p class="lead">menu text</p>
-                    <p>Style it however you want.</p>
-                    <ul>
-                        <li>menu item 1</li>
-                        <li>menu item 2</li>
+                    <p class="lead">Inhoudsopgave</p>
+                    <ul class="menu">
+                        <li ng-repeat="chapter in page.rows"> <a href="/chapter/{{chapter.key}}">{{chapter.value}}</a></li>
                     </ul>
             </div>
-            <div class="page {{ pageClass }}" ng-view></div>
+            <span ng-click="showNav()" class="menu-btn icon-menu"></span>
+            <div ng-controller="navigationController">
+                <a class="navigate-left" ng-click="previous()" ng-hide="book">
+                    <span class="icon-arrow-left"></span>
+                </a>
+                <div class="page {{ pageClass }}" ng-view>
+
+                </div>
+                <a class="navigate-right" ng-click="next()" ng-hide="book">
+                    <span class="icon-arrow-right"></span>
+                </a>
+            </div>
         </div>
     </div>
     <script src="js/canisi.min.js"></script>

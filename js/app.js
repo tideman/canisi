@@ -4,31 +4,10 @@
 (function() {
     var canisiApp = angular.module('canisiApp', ['ngRoute', 'ngAnimate']);
 
-    canisiApp.config(function($routeProvider, $locationProvider) {
-        $routeProvider
-            .when('/', {
-                templateUrl: '/partials/home.html',
-                controller: 'homeController'
-            })
-            .when('/register', {
-                templateUrl: '/partials/register.html',
-                controller: 'registerController'
-            })
-            .when('/about/:id', {
-                templateUrl: '/partials/register.html',
-                controller: 'registerController'
-            })
-        $locationProvider.html5Mode(true);
-    });
 
-    canisiApp.controller('homeController', function($scope,$http) {
-        $scope.pageClass = 'page-home';
-        $http.get("/data/data.json")
-        .success(function(response) {
-                $scope.page = response;
-        });
 
-        $scope.showNav = function () {
+    canisiApp.run(function($rootScope) {
+        $rootScope.showNav = function () {
             console.log('toggleNAv');
             if ($('#site-wrapper').hasClass('show-nav')) {
                 // Do things on Nav Close
@@ -39,20 +18,177 @@
             }
         }
 
+    })
+
+
+    canisiApp.config(function($routeProvider, $locationProvider) {
+        $routeProvider
+            .when('/', {
+                templateUrl: '/partials/home.html',
+                controller: 'homeController'
+            })
+            .when('/register', {
+                templateUrl: '/partials/register.html',
+                controller: 'registerController'
+            })
+            .when('/chapter/:chapterId', {
+                templateUrl: '/partials/chapter.html',
+                controller: 'chapterController'
+            })
+            .when('/chapter/:chapterId/page/:pageId', {
+                templateUrl: '/partials/chapter.html',
+                controller: 'chapterController'
+            })
+        $locationProvider.html5Mode(true);
     });
 
-    canisiApp.controller('registerController', function($scope) {
+    canisiApp.controller('homeController', function($scope,$http) {
+        $scope.pageClass = 'page-home';
+
+        //hide navigation;
+        $scope.book = true;
+
+        $http.get("https://canisi.iriscouch.com/db_canisi/_design/book_title/_view/book_title")
+        .success(function(response) {
+            $scope.page = response;
+        });
+    });
+
+    canisiApp.controller('registerController', function($scope,$http) {
         $scope.pageClass = 'page-register';
+
     });
 
-    var text = {
-        title: 'hoofdstuk 1',
-        paragraphs: [
-            'Phasellus nibh mauris, vehicula vitae arcu eget, iaculis condimentum metus. Mauris vulputate mauris at leo mattis porta. Nam laoreet at sem mollis pulvinar. Sed tempus semper purus blandit elementum. Ut mauris augue, vestibulum ut arcu sit amet, lacinia volutpat lectus. Sed ut tellus a enim ultricies lobortis nec euismod est. Phasellus consequat nunc id dui iaculis, id faucibus sapien mollis. Aliquam dapibus dolor nulla, at porttitor enim interdum vel. Suspendisse ultricies, mauris ut efficitur ornare, magna augue fermentum magna, nec pulvinar eros nulla ut nisl. Vivamus interdum a magna ac semper.',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at mauris et elit lacinia mollis non vel ex. Vestibulum id laoreet eros. Duis pulvinar lacus eleifend nisi ullamcorper consequat. Fusce luctus ultrices enim, at eleifend elit dapibus at. Praesent pharetra nulla risus, quis vehicula nibh dignissim eu. Praesent placerat, nibh vel vehicula venenatis, ex sem aliquet felis, quis elementum ipsum massa nec ex. Phasellus sodales tortor a pretium pulvinar. Donec pellentesque sem sed aliquet sollicitudin. Nulla egestas, elit eu dictum sollicitudin, purus nulla dapibus ipsum, vel vulputate nisl dolor nec metus. Vivamus tincidunt, mauris et malesuada malesuada, sem odio ultrices risus, sed pellentesque sem orci non lorem. In lobortis mattis vehicula. Curabitur urna risus, ornare sit amet interdum sit amet, varius sit amet elit. Maecenas pellentesque sem lacus, eget tincidunt nisl commodo nec. Sed quis odio scelerisque ligula dignissim condimentum. Cras dignissim sapien et quam pulvinar posuere ornare ut massa. Integer rhoncus nibh justo, at pellentesque mi laoreet maximus.',
-            'Suspendisse tempor nisi nec sagittis rutrum. Proin at elit laoreet, laoreet enim ac, aliquet nisl. Nam et lobortis ipsum. Morbi pretium bibendum elit, nec ultricies justo vehicula non. In et volutpat elit. Proin sagittis, purus congue rutrum euismod, dolor metus accumsan metus, vel facilisis urna mi eu massa. Etiam tristique, quam non vehicula malesuada, massa massa convallis diam, ut viverra metus magna et sem. Proin ac dictum nisi, ac ullamcorper neque. Mauris rhoncus mauris non quam ullamcorper, non faucibus augue tempus. Fusce finibus lacinia felis at facilisis. Sed nec nisl a dolor sagittis posuere in accumsan enim. Ut ultrices, est in placerat commodo, leo sem eleifend metus, eget sollicitudin ante neque id dui.'
-        ]
-    }
+    canisiApp.controller('chapterController', function($scope, $http, $routeParams, $rootScope) {
+        var chapterId,
+            pageId,
+            sectionId;
+
+        $scope.pageClass = 'page-chapter';
+
+        //show navigation;
+        $scope.book = false;
+
+        chapterId = parseInt($routeParams.chapterId);
+        pageId = parseInt($routeParams.pageId);
+        sectionId = parseInt($routeParams.sectionId);
+
+        if(isNaN(pageId)) {
+            pageId = 1;
+        }
+
+        $scope.currentChapter = chapterId;
+        $scope.currentPage = pageId;
+        $scope.currentSection = sectionId;
+
+        $scope.previous = '/test/1';
+        $scope.next = '/nogwat/3';
+
+        //check if chapter fetched
+        if($scope.chapterContent == undefined) {
+            fetchChapter();
+        }
+        else {
+            buildPage();
+        }
+
+
+        function addChapterHeader() {
+            //chapter head
+            $scope.chptr_title = $scope.chapterContent.chptr_title;
+            $scope.chptr_subtitle = $scope.chapterContent.chptr_subtitle;
+            $scope.chptr_preface = $scope.chapterContent.chptr_preface;
+        }
+
+        function fetchChapter() {
+            console.log('fetching chapter');
+            $http.get("https://canisi.iriscouch.com/db_canisi/_design/chapter/_view/chapter?key=" + chapterId)
+                .success(function(response) {
+                    $scope.chapterContent = response.rows[0].value;
+                    if(pageId === 1) {
+                        addChapterHeader();
+                    }
+                    buildPage();
+                });
+            //addChapterHeader();
+        }
+
+        function buildPage() {
+           console.log('BUILD PAGE');
+
+
+            //check for paragraphs
+            if($scope.chapterContent.chptr_txt.paragraphs == undefined) {
+                console.log($scope.chapterContent.chptr_txt.sections);
+                fetchParagraphs($scope.chapterContent.chptr_txt.sections[0]);
+            }
+            else {
+                console.log($scope.chapterContent.chptr_txt);
+                fetchParagraphs($scope.chapterContent.chptr_txt);
+            }
+        }
+
+        function fetchParagraphs(p_container) {
+            console.log('bla' + p_container);
+            var p_start,
+                i,
+                paragraphs = [];
+            //fetch 3 paragraphs
+            p_start = pageId * 3;
+            for(i = 0; i < 3 ; i++) {
+                paragraphs.push(p_container.paragraphs[i]);
+                p_start++;
+
+            }
+            $scope.paragraphs = paragraphs;
+        }
+
+
+
+
+
+    });
+
+    canisiApp.controller('menuController', function($scope, $http) {
+        $http.get("https://canisi.iriscouch.com/db_canisi/_design/register/_view/register")
+            .success(function(response) {
+                $scope.page = response;
+            });
+    });
+
+    canisiApp.controller('navigationController', function($scope) {
+
+        if($scope.currentPage == undefined) {
+            $scope.currentPage = 0;
+        }
+        if($scope.currentChapter == undefined) {
+            $scope.currentChapter= 0;
+        }
+        if($scope.currentSection == undefined) {
+            $scope.currentSection= 0;
+        }
+
+        $scope.previous = function() {
+            console.log('PREVIOUS');
+            console.log('chapter: ' + $scope.currentChapter);
+            console.log('page: ' + $scope.currentPage);
+            console.log('section: ' + $scope.currentSection);
+
+        }
+
+
+        $scope.next = function() {
+            console.log('NEXT');
+            console.log('chapter: ' + $scope.currentChapter);
+            console.log('page: ' + $scope.currentPage);
+            console.log('section: ' + $scope.currentSection);
+
+        }
+
+
+    });
+
+
 
 })();
 
