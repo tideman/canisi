@@ -77,12 +77,9 @@
             pageId = 1;
         }
 
-        $scope.currentChapter = chapterId;
-        $scope.currentPage = pageId;
-        $scope.currentSection = sectionId;
-
-        $scope.previous = '/test/1';
-        $scope.next = '/nogwat/3';
+        $rootScope.currentChapter = chapterId;
+        $rootScope.currentPage = pageId;
+        $rootScope.currentSection = sectionId;
 
         //check if chapter fetched
         if($scope.chapterContent == undefined) {
@@ -129,7 +126,7 @@
         }
 
         function fetchParagraphs(p_container) {
-            console.log('bla' + p_container);
+
             var p_start,
                 i,
                 paragraphs = [];
@@ -156,7 +153,7 @@
             });
     });
 
-    canisiApp.controller('navigationController', function($scope) {
+    canisiApp.controller('navigationController', function($scope, $rootScope) {
 
         if($scope.currentPage == undefined) {
             $scope.currentPage = 0;
@@ -170,6 +167,7 @@
 
         $scope.previous = function() {
             console.log('PREVIOUS');
+            console.log('chapter within previous:' + $rootScope.currentChapter);
             console.log('chapter: ' + $scope.currentChapter);
             console.log('page: ' + $scope.currentPage);
             console.log('section: ' + $scope.currentSection);
@@ -178,7 +176,7 @@
 
 
         $scope.next = function() {
-            console.log('NEXT');
+            console.log('NEXT!');
             console.log('chapter: ' + $scope.currentChapter);
             console.log('page: ' + $scope.currentPage);
             console.log('section: ' + $scope.currentSection);
