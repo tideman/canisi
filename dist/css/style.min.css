@@ -1,4 +1,4 @@
-/*! canisi - v - 2014-12-04
+/*! canisi - v - 2014-12-09
 * Copyright (c) 2014 ; Licensed  */
 /*!
  * Bootstrap v3.1.1 (http://getbootstrap.com)
@@ -5835,20 +5835,22 @@ button.close {
   font-weight: normal;
   font-style: normal; }
 html, body {
-  height: 100%;
+  height: auto;
+  min-height: 100vh;
+  overflow-x: hidden; }
+
+body {
   font-family: bonvenocflight;
   font-size: 18px;
-  background-color: #DFE0D9; }
+  background-color: #fff; }
 
 #site-wrapper {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: 100%; }
+  height: 100%;
+  min-height: 100vh; }
 
 #site-canvas {
-  width: 100%;
   height: 100%;
+  min-height: 100vh;
   -webkit-transform: translateX(0);
       -ms-transform: translateX(0);
           transform: translateX(0);
@@ -5858,40 +5860,70 @@ html, body {
           transition: 300ms ease all;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  padding: 5% 0;
-  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
+  padding: 3%;
+  box-shadow: inset 0 0 100px rgba(68, 50, 63, 0.5);
   bottom: 0;
-  padding: 20px;
-  position: absolute;
   text-align: center;
   top: 0; }
 
+.show-nav .menu-btn {
+  -webkit-transform: translateX(250px);
+      -ms-transform: translateX(250px);
+          transform: translateX(250px);
+  -webkit-transform: translate3d(250px, 0, 0);
+          transform: translate3d(250px, 0, 0); }
+
+.show-nav #site-menu {
+  -webkit-transform: translateX(250px);
+      -ms-transform: translateX(250px);
+          transform: translateX(250px);
+  -webkit-transform: translate3d(250px, 0, 0);
+          transform: translate3d(250px, 0, 0);
+  -webkit-transition: 300ms ease all;
+          transition: 300ms ease all; }
+
 .show-nav #site-canvas {
-  -webkit-transform: translateX(300px);
-      -ms-transform: translateX(300px);
-          transform: translateX(300px);
-  -webkit-transform: translate3d(300px, 0, 0);
-          transform: translate3d(300px, 0, 0); }
+  -webkit-transform: translateX(250px);
+      -ms-transform: translateX(250px);
+          transform: translateX(250px);
+  -webkit-transform: translate3d(250px, 0, 0);
+          transform: translate3d(250px, 0, 0); }
 
 #site-menu {
-  width: 300px;
   height: 100%;
-  position: absolute;
+  min-height: 100vh;
+  width: 250px;
+  position: fixed;
   top: 0;
-  left: -300px;
-  background-color: #DFE0D9;
+  left: -250px;
+  background-color: #fff;
+  box-shadow: inset 0 0 65px rgba(68, 50, 63, 0.3);
   padding: 15px;
   z-index: 1; }
 
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000; }
+
+.menu-btn {
+  -webkit-transition: 300ms ease all;
+          transition: 300ms ease all;
+  font-size: 2em;
+  margin: 3px;
+  float: left; }
+
 body {
-  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
-  color: #5C595A;
+  box-shadow: inset 0 0 100px rgba(68, 50, 63, 0.5);
+  color: #5F305C;
   font-size: 16px; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: bonvenocflight;
   font-weight: 500;
-  line-height: 1.1; }
+  line-height: 1.1;
+  margin: 25px 0 0 0; }
 
 h1 {
   text-transform: uppercase;
@@ -5906,15 +5938,22 @@ h3 {
   margin: 0 auto; }
 
 a {
-  color: #878179; }
+  color: #804A7F; }
 
 a:hover {
-  color: #A4A9A6; }
+  color: #9B5E9F; }
+
+a:visited {
+  color: #5F305C; }
+
+a:active {
+  color: #44323F; }
 
 .page {
   max-width: 960px;
   margin: 0 auto;
-  height: 100vh; }
+  height: 100%;
+  min-height: 100vh; }
 
 .menu {
   padding: 0; }
@@ -5922,17 +5961,19 @@ a:hover {
     list-style-type: none;
     text-align: left; }
 
-.menu-btn {
-  position: absolute;
-  font-size: 2em;
-  top: 0;
-  left: 5px; }
-
 .monstrans {
   width: 400px;
   height: 540px;
   background: url(../images/monstrans.svg);
   background-size: 400px 540px;
+  margin: 0 auto; }
+
+.tiara {
+  width: 150px;
+  height: 150px;
+  background: url(../images/tiara3.svg);
+  background-color: transparent;
+  background-size: 150px 150px;
   margin: 0 auto; }
 
 p {
@@ -6039,19 +6080,28 @@ p {
   to {
     -webkit-transform: translateX(-100%); } }
 .navigate-left {
-  position: absolute;
-  top: 50%;
-  left: 20%;
+  position: relative;
+  bottom: 50vh;
+  right: 500px;
   text-decoration: none; }
   .navigate-left:hover {
-    color: #A4A9A6;
+    color: #9B5E9F;
     text-decoration: none; }
 
 .navigate-right {
-  position: absolute;
-  top: 50%;
-  right: 20%;
+  position: relative;
+  bottom: 50vh;
+  left: 500px;
   text-decoration: none; }
   .navigate-right:hover {
-    color: #A4A9A6;
+    color: #9B5E9F;
     text-decoration: none; }
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 13px; }
+
+  .monstrans {
+    width: 200px;
+    height: 270px;
+    background-size: 200px 270px; } }

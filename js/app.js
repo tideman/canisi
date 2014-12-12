@@ -7,16 +7,22 @@
 
 
     canisiApp.run(function($rootScope) {
-        $rootScope.showNav = function () {
-            console.log('toggleNAv');
-            if ($('#site-wrapper').hasClass('show-nav')) {
-                // Do things on Nav Close
-                $('#site-wrapper').removeClass('show-nav');
-            } else {
-                // Do things on Nav Open
-                $('#site-wrapper').addClass('show-nav');
+        $rootScope.showMenu = function () {
+            $('#site-wrapper').addClass('show-nav');
+        }
+        $rootScope.closeMenu = function () {
+            $('#site-wrapper').removeClass('show-nav');
+            window.scrollTo(0,0);
+        }
+        $rootScope.toggleMenu = function () {
+            if($('#site-wrapper').hasClass('show-nav')) {
+                $rootScope.closeMenu();
+            }
+            else {
+                $rootScope.showMenu();
             }
         }
+        $rootScope.book = false;
 
     })
 
@@ -42,32 +48,32 @@
         $locationProvider.html5Mode(true);
     });
 
-    canisiApp.controller('homeController', function($scope,$http) {
+    canisiApp.controller('homeController', function($scope,$http, $rootScope) {
+        $rootScope.closeMenu();
         $scope.pageClass = 'page-home';
 
         //hide navigation;
-        $scope.book = true;
+        $rootScope.book = true;
 
         $http.get("https://canisi.iriscouch.com/db_canisi/_design/book_title/_view/book_title")
         .success(function(response) {
             $scope.page = response;
         });
-    });
-
-    canisiApp.controller('registerController', function($scope,$http) {
-        $scope.pageClass = 'page-register';
 
     });
 
     canisiApp.controller('chapterController', function($scope, $http, $routeParams, $rootScope) {
+        //show navigation;
+        $rootScope.book = true;
         var chapterId,
             pageId,
             sectionId;
-
+        console.log('chapter book:' + $rootScope.book);
         $scope.pageClass = 'page-chapter';
 
-        //show navigation;
-        $scope.book = false;
+        $rootScope.closeMenu();
+
+
 
         chapterId = parseInt($routeParams.chapterId);
         pageId = parseInt($routeParams.pageId);
@@ -98,7 +104,6 @@
         }
 
         function fetchChapter() {
-            console.log('fetching chapter');
             $http.get("https://canisi.iriscouch.com/db_canisi/_design/chapter/_view/chapter?key=" + chapterId)
                 .success(function(response) {
                     $scope.chapterContent = response.rows[0].value;
@@ -111,9 +116,6 @@
         }
 
         function buildPage() {
-           console.log('BUILD PAGE');
-
-
             //check for paragraphs
             if($scope.chapterContent.chptr_txt.paragraphs == undefined) {
                 console.log($scope.chapterContent.chptr_txt.sections);
@@ -154,7 +156,7 @@
     });
 
     canisiApp.controller('navigationController', function($scope, $rootScope) {
-
+        $scope.book = $rootScope.book;
         if($scope.currentPage == undefined) {
             $scope.currentPage = 0;
         }

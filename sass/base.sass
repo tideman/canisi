@@ -1,46 +1,70 @@
 html, body
-    height: 100%
+    height: auto
+    min-height: 100vh
+    overflow-x: hidden
+
+body
     font-family: bonvenocflight
     font-size: 18px
     background-color: $quill-gray
 
 #site-wrapper
-    position: relative
-    overflow: hidden
-    width: 100%
     height: 100%
+    min-height: 100vh
 
 #site-canvas
-    width: 100%
     height: 100%
+    min-height: 100vh
     transform: translateX(0)
     transform: translate3d(0, 0, 0)
     transition: 300ms ease all
     backface-visibility: hidden
-    padding: 5% 0
-    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5)
+    padding: 3%
+    box-shadow: inset 0 0 100px rgba(68, 50, 63, 0.5)
     bottom: 0
-    padding: 20px
-    position: absolute
     text-align: center
     top: 0
 
+.show-nav .menu-btn
+    transform: translateX(250px)
+    transform: translate3d(250px, 0, 0)
+
+.show-nav #site-menu
+    transform: translateX(250px)
+    transform: translate3d(250px, 0, 0)
+    transition: 300ms ease all
+
 .show-nav #site-canvas
-    transform: translateX(300px)
-    transform: translate3d(300px, 0, 0)
+    transform: translateX(250px)
+    transform: translate3d(250px, 0, 0)
 
 #site-menu
-    width: 300px
     height: 100%
-    position: absolute
+    min-height: 100vh
+    width: 250px
+    position: fixed
     top: 0
-    left: -300px
+    left: -250px
     background-color: $quill-gray
+    box-shadow: inset 0 0 65px rgba(68, 50, 63, 0.3)
     padding: 15px
     z-index: 1
 
+.topbar
+    position: fixed
+    top: 0
+    left: 0
+    z-index: 1000
+
+.menu-btn
+    transition: 300ms ease all
+    font-size: 2em
+    margin: 3px
+    float: left
+
+
 body
-    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5)
+    box-shadow: inset 0 0 100px rgba(68, 50, 63, 0.5)
     color: $scorpion
     font-size: 16px
 
@@ -48,6 +72,7 @@ h1,h2,h3,h4,h5,h6
     font-family: bonvenocflight
     font-weight: 500
     line-height: 1.1
+    margin: 25px 0 0 0
 
 h1
     text-transform: uppercase
@@ -66,10 +91,17 @@ a
 a:hover
     color: $edward
 
+a:visited
+    color: #5F305C
+
+a:active
+    color: $shark
+
 .page
     max-width: 960px
     margin: 0 auto
-    height: 100vh
+    height: 100%
+    min-height: 100vh
 
 .menu
     padding: 0
@@ -77,17 +109,21 @@ a:hover
         list-style-type: none
         text-align: left
 
-.menu-btn
-    position: absolute
-    font-size: 2em
-    top: 0
-    left: 5px
+
 
 .monstrans
     width: 400px
     height: 540px
     background: url(../images/monstrans.svg)
     background-size: 400px 540px
+    margin: 0 auto
+
+.tiara
+    width: 150px
+    height: 150px
+    background: url(../images/tiara3.svg)
+    background-color: transparent
+    background-size: 150px 150px
     margin: 0 auto
 
 p
