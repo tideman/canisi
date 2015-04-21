@@ -95,7 +95,6 @@
             buildPage();
         }
 
-
         function addChapterHeader() {
             //chapter head
             $scope.chptr_title = $scope.chapterContent.chptr_title;
