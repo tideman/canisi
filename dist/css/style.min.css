@@ -1,4 +1,4 @@
-/*! canisi - v - 2015-01-10
+/*! canisi - v - 2015-05-16
 * Copyright (c) 2015 ; Licensed  */
 /*!
  * Bootstrap v3.1.1 (http://getbootstrap.com)
@@ -6079,30 +6079,32 @@ p {
 @-webkit-keyframes slideOutLeft {
   to {
     -webkit-transform: translateX(-100%); } }
-.navigate-left {
+.navigate {
   position: relative;
   bottom: 50vh;
-  right: 500px;
+  font-size: 3em;
   text-decoration: none; }
-  .navigate-left:hover {
+  .navigate:hover {
     color: #9B5E9F;
     text-decoration: none; }
 
-.navigate-right {
-  position: relative;
-  bottom: 50vh;
-  left: 500px;
-  text-decoration: none; }
-  .navigate-right:hover {
-    color: #9B5E9F;
-    text-decoration: none; }
+.right {
+  right: 500px; }
 
-.page-chapter p:nth-of-type(1):first-letter {
+.left {
+  left: 500px; }
+
+.page-chapter p {
+  margin-left: 25px; }
+  .page-chapter p:nth-of-type(1):first-letter {
+    float: left;
+    font-size: 5em;
+    line-height: 60px;
+    padding: 6px 8px 2px 0px;
+    font-family: Georgia; }
+.page-chapter .theorem_nmbr {
   float: left;
-  font-size: 5em;
-  line-height: 60px;
-  padding: 6px 8px 2px 0px;
-  font-family: Georgia; }
+  display: inline; }
 
 @media only screen and (max-width: 480px) {
   body {

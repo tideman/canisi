@@ -1,700 +1,1074 @@
 {
-    "_id": "5330777d26fced4d1188e7c19203636c",
-    "_rev": "42-3dd413bcd94463e18149698bd4a8ac0c",
+    "_id": "0f7902d1271c7560533ef86a450005ec",
+    "_rev": "48-e8facd01bb1a9dc0850bf7a432c6a101",
     "book_title": "Katechismus van de katholieke kerk",
-    "chapters": [
+    "levels": [
         {
-            "chptr_number": 1,
-            "chptr_title": "Apostolische Brief",
-            "chptr_subtitle": "Laetamur magnopere",
-            "chptr_preface": "waarmee de Latijnse “editio typica” van de Katechismus van de Katholieke Kerk wordt goedgekeurd en gepubliceerd JOHANNES PAULUS, BISSCHOP Dienaar der Dienaren Gods tot blijvende gedachtenis “Aan mijn eerbiedwaardige broeders Kardinalen, Patriarchen, Aartsbisschoppen, Bisschoppen, Priesters, Diakens en aan alle andere leden van het volk van God",
-            "chptr_txt": {
-                "paragraphs": [
-                    {
-                        "prgrph_text": "Het is een bron van grote vreugde dat de Latijnse ‘editio typica’ van de “Katechismus van de Katholieke Kerk” wordt gepubliceerd, die door mij is goedgekeurd en uitgevaardigd met deze Apostolische Brief en daarmee de definitieve tekst is geworden van de hiervoorgenoemde catechismus. Dit gebeurt ongeveer vijf jaar na de uitgave van de Apostolische Constitutie ‘Fidei Depositum’ van 11 okotober 1992, die op de 30ste verjaardag van de opening van het Tweede Vaticaanse Concilie, de publicatie van de eerste, Franstalige, tekst van de Catechismus begeleidde. "
-                    },
-                    {
-                        "prgrph_text": "Wij hebben allen verheugd kunnen vaststellen hoe de Catechismus in de afgelopen jaren overal positief is ontvangen en hoe hij wijd verspreid is, vooral bij de verschillende Kerken die de tekst vertaald hebben in hun eigen taal, zodat deze beschikbaar is voor de diverse taalgroepen in de wereld. Dit feit bewijst hoe toepasselijk het verzoek was dat de Bijzondere Bisschoppen Synode in 1985 aan mij heeft gericht om een catechismus of compendium samen te stellen van de gehele Katholieke leer met betrekking tot geloof en zeden."
-                    },
-                    {
-                        "prgrph_text": "De Catechismus, samengesteld door een speciale commissie van Kardinalen en Bisschoppen, die in 1986 is opgericht, werd door mij goedgekeurd en uitgevaardigd met de hiervoorgenoemde Apostolische Constitutie, die ook nu nog geheel haar betekenis en belang behoudt en die haar definitieve uitwerking in deze Latijnse ‘editio typica’ krijgt. Deze editie is voorbereid door een Interdicasteriale Commissie, welke ik in 1993 voor dit doel heb benoemd. Onder voorzitterschap van Kardinaal Joseph Ratzinger heeft deze commissie toegewijd gewerkt om de aan haar opgedragen taak te volbrengen. Zij besteedde in het bijzonder aandacht aan de vele voorgestelde wijzigingen die met betrekking tot de uitgaven van deze catechismus in de afgelopen jaren zijn binnengekomen vanuit de gehele wereld en diverse delen van de kerkelijke gemeenschap."
-                    },
-                    {
-                        "prgrph_text": "In dit opzicht kan men begrijpen dat zo’n aanzienlijk aantal voorstellen tot verbetering aantoont welke uitzonderlijke belangstelling deze catechismus heeft opgewekt in de gehele wereld, zelfs onder niet-christenen. Tevens bevestigt het de doelstelling van de Catechismus om te worden gepresenteerd als een volledige en complete uitleg van de Katholieke leer, zodat iedereen in de gelegenheid is om te weten wat de Kerk getuigt, viert, beleeft en bidt in haar dagelijks leven. Tegelijkertijd richt het ons op de diepe wens van iedereen om een bijdrage te leveren, zodat het christelijk geloof, waarvan de essentiële en noodzakelijke elementen bijeengebracht zijn in de Catechismus, uitgelegd kan worden aan de mensen van deze tijd op de best mogelijke wijze. Tevens kan deze samenwerking van de diverse leden van de Kerk leiden tot wat ik schreef in de Apostolische Constitutie ‘Fidei Depositum’ (no. 2): “De harmonie van zoveel stemmen is waarlijk een uitdrukking van wat genoemd kan worden een ‘symfonie’ van het geloof.” ."
-                    },
-                    {
-                        "prgrph_text": "Ook vanwege deze redenen heeft de Commissie de aangeboden suggesties zorgvuldig overwogen, diepgaand bestudeerd op diverse niveaus en de conclusies aangeboden voor mijn goedkeuring. Deze conclusies, voorzover deze een betere uitdrukking geven aan de inhoud van de Catechismus aangaande de schatten van het Katholieke geloof, of die het mogelijk maken dat bepaalde waarheden van dit geloof in een vorm worden gegoten die beter aansluit bij de vereisten van het moderne catechetisch onderricht, zijn door mij goedgekeurd en zijn daarom opgenomen in deze Latijnse editio typica’. Zij herhaalt zeker getrouw in haar leerstellingen hetgeen ik officieel presenteerde aan de Kerk en de wereld in december 1992."
-                    },
-                    {
-                        "prgrph_text": "Met de huidige uitvaardiging van de Latijnse ‘editio typica’ is de taak om een Catechismus samen te stellen, begonnen in 1986, volbracht en is de wens van de hiervoor genoemde Buitengewone Synode van Bisschoppen voorspoedig vervuld. De Kerk heeft nu deze nieuwe, gezagvolle uitleg van het ene en blijvende apostolische geloof tot haar beschikking, die een “waardig en rechtmatig instrument voor de kerkelijke gemeenschap” zal zijn en een “zekere norm voor het onderricht van het geloof”, alsmede een “zekere en authentieke referentietekst” voor het voorbereiden van locale catechismussen (vgl. Apostolische Constitutie ‘Fidei Depositum’, no. 4)."
-                    },
-                    {
-                        "prgrph_text": "Het catechetisch onderricht zal in deze goede, systematische presentatie van het geloof en van de Katholieke leer een volledig verantwoorde weg vinden om de christelijke boodschap in haar geheel en in haar afzonderlijke delen met hernieuwde gloed aan de mensen van deze tijd aan te reiken. Deze tekst zal iedere catechist de beschikking geven over een waarachtige hulp, waarmee hij de ene, blijvende schat van het geloof in de lokale Kerk kan verkondigen, terwijl hij, met de hulp van de Heilige Geest, zich inspant de wonderlijke eenheid van het Christelijke mysterie te verbinden met de verschillende noden en levensomstandigheden van hen aan wie deze boodschap gericht is. Alle catechetische activiteiten zullen kunnen ervaren dat er een nieuwe wijdverspreide geestdrift is onder het Volk Gods, wanneer zij gebruik kunnen maken van deze post-conciliaire Catechismus en hem op een goede manier beoordelen."
-                    },
-                    {
-                        "prgrph_text": "Dit schijnt des te belangrijker te zijn in deze tijd van de nadering van het derde millennium. Een toewijding aan de evangelisatie is immers bijzonder noodzakelijk opdat iedereen de boodschap van het Evangelie kan vernemen en ontvangen en daarom kan groeien “tot gehele omvang van de volheid van Christus” (Ef. 4, 13)."
-                    },
-                    {
-                        "prgrph_text": "Daarom roep ik met klem mijn Eerbiedwaardige broeders in het Bisschopsambt, aan wie de Catechismus in het bijzonder wordt toevertrouwd, op om, met het aangrijpen van deze uitgelezen mogelijkheid van de uitvaardiging van de Latijnse editie, nog ijveriger ervoor te zorgen dat deze tekst wijder verspreid wordt en goed ontvangen wordt als een voortreffelijk geschenk voor de aan hen toevertrouwde gemeenschappen, die op deze manier in staat zijn om de onuitputtelijke rijkdom van het geloof te herontdekken."
-                    },
-                    {
-                        "prgrph_text": "Moge de Catechismus, vanwege de harmonieuze en aanvullende inspanningen van alle lagen van het Volk Gods, gekend en aangenomen worden door iedereen, zodat de eenheid in het geloof, waarvan de bron en de oorsprong gevonden worden in de Drieëenheid, versterkt wordt en verspreid wordt tot aan de uiteinden van de aarde. Aan Maria, de Moeder van God, wier Tenhemelopneming met lichaam en ziel we vandaag vieren, bied ik deze wensen aan, opdat deze vervuld mogen worden ten gunste van het spirituele welzijn van de hele mensheid. Castel Gandolfo, 15 augustus 1997, het negentiende jaar van mijn pontificaat."
-                    }
-                ]
-            }
+            "id": "0",
+            "name": "TOPDELEN",
+            "objects": [
+                {
+                    "id": "0",
+                    "title": "Apostolische Brief",
+                    "subtitle": "Laetamur magnopere",
+                    "preface": "waarmee de Latijnse “editio typica” van de Katechismus van de Katholieke Kerk wordt goedgekeurd en gepubliceerd JOHANNES PAULUS, BISSCHOP Dienaar der Dienaren Gods tot blijvende gedachtenis “Aan mijn eerbiedwaardige broeders Kardinalen, Patriarchen, Aartsbisschoppen, Bisschoppen, Priesters, Diakens en aan alle andere leden van het volk van God"
+                },
+                {
+                    "id": "1",
+                    "title": "Apostolische Constitutie",
+                    "subtitle": "Fidei Depositum",
+                    "preface": "bij de publikatie van de Katechismus van de Katholieke Kerk opgesteld ter uitvoering van het Tweede Vaticaans Oecumenisch Concilie “Aan mijn eerbiedwaardige broeders Kardinalen, Patriarchen, Aartsbisschoppen, Bisschoppen, Priesters, Diakens en aan alle andere leden van het volk van God” JOHANNES PAULUS, BISSCHOP Dienaar der Dienaren Gods tot blijvende gedachtenis "
+                },
+                {
+                    "id": "2",
+                    "title": "Inleiding",
+                    "preface": "'VADER, (...) dit is het eeuwige leven, dat zij U kennen, de enige ware God en Hem die Gij hebt gezonden, Jezus Christus' {Joh. 17,3}. 'God, onze heiland (...) wil dat alle mensen gered worden en tot de kennis van de waarheid komen' {1 Tim. 2,3-4}. 'Bij niemand anders is dan ook de redding te vinden en geen andere Naam onder de hemel is aan de mensen gegeven waarin wij gered moeten worden' {Hand. 4,12} dan de naam van JEZUS."
+                },
+                {
+                    "id": "3",
+                    "title": "Deel I",
+                    "subtitle": "De geloofsbelijdenis"
+                },
+                {
+                    "id": "4",
+                    "title": "Deel II",
+                    "subtitle": "DE viering van het Chrustusmysterie"
+                },
+                {
+                    "id": "5",
+                    "title": "Deel III",
+                    "subtitle": "Het leven van Christus"
+                },
+                {
+                    "id": "6",
+                    "title": "Deel IV",
+                    "subtitle": "Het Christelijk gebed"
+                }
+
+            ]
         },
         {
-            "chptr_number": 2,
-            "chptr_title": "Apostolische Constitutie",
-            "chptr_subtitle": "Fidei depositum",
-            "chptr_preface": "bij de publikatie van de Katechismus van de Katholieke Kerk opgesteld ter uitvoering van het Tweede Vaticaans Oecumenisch Concilie “Aan mijn eerbiedwaardige broeders Kardinalen, Patriarchen, Aartsbisschoppen, Bisschoppen, Priesters, Diakens en aan alle andere leden van het volk van God” JOHANNES PAULUS, BISSCHOP Dienaar der Dienaren Gods tot blijvende gedachtenis ",
-            "chptr_txt": {
-                "chptr_txt_title": "Apostoliconstitutie",
-                "paragraphs": [
-                    {
-                        "prgrph_text": "De Heer heeft aan zijn kerk de zending toevertrouwd het geloofsgoed te bewaren, een zending die zij te allen tijde vervult. Het tweede Vaticaans oecumenisch concilie, nu al dertig jaar geleden geopend door mijn voorganger Paus Johannes XXIII z.g., had de bedoeling en het verlangen om de apostolische en pastorale zending van de kerk in het licht te stellen en alle mensen - door de schittering van de waarheid van het Evangelie - te brengen tot het zoeken en ontvangen van de liefde van Christus die verheven is boven alles (vgl. Ef. 3,19). "
-                    },
-                    {
-                        "prgrph_text": "Paus Johannes XXIII had aan deze vergadering als voornaamste taak opgedragen het kostbaar christelijk geloofsgoed beter te bewaren en diepgaander uit te leggen, opdat het toegankelijker zou worden voor de christengelovigen en voor alle mensen van goede wil. Het concilie moest daarom ook niet op de eerste plaats de dwalingen van deze tijd veroordelen, maar het had tot taak op een serene wijze de kracht en de schoonheid van de geloofsleer te tonen. “Het licht dus van dit concilie, zo zei hij, zal voor de kerk - zo vertrouwen wij - een bron van geestelijke verrijking zijn. Nadat daaruit nieuwe krachten geput zijn, kan hij zonder vrees de toekomst tegemoet zien.” Wij moeten ons met vreugde en zonder vrees wijden aan het werk dat onze tijd vereist, door de weg verder te gaan die de kerk al bijna twintig eeuwen gaat”.cit. "
-                    },
-                    {
-                        "prgrph_text": "Met Gods hulp hebben de concilievaders gedurende vier jaar van inzet een aanzienlijk geheel van leerstellige uiteenzettingen en pastorale richtlijnen kunnen uitwerken die aangeboden worden aan de hele kerk. Herders en gelovigen vinden daarin richtlijnen voor deze “vernieuwing van denken, activiteit, zeden, morele kracht, vreugde en hoop, die precies de doelstelling van het concilie was”.cit. "
-                    },
-                    {
-                        "prgrph_text": "Het concilie heeft sinds zijn sluiting voortdurend het kerkelijk leven geïnspireerd. In 1985 kon ik verklaren: “Voor mij - die een bijzondere goddelijke gunst had, eraan te mogen deelnemen en actief te mogen meewerken aan het verloop ervan - is het tweede Vaticaans concilie altijd het vaste referentiepunt van heel mijn pastorale werkzaamheid geweest en het is op een bijzondere manier gebleven in deze jaren van mijn pontificaat. Dit komt tot uitdrukking in het weloverwogen streven om de richtlijnen van dit concilie te verwoorden door een concrete en getrouwe toepassing, op het vlak van iedere kerk en de gehele kerk. Voortdurend moet men weer terugkeren naar de bron”.cit. "
-                    },
-                    {
-                        "prgrph_text": "In deze geest heb ik op 25 januari 1985 een buitengewone vergadering van de bisschoppensynode samengeroepen ter gelegenheid van de twintigste verjaardag van de sluiting van het concilie. Het doel van deze vergadering was, de dankbaarheid voo rde genaden en geestelijke vruchten van het tweede Vaticaans concilie te vieren, het onderricht ervan te verdiepen, waardoor alle gelovigen beter ermee zouden instemmen en de kennis en de toepassing ervan zouden uitbreiden. "
-                    },
-                    {
-                        "prgrph_text": "Bij deze gelegenheid hebben de synodevaders hun wens geuit “dat er een catechismus of compendium van de hele katholieke leer zowel over het geloof als over de moraal zou worden voorbereid, een tekst die een referentie zou zijn voor de catechismussen of compendia die in de verschillende landen zijn samengesteld. De presentatie van de leer moet bijbels en liturgisch zijn, zodat de aldus uiteengezette leer zeker is en tegelijk aangepast aan het leven van de christenen van vandaag”.cit. Vanaf de sluiting van de synode heb ik dit verlangen tot de mijne gemaakt, in de overtuiging dat het “geheel beantwoord aan een werkelijke behoefte van de universele kerk en van de particuliere kerken”.cit. "
-                    },
-                    {
-                        "prgrph_text": "Hoe zouden wij niet van harte dank kunnen betuigen aan de Heer op deze dag waarop wij aan de gehele kerk deze referentietekst onder de naam Katechismus van de Katholieke Kerk kunnen aanbieden, een referentietekst voor een catechese die vernieuwd is vanuit de levende bronnen van het geloof! Na de liturgievernieuwing en de nieuwe coficatie van het kerkelijk recht voor de Latijnse kerk en van de canones van de oost-katholieke kerken, vormt deze catechismus een zeer belangrijke bijdrage tot de opdracht om het hele kerkelijke leven te vernieuwen, een opdracht die het tweede Vaticaans concilie beoogde en ten uitvoer gebracht heeft. "
-                    },
-                    {
-                        "prgrph_text": "De Katechismus van de Katholieke Kerk is de vrucht van een zeer brede samenwerking; hij is gerijpt gedurende zes jaar van intensieve arbeid in een geest van aandachtige openheid en met een groot enthousiasme. In 1986 heb ik aan een commissie van twaalf kardinalen en bisschoppen, onder het voorzitterschap van Joseph Kardinaal Ratzinger, de opdracht gegeven om een ontwerp voor de catechismus voor te bereiden, waar de synodevaders om gevraagd hadden. Een redactiecomité van zeven residerende bisschoppen, deskundigen in de theologie en de catechese, heeft de commissie in haar werkzaamheden bijgestaan. De commissie, die belast was met het geven van richtlijnen en met het toezicht op het verloop van de werkzaamheden, heeft met aandacht alle redactiefasen van de negen achtereenvolgende versies gevolgd. Het redactiecomité heeft op zijn beurt de verantwoordelijkheid op zich genomen om de tekst te schrijven, om er door de commissie gewenste veranderingen in aan te brengen en om de opmerkingen van tal van theologen, exegeten, catecheten en vooral van Bisschoppen uit de hele wereld te onderzoeken met de bedoeling de tekst te verbeteren. In de plenaire Vergadering zijn met een goed resultaat de verschillende inzichten vergeleken, zo ontstond een rijkere tekst en kwam in alle opzichten de eenheid en homogeniteit ervan betrouwbaar tot stand. "
-                    },
-                    {
-                        "prgrph_text": "Het ontwerp werd het onderwerp van een brede beraadslaging onder alle katholieke Bisschoppen, hun Bisschoppenconferenties of Synodes en theologische en catechetische instuten. Over het geheel genomen, hebben de Bisschoppen zeer gunstig gereageerd op het onderwerp. Men mag terecht stellen dat deze catechismus de vrucht is van een samenwerking van het hele Episcopaat van de Katholieke Kerk, dat edelmoedig mijn uitnodiging heeft aanvaard om zijn deel van de verantwoordelijkheid op te nemen inzake een initiatief, dat het kerkelijk leven van nabij raakt. Dit antwoord wekt bij mij een diep gevoel van vreugde op, want de samenklank van zoveel stemmen brengt inderdaad tot uitdrukking wat men een “symfonie” van het geloof kan noemen. De vormgeving van deze catechismus weerspiegelt zo ook de collegiale aard van het Episcopaat; die bevestigt de katholiciteit van de kerk. "
-                    },
-                    {
-                        "prgrph_text": "Een catechismus moet getrouw en samenhangend het onderricht van de heilige Schrift, van de levende Overlevering in de kerk en van het authentieke leergezag weergeven, even goed als het geestelijk erfgoed van de Kerkvaders, Kerkleraren en heiligen van de kerk, opdat men beter kennis kan nemen van het christelijk mysterie, om zo het geloof van het volk van God te verlevendigen. Hij moet rekening houden met de verwoordingen van de leer die de heilige Geest in de loop van de geschiedenis aan de kerk heeft ingegeven. Ook is het nodig dat hij vanuit het licht van het geloof hulp biedt om de nieuwe omstandigheden en de problemen die zich in het verleden nog niet hebben voorgedaan, te belichten."
-                    },
-                    {
-                        "prgrph_text": "De catechismus bevat dus iets nieuws en iets ouds (vgl. Mt. 13,52): het geloof, dat altijd hetzelfde blijft en dat tevens de bron is van telkens nieuw licht."
-                    },
-                    {
-                        "prgrph_text": "Om deze dubbele taak te vervullen, sluit de Katechismus van de Katholieke Kerk enerzijds aan bij de “oude”, traditionele volgorde, gehanteerd in de catechismus van de heilige Pius V, door de inhoud in vier delen te verwoorden: het credo; de heilige liturgie met daarin de sacramenten op de eerste plaats; het christelijk handelen uiteengezet met de geboden als uitgangspunt; en tenslotte het christelijk gebed. Maar tegelijk is de inhoud vaak op een “nieuwe” wijze uitgedrukt als antwoord op de vragen van onze tijd. De vier delen zijn onderling verbonden: het christelijk mysterie is het voorwerp van het geloof (eerste gedeelte); het wordt gevierd en meegedeeld in liturgische handelingen (tweede gedeelte); het is aanwezig om de kinderen van God te verlichten en te ondersteunen bij hun handelen (derde gedeelte); het ligt ten grondslag aan ons gebed waarvan het “Onze Vader” de voorkeursuitdrukking is en het vormt het voorwerp van onze smeekbede, onze lofprijzing en onze voorbede (vierde gedeelte). "
-                    },
-                    {
-                        "prgrph_text": "De liturgie is zelf gebed: de geloofsbelijdenis vindt haar juiste plaats binnen de liturgische viering. De genade, vrucht van de sacramenten, is de onvervangbare voorwaarde voor het christelijk handelen, zoals ook het deelnemen aan de liturgie van de kerk het geloof vereist. Als het geloof zich niet ontplooit in werken, blijft het dood (vgl. Jak. 2,14-26) en kan het geen vruchten van eeuwig leven dragen. Bij het lezen van de Katechismus van de Katholieke Kerk kan men de bewonderenswaardige eenheid van Gods mysterie ontdekken, van zijn heilsplan, alsook de centrale plaats van Jezus Christus, de eniggeboren Zoon van God, gezonden door de Vader, mens geworden in de schoot van de allerheiligste Maagd Maria door de heilige Geest om onze Verlosser te zijn. Gestorven en verrezen is Hij altijd tegenwoordig in zijn kerk, vooral in de sacramenten; Hij is de bron van ons geloof, het model voor het christelijk handelen en de Leermeester van ons gebed. De Katechismus van de Katholieke Kerk die ik op 25 juni j.l. heb goedgekeurd en waarvan ik vandaag krachtens apostolisch gezag het verschijnen verorden, is een uiteenzetting van het geloof van de kerk en van de katholieke leer, bevestigd of verlicht door de heilige Schrift, de apostolische Overlevering en het kerkelijk leergezag. Ik verklaar dat deze catechismus een betrouwbare leidraad bij het geloofsonderricht is en een krachtig en een geschikt middel voor de kerkelijke gemeenschap. Moge hij dienstbaar zijn bij de vernieuwing waartoe de heilige Geest de kerk van God onophoudelijk roept: Chistus’ Lichaam, dat onderweg is naar het onverhulde licht van het Koninkrijk!"
-                    },
-                    {
-                        "prgrph_text": "Het goedkeuren en publiceren van de Katechismus van de Katholieke Kerk behoort tot de dienst die de opvolger van Petrus wil bewijzen aan de heilige, Katholieke Kerk en aan alle particuliere kerken die in vrede en gemeenschap met de apostolische zetel van Rome leven: de dienst namelijk om het geloof van alle leerlingen van onze Heer Jezus (vgl. Lc. 22,32) in stand te houden en te versterken en tevens de banden van eenheid in hetzelfde apostolische geloof hechter te maken. "
-                    },
-                    {
-                        "prgrph_text": "Ik vraag dus aan de herders van de kerk en aan alle gelovigen om deze Catechismus in een geest van gemeenschap te ontvangen en hem met volhardende ijver te gebruiken bij de vervulling van hun zending het geloof te verkondigen en op te roepen tot een evangelisch leven. Deze Catechismus is hun gegeven om als een zekere en authentieke referentietekst te dienen ten behoeve van het onderricht van de katholieke leer, en vooral bij het samenstellen van plaatselijke catechismussen. Hij is ook een aanbod aan alle gelovigen die graag meer willen weten over de onuitputtelijke rijkdommen van het heil (vgl. Ef. 3,8). Hij wil een steun zijn voor de oecumenische contacten die ingegeven zijn door het heilig verlangen naar eenheid onder alle christenen, doordat hij nauwkeurig de inhoud en de evenwichtige samenhang van het katholieke geloof uiteenzet. De Katechismus van de Katholieke Kerk is tenslotte een aanbod aan iedere mens die ons rekenschap vraagt van de hoop die in ons leeft (vgl. 1 Petr. 3,15) en die zou willen weten wat de Katholieke Kerk gelooft. "
-                    },
-                    {
-                        "prgrph_text": "Deze catechismus is niet bedoeld om de catechismussen te vervangen die op diverse plaatsen zijn samengesteld en regulier zijn goedgekeurd door de kerkelijke gezagsdragers, de diocesane bisschoppen en de bisschoppen-conferenties, met name wanneer die de goedkeuring van de apostolische Stoel gekregen hebben. Hij is bedoeld om het ontwerpen van nieuwe locale catechismussen aan te moedigen en te ondersteunen, catechismussen die rekening houden met de verschillen in omstandigheden en culturen, maar tevens met zorg de eenheid van het geloof en de trouw aan de katholieke leer bewaren."
-                    },
-                    {
-                        "prgrph_text": "Ter afsluiting van dit document, dat de Katechismus van de Katholieke Kerk aanbiedt, bid ik tot de allerheiligste Maagd Maria, Moeder van het mensgeworden Woord en Moeder van de kerk, om door haar machtige voorspraak de catechetische inzet van de hele kerk op alle niveaus te ondersteunen, en wel in een tijd waarin de kerk is opgeroepen tot een nieuwe inzet voor de evangelisatie. Moge het licht van het ware geloof de mensheid bevrijden van onwetendheid en van de slavernij van de zonde om haar te leiden tot de enige vrijheid die deze naam waardig is (vgl. Joh. 8,32): de vrijheid van het leven in Jezus Christus onder de leiding van de heilige Geest, hier op aarde, en die van het leven in het volle geluk van de aanschouwing van God van aangezicht tot aangezicht, in het rijk der hemelen (vgl. 1 Kor. 13,12; 2 Kor. 5,6-8). Gegeven op 11 oktober 1992, op de dertigste verjaardag van de opening van het tweede Vaticaans concilie, in het veertiende jaar van mijn pontificaat."
-                    }
-                ]
-            }
+            "id": "1",
+            "name": "SECTIES",
+            "objects": [
+                {
+                    "id": "0",
+                    "con_level": "0",
+                    "id_in_con_level": "3",
+                    "title": "Eerste sectie",
+                    "subtitle": "'Ik geloof' - 'Wij geloven'"
+                }
+            ]
+
         },
         {
-            "chptr_number": 3,
-            "chptr_title": "Inleiding",
-            "chptr_preface": "'VADER, (...) dit is het eeuwige leven, dat zij U kennen, de enige ware God en Hem die Gij hebt gezonden, Jezus Christus' {Joh. 17,3}. 'God, onze heiland (...) wil dat alle mensen gered worden en tot de kennis van de waarheid komen' {1 Tim. 2,3-4}. 'Bij niemand anders is dan ook de redding te vinden en geen andere Naam onder de hemel is aan de mensen gegeven waarin wij gered moeten worden' {Hand. 4,12} dan de naam van JEZUS.",
-            "chptr_txt": {
-                "sections": [
-                    {
-                        "sctn_nmbr": "I",
-                        "sctn_title": "Het leven van de mens - God kennen en liefhebben",
-                        "paragraphs": [
-                            {
-                                "theorem_number": "1",
-                                "prgrph_text": "God die oneindig volmaakt en gelukkig in zichzelf is, heeft, uit zuivere goedheid, in vrijheid de mens geschapen, om hem te laten delen in zijn eigen gelukzalig leven. Daarom nadert Hij altijd en overal tot de mens. Hij roept hem, biedt hem hulp om Hem te zoeken, te kennen en met al zijn krachten lief te hebben. Alle mensen, door de zonde verdeeld, nodigt hij uit tot de eenheid van zijn gezin, de kerk. Om dat te bereiken heeft Hij zijn Zoon gezonden als Verlosser en Redder, toen de volheid van de tijden gekomen was. In Hem en door Hem, roept Hij de mensen op om in de heilige Geest zijn aangenomen kinderen te worden en zo erfgenamen te worden van zijn gelukzalig leven."
-                            },
-                            {
-                                "theorem_number": "2",
-                                "prgrph_text": "Opdat deze uitnodiging zou weerklinken over de hele aarde, heeft Christus de 12 apostelen gezonden, die Hij had uitgekozen terwijl Hij hun de opdracht gaf het evangelie te verkondigen: 'Gaat dus en maakt alle volkeren tot mijn leerlingen en doopt hen in de naam van de Vader en de Zoon en de heilige Geest en leert hun te onderhouden alles wat Ik u bevolen heb. Ziet, Ik ben met u alle dagen tot aan de voleinding der wereld' {Mt. 28,19-20}. Belast met deze opdracht trokken de apostelen uit 'om overal te prediken, en de Heer werkte met hen mee en schonk kracht aan hun woord door de tekenen die het vergezelden' {Mc. 16,20}."
-                            },
-                            {
-                                "theorem_number": "3",
-                                "prgrph_text": "Degenen die met Gods hulp de uitnodiging van Christus hebben ontvangen en er vrijelijk op hebben geantwoord, zijn op hun beurt door de liefde van Christus ertoe aangezet om overal ter wereld de Blijde Boodschap te verkondigen. Deze van de apostelen ontvangen schat is trouw bewaard door hun opvolgers. Alle gelovigen zijn opgeroepen om deze schat van geslacht tot geslacht door te geven door het geloof te verkondigen en het te beleven in een broederlijk delen en het te vieren in liturgie en gebed.^6",
-                                "footnotes": [
-                                    {
-                                        "6": "Vgl. Hand. 2,42."
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "sctn_nmbr": "II",
-                        "sctn_title": "Het doorgeven van het geloof - de Katechese",
-                        "paragraphs": [
-                            {
-                                "theorem_number": "4",
-                                "prgrph_text": "Heel vroeg al heeft men met katechese het geheel van initiatieven aangeduid, die er in de kerk ondernomen zijn, om de mensen tot leerlingen te maken, om mensen te helpen geloven dat Jezus de Zoon van God is, opdat zij door het geloof het leven in zijn naam zouden bezitten, en om hen op te voeden en te onderrichten in dit leven en zo Christus' Lichaam op te bouwen.^7",
-                                "footnotes": [
-                                    {
-                                        "7": "Vgl. CT 1."
-                                    }
-                                ]
-                            },
-                            {
-                                "theorem_number": "5",
-                                "prgrph_text": "'De katechese is een geloofsopvoeding van kinderen, jongeren en volwassenen, die met name een onderricht van de christelijke leer omvat en die in het algemeen gegeven wordt op organische en systematische wijze met de bedoeling om anderen binnen te leiden in de volheid van het christelijk leven'.^8",
-                                "footnotes": [
-                                    {
-                                        "8": "Vgl. CT 18."
-                                    }
-                                ]
-                            },
-                            {
-                                "theorem_number": "6",
-                                "prgrph_text": "De katechese is een geloofsopvoeding van kinderen, jongeren en volwassenen, die met name een onderricht van de christelijke leer omvat en die in het algemeen gegeven wordt op organische en systematische wijze met de bedoeling om anderen binnen te leiden in de volheid van het christelijk leven'.^9",
-                                "footnotes": [
-                                    {
-                                        "9": "Vgl. CT 18."
-                                    }
-                                ]
-                            },
-                            {
-                                "theorem_number": "7",
-                                "prgrph_text": "'De katechese is nauw verbonden met het hele leven van de kerk. Niet alleen de geografische verbreiding en de numerieke toename, maar ook, en meer nog, de innerlijke groei van de kerk en haar overeenstemming met het plan van God hangen er wezenlijk van af'.^10",
-                                "footnotes": [
-                                    {
-                                        "10": "Vgl. CT 13."
-                                    }
-                                ]
-                            },
-                            {
-                                "theorem_number": "8",
-                                "prgrph_text": "De tijden van vernieuwing van de kerk zijn ook de sterke tijden van de catechese. Zo ziet men dat in het grote tijdperk van de Kerkvaders heilige bisschoppen hier een belangrijk deel van hun dienstwerk aan wijdden. Men kan wijzen op de heilige Cyrillus van Jeruzalem, de heilige Johannes Chrysostomus, de heilige Ambrosius en de heilige Augustinus en tal van andere Kerkvaders, wier catechetische werken een modelfunctie blijven behouden."
-                            },
-                            {
-                                "theorem_number": "9",
-                                "prgrph_text": "Het catechetisch dienstwerk put steeds nieuwe kracht uit de concilies. Het concilie van Trente vormt in dit opzicht een opmerkelijk voorbeeld: het heeft voorrang gegeven aan de catechese in zijn constituties en decreten; het ligt aan de oorsprong van de Catechismus Romanus die ook de naam van dit concilie draagt en die als samenvatting van de christelijke leer een uiterst belangrijk werk is; dit concilie heeft in de kerk geleid tot een opmerkelijke opbouw van de catechese, het is, dankzij heilige bisschoppen en theologen zoals de heilige Petrus Canisius, de heilige Carolus Borromeüs, de heilige Turibius van Mongrovejo en de heilige Robertus Bellarminus, de aanzet geweest tot het uitgeven van tal van catechismussen."
-                            },
-                            {
-                                "theorem_number": "10",
-                                "prgrph_text": "Vandaar is het niet verwonderlijk dat tijdens de periode na het tweede Vaticaans concilie, dat hoog geacht werd door Paus Paulus VI (als de grote catechismus van de moderne tijd), de catechese van de kerk opnieuw in de aandacht is komen te staan. Het “Algemeen directorium voor de catechese” uit 1971, de zittingen van de bisschoppensynodes die gewijd waren aan de evangelisatie (1974) en aan de catechese (1977), de apostolische exhortaties die erop volgden, “Evangelii nuntiandi” (1975) en “Catechesi tradendae” (1979), getuigen hiervan. De buitengewone zitting van de bisschoppensynode uit 1985 vroeg “dat er een catechismus of compendium van de hele katholieke leer, zowel over het geloof als over de moraal, zou worden voorbereid”.cit. De Heilige Vader, Johannes Paulus II, heeft deze wens die de bisschoppensynode had uitgesproken tot de zijne gemaakt door te erkennen dat “dit verlangen volledig beantwoordt aan een werkelijke behoefte van de universele kerk en van de particuliere kerken”.cit. Hij stelde alles in het werk om deze wens van de synodevaders te verwezenlijken."
-                            }
-                        ]
-                    },
-                    {
-                        "sctn_nmbr": "III",
-                        "sctn_title": "Wat bedoelt deze catechismus en voor wie is hij bestemd",
-                        "paragraphs": [
-                            {
-                                "theorem_number": "11",
-                                "prgrph_text": "Deze catechismus heeft als doel een organische en samenhangende uiteenzetting te “even van de wezenlijke en fundamentele inhoud van de katholieke leer zowel op het gebied van het geloof als van de moraal, in het licht van het tweede Vaticaans concilie en het geheel van de Overlevering van de kerk. Zijn belangrijkste bronnen zijn de heilige Schrift, de heilige Kerkvaders, de liturgie en het leergezag van de kerk. Hij is ertoe bestemd om te dienen “als een referentiepunt voor de catechismussen of compendia die in de verschillende landen worden samengesteld”.cit. "
-                            },
-                            {
-                                "theorem_number": "12",
-                                "prgrph_text": "Deze catechismus is hoofdzakelijk bestemd voor de verantwoordelijken voor de catechese: op de eerste plaats voor de bisschoppen als leermeesters van het geloof en herders van de kerk. Hij wordt hun aangeboden als een instrument bij het vervullen van hun opdracht om het volk van God te onderrichten. Via de bisschoppen is hij ook gericht tot de samenstellers van catechismussen, tot priesters en catechisten. Hij zal ook een nuttige lectuur zijn voor alle andere gelovigen."
-                            }
-                        ]
-                    },
-                    {
-                        "sctn_nmbr": "IV",
-                        "sctn_title": "De opbouw van deze catechismus",
-                        "paragraphs": [
-                            {
-                                "theorem_number": "13",
-                                "prgrph_text": "De opzet van deze catechismus is ontleend aan de grote traditie van catechismussen die de catechese ordenen rond vier “zuilen”: de geloofsbelijdenis van het doopsel (het Symbolum), de sacramenten van het geloof, het geloofsleven (de Geboden), het gebed van de gelovige (het Onze Vader). "
-                            },
-                            {
-                                "theorem_number": "14",
-                                "prgrph_text": "Wie door het doopsel tot Christus behoren, moeten het geloof van hun doopsel ten overstaan van de mensen belijden. cit. Daarom zet de catechismus eerst uiteen waarin de openbaring bestaat waardoor God zich tot de mens richt en zich aan hem schenkt. Dan volgt de uiteenzetting over het geloof, het antwoord van de mens aan God (eerste sectie). De geloofsbelijdenis, het Symbolum, vat samen welke gaven God, als Bewerker van alle goed, als Verlosser en Heiligmaker aan de mens geschonken heeft. Zij ordent die aan de hand van de “drie fundamentele artikelen” van ons doopsel: het geloof in de ene God: de almachtige Vader en Schepper; Jezus Christus, zijn Zoon, onze Heer en Redder; de heilige Geest in de heilige kerk (tweede sectie). "
-                            },
-                            {
-                                "theorem_number": "15",
-                                "prgrph_text": "Het tweede deel van de catechismus zet uiteen hoe het heil van God, eens en voor altijd verwezenlijkt door Jezus Christus en door de heilige Geest, in de heilige handelingen van de liturgie van de kerk tegenwoordig gesteld wordt (eerste sectie), vooral in de zeven sacramenten (tweede sectie)."
-                            },
-                            {
-                                "theorem_number": "16",
-                                "prgrph_text": "Het derde deel van de catechismus beschrijft het uiteindelijke doel van de mens, die geschapen is naar het beeld van God: de gelukzaligheid en de wegen om die te bereiken: door een juist en vrij handelen met behulp van de wet en de genade van God (eerste sectie); door een handelen dat het dubbele gebod van de liefde verwerkelijkt, ontvouwd in de Tien Geboden van God (tweede sectie). "
-                            },
-                            {
-                                "theorem_number": "17",
-                                "prgrph_text": "Het laatste deel van de catechismus behandelt de zin en het belang van het gebed in het leven van de gelovigen (eerste sectie). Dit deel wordt afgesloten met een kort commentaar op de zeven beden van het gebed des Heren (tweede sectie). Daarin vinden wij inderdaad de samenvatting van de weldaden waarop wij mogen hopen en die onze hemelse Vader ons wil toevertrouwen. "
-                            }
-                        ]
-                    },
-                    {
-                        "sctn_nmbr": "V",
-                        "sctn_title": "Praktische wenken voor het gebruik van deze catechismus",
-                        "paragraphs": [
-                            {
-                                "theorem_number": "18",
-                                "prgrph_text": "Deze catechismus is opgezet als een organische uiteenzetting van het hele katholieke geloof. Men moet hem dus als een eenheid lezen. Talrijke verwijzingen in de marge van de tekst (lichtblauwe nummers in de marge leiden tot andere paragrafen waarin hetzelfde onderwerp aan de orde komt) en de thematische index (wordt later toegevoegd aan deze elektronische versie, red. elektronische versie) maken het mogelijk om elk onderwerp te zien in zijn samenhang met het geheel van het geloof. "
-                            },
-                            {
-                                "theorem_number": "19",
-                                "prgrph_text": "De teksten uit de heilige Schrift zijn vaak niet letterlijk geciteerd. Veelal geven zij slechts een verwijzing naar een tekst, die (door “Vgl.”) in de voetnoot wordt aangegeven. Voor een beter begrip van dergelijke verwijzingen is het goed de teksten zelf te raadplegen. Deze bijbelse verwijzingen zijn een hulpmiddel voor de catechese. "
-                            },
-                            {
-                                "theorem_number": "20",
-                                "prgrph_text": "Het gebruik van ingesprongen tekstdelen voor bepaalde passages geeft aan dat het gaat om historische of apologetische opmerkingen of om aanvullende leerstellige uiteenzettingen."
-                            },
-                            {
-                                "theorem_number": "21",
-                                "prgrph_text": "De citaten in de in gesprongen tekstgedeelten uit patristische, liturgische, magisteriële of hagiografische bronnen zijn bedoeld om de leerstellige uiteenzetting te verrijken. Vaak zijn deze teksten gekozen met het oog op een direct catechetisch gebruik."
-                            },
-                            {
-                                "theorem_number": "22",
-                                "prgrph_text": "Op het einde van iedere thematische eenheid, wordt door een reeks korte teksten in bondige formuleringen de kern van het onderricht samengevat. Deze “IN HET KORT”-formuleringen hebben tot doel suggesties voor samenvattende en memoriseerbare formules te geven bij de plaatselijke catechese."
-                            }
-                        ]
-                    },
-                    {
-                        "sctn_nmbr": "VI",
-                        "sctn_title": "De noodzakelijke aanpassingen",
-                        "paragraphs": [
-                            {
-                                "theorem_number": "23",
-                                "prgrph_text": "In deze catechismus ligt de nadruk op de leerstellige uiteenzetting. Hij wil immers een hulp zijn bij het verdiepen van de geloofskennis. Juist daardoor is hij gericht op de groei van dit geloof, hoe het geloof in het leven geworteld is en uitstraalt in het getuigenis.cit. "
-                            },
-                            {
-                                "theorem_number": "24",
-                                "prgrph_text": "Juist door zijn doelstelling streeft deze catechismus er niet naar aanpassingen van de uiteenzetting of van de catechetische methodes door te voeren, aanpassingen die vereist zijn vanwege de verschillen in cultuur, leeftijd, geestelijke rijpheid, en sociale en kerkelijke omstandigheden van degenen tot wie de catechese zich richt. Deze onmisbare aanpassingen vallen onder de verantwoordelijkheid van de uitgewerkte catechismussen en nog meer van diegenen die de gelovigen onderrichten: "
-                            },
-                            {
-                                "quotation": true,
-                                "prgrph_text": "Wie onderricht geeft, moet “alles voor allen” (1 Kor. 9,22) worden om iedereen te winnen voor Christus. (...) Vooral mag hij niet de gedachte hebben dat slechts één categorie gelovigen aan hem zou zijn toevertrouwd en dat het hem daarom vrij zou staan om alle gelovigen op dezelfde wijze tot de ware vroomheid te brengen, met een en dezelfde methode en altijd dezelfde! Men moet goed beseffen dat sommigen in Jezus Christus zijn als kleine, pasgeboren kinderen, anderen als jongeren, en sommigen tenslotte als mensen in het bezit van hun voile kracht. (...) Wie geroepen zijn tot het dienstwerk van de prediking moeten bij het doorgeven van het onderricht van de geloofsmysteries en de morele regels, hun woorden afstemmen op de geest en het begripsvermogen van hun toehoorders.cit."
-                            },
-                            {
-                                "prgrph_text": "BOVEN ALLES: DE LIEFDE"
-                            },
-                            {
-                                "theorem_number": "25",
-                                "prgrph_text": "Tot besluit van deze inleiding is het goed te herinneren aan het pastorale principe dat de Catechismus Romanus aldus heeft uitgedrukt: "
-                            },
-                            {
-                                "quotation": true,
-                                "prgrph_text": "De hele doelstelling van de leer en van het onderricht moet geplaatst worden binnen de liefde die nooit vergaat. Er moet natuurlijk een goede uitleg zijn van wet men moet geloven, hopen en doen; maar bovenal moet men altijd de liefde van Onze Heer laten doorstralen, opdat iedereen begrijpt dat elke werkelijk christelijke, deugdzame handeling geen andere oorsprong heeft den de Liefde en geen ander doel bezit dan de Liefde.cit."
-                            }
-                        ]
-                    }
-                ]
-            }
+            "id": "2",
+            "name": "HOOFDSTUKKEN",
+            "objects": [
+                {
+                    "id": "0",
+                    "con_level": "1",
+                    "id_in_con_level": "0",
+                    "title": "Eerste hoofdstuk",
+                    "subtitle": "De mens is bekwaam door God aangesproken te worden"
+                },
+                {
+                    "id": "1",
+                    "con_level": "1",
+                    "id_in_con_level": "0",
+                    "title": "Tweede hoofdstuk",
+                    "subtitle": "God ontmoet de mens"
+                }
+            ]
         },
         {
-            "chptr_number": 4,
-            "chptr_title": "Deel 1",
-            "chptr_subtitle": "de geloofsbelijdenis",
-            "chptr_txt": {
-                "supersections": [
-                    {
-                        "spr_section": "Eerste sectie",
-                        "spr_section_subtitle": "'Ik geloof' - 'Wij geloven'",
-                        "paragraphs": [
-                            {
-                                "theorem_number": "26",
-                                "prgrph_text": "Wanneer wij ons geloof belijden, beginnen wij met: 'Ik geloof' of 'Wij geloven'. Vooraleer wij het geloof van de kerk uiteenzetten zoals wij dat in het Credo belijden, in de liturgie vieren en in de toepassing van de Tien Geboden en in het gebed beleven, willen wij ons afvragen wat 'geloven' betekent. Het geloof is het antwoord van de mens aan God die zich aan hem openbaart en geeft. Bij dit antwoord verlicht Hij de mens, op zoek naar de uiteindelijke zin van het leven overvloedig. Daarom richten wij eerst onze aandacht op het zoeken van de mens (_hoofdstuk 1_), vervolgens op de goddelijke openbaring, waardoor God de mens tegemoet komt (_hoofdstuk 2_), en tenslotte op het antwoord van het geloof (_hoofdstuk 3_)."
-                            }
-                        ],
-                        "subchapters": [
-                            {
-                                "sbchptr_title": "EERSTE HOOFDSTUK",
-                                "sbchptr_subtitle": "De mens is bekwaam om door God aangesproken te worden",
-                                "sections": [
-                                    {
-                                        "sctn_nmbr": "I",
-                                        "sctn_title": "Het verlangen naar God",
-                                        "paragraphs": [
-                                            {
-                                                "theorem_number": "27",
-                                                "prgrph_text": "Het verlangen naar God is gegrift in het hart van de mens, want de mens is door en voor God geschapen; God houdt niet op de mens naar zich toe te trekken en de mens zal slechts in God de waarheid en het geluk vinden, die hij zonder ophouden zoekt.",
-                                                "theo_ref": [
-                                                    "355",
-                                                    "1701",
-                                                    "1718"
-                                                ]
-                                            },
-                                            {
-                                                "quotation": true,
-                                                "prgrph_text": "De diepste grond van de menselijke waardigheid is gelegen in de roeping van de mens tot gemeenschap met God. Reeds vanaf zijn geboorte wordt de mens uitgenodigd tot een dialoog met God: immers, hij bestaat alleen, doordat hij door God uit liefde is geschapen en door Hem altijd uit liefde in stand wordt gehouden; hij leeft niet volledig volgens de waarheid, als hij die liefde niet vrijwillig erkent en zich niet aan zijn Schepper toevertrouwt.^1",
-                                                "footnotes": [
-                                                    {
-                                                        "1": "Vgl. GS 19, § 1."
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "theorem_number": "28",
-                                                "prgrph_text": "In hun geschiedenis en tot op de dag van vandaag hebben de mensen op velerlei wijzen uitdrukking gegeven aan hun zoeken naar God, zowel in manier van geloven en godsdienstig gedrag (gebed, offer, eredienst, meditatie etc.). Ondanks de dubbelzinnigheden die deze uitdrukkingsvormen kunnen bevatten, zijn zijzo universeel, dat men de mens een godsdienstig wezen kan noemen.",
-                                                "theo_ref": [
-                                                    "843",
-                                                    "2566",
-                                                    "2095-2109"
-                                                ]
-                                            },
-                                            {
-                                                "quotation": true,
-                                                "prgrph_text": "Heel het mensengeslacht deed Hij uit één ontstaan, om de gehele oppervlakte van de aarde te bewonen, waarbij Hij de seizoenen vaststelde en de grenzen van hun woongebied, opdat zij God zouden zoeken, of zij Hem misschien al tastende zouden vinden;Hij is immers niet ver van ieder van ons. Want door Hem hebben wij het leven, het bewegen en het zijn {Hand. 17, 26-28}."
-                                            },
-                                            {
-                                                "theorem_number": "29",
-                                                "prgrph_text": "Maar deze 'innige en vitale verbondenheid met God'^1 kan door de mens vergeten, miskend of zelfs uitdrukkelijk afgewezen worden. De oorsprong van een dergelijke houding kan heel verschillend zijn: opstand tegen het kwaad inde wereld, godsdienstige onwetendheid of onverschilligheid, de zorgen van de wereld en de rijkdom^2, het slechte voorbeeld van de gelovigen, gedaagdenstromingen die het geloof vijandig gezind zijn en tenslotte de houding van de zondige mens die zich uit angst voor God' verbergt en vlucht voor zijn oproep.^3",
-                                                "footnotes": [
-                                                    {
-                                                        "2": "Vgl. GS 19, 1"
-                                                    },
-                                                    {
-                                                        "3": "Vgl. {Mt. 13,22}"
-                                                    },
-                                                    {
-                                                        "4": "Vgl. {Gen. 3, 8-10}"
-                                                    }
-                                                ],
-                                                "theo_ref": [
-                                                    "2123",
-                                                    "2124",
-                                                    "2125",
-                                                    "2126",
-                                                    "2127",
-                                                    "2128",
-                                                    "398"
-                                                ]
-                                            },
-                                            {
-                                                "theorem_number": "30",
-                                                "prgrph_text": "'Verheugt u, gij die Hem aanhangt' {Ps. 105,3}. Ook al kan de mens God vergeten of afwijzen, Hij, God, houdt niet op elke mens op te roepen Hem te zoeken opdat hij leeft en geluk vindt. Maar dat zoeken eist van de mens een volledige inzet van zijn verstand, de oprechtheid van zijn wil, 'een oprecht hart en ook het getuigenis van anderen die hem leren God te zoeken.",
-                                                "theo_ref": [
-                                                    "2567",
-                                                    "845",
-                                                    "368"
-                                                ]
-                                            },
-                                            {
-                                                "quotation": true,
-                                                "prgrph_text": "'Groot zijt Gij, Heer, en alle lof waardig' {Ps. 145,3}; 'Groot is uw macht en uw wijsheid is onbegrensd' {Ps. 147, 5}. Loven wil u een mens, een klein deeltje van Uw schepping,en dan nog wel de mens die, sterfelijk als hij is, het bewijs van zijn zonden en het bewijs dat Gij de hovaardigen weerstaat, met zich draagt {2 Kor. 4,10} ; {1 Petr. 5,5}. Toch wil de mens U loven, de mens, die maar een onderdeel is van Uw schepping. Gij zelf zet hem hiertoe aan. Gij maakt dat hij er zijn vreugde in vindt U te loven. Want Gij hebt ons gemaakt voor U en onrustig is ons hart totdat het rust vindt in U.",
-                                                "footnotes": [
-                                                    {
-                                                        "6": "H. Augustinus, Conf. I, 1,1, vert. Getijdenboek Lect, II,6,79."
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "sctn_nmbr": "II",
-                                        "sctn_title": "De toegangswegen tot de kennis van God",
-                                        "paragraphs": [
-                                            {
-                                                "theorem_number": "31",
-                                                "prgrph_text": "Geschapen naar Gods beeld en geroepen om God te kennen en lief te hebben,ontdekt de mens die God zoekt, bepaalde 'wegen' om tot de kennis van God te komen. Dit worden ook wel de 'bewijzen' van het bestaan van God genoemd, niet in de zin van bewijzen die de natuurwetenschappen zoeken, maar in de zin van 'met elkaar overeenstemmende en overtuigende argumenten' die het mogelijk maken te komen tot echte zekerheden.<p>Die 'wegen' om tot God te naderen hebben als vertrekpunt de schepping: de stoffelijke wereld en de menselijke persoon.</p>"
-                                            },
-                                            {
-                                                "theorem_number": "32",
-                                                "prgrph_text": "De wereld: uitgaande van de beweging en de wording van de wereld, de contingentie, de orde en de schoonheid van de wereld kan men God kennen als oorsprong en doel van het heelal.",
-                                                "theo_ref": [
-                                                    "54",
-                                                    "337"
-                                                ]
-                                            },
-                                            {
-                                                "quotation": true,
-                                                "prgrph_text": "De heilige Paulus zegt over de heidenen: 'Want wat een mens van God kan weten, is in feite onder hen bekend; God zelf heeft het hun geopenbaard. Van de schepping der wereld af wordt zijn onzichtbare wezen door de rede in zijn werken aanschouwd, zijn eeuwige macht namelijk en zijn godheid'.^7",
-                                                "footnotes": [
-                                                    {
-                                                        "7": "Vgl. Hand. 14,15.17; 17,27,28; Wijsh. 13,1-9"
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "quotation": true,
-                                                "prgrph_text": "En de heilige Augustinus zegt: 'Ondervraag de schoonheid van de aarde, ondervraag de schoonheid van de zee, ondervraag de schoonheid van de onmetelijke lucht die ons omgeeft, ondervraag de schoonheid van de hemel (...) ondervraag dit alles. Dit alles antwoordt u: zie hoe schoon wij zijn! Hun schoonheid is een belijdenis (confessio) Wie anders heeft deze schepselen die onveranderlijk schoon zijn, gemaakt dan Hij die onveranderlijk schoon (Pulcher) is.^8",
-                                                "footnotes": [
-                                                    {
-                                                        "8": "Serm. 241,2, vert, uit Lat."
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "theorem_number": "33",
-                                                "prgrph_text": "De mens: met zijn ontvankelijkheid voor waarheid en schoonheid, zijn gevoel voor het moreel goede, zijn vrijheid en de stem van zijn geweten, zijn verlangen naar het oneindige en naar geluk, stelt de mens de vraag naar het bestaan van God. Door dit alles heen wordt hij de tekenen van zijn geestelijke ziel gewaar. 'Omdat de kiem van de eeuwigheid die hij in zich draagt niet tot louter stof te herleiden is, kan zijn ziel haar oorsprong alleen maar in God hebben.^9",
-                                                "footnotes": [
-                                                    {
-                                                        "9": "GS 18 § 1, vert. uit Lat."
-                                                    }
-                                                ],
-                                                "theo_ref": [
-                                                    "2500",
-                                                    "1730",
-                                                    "1776"
-                                                ]
-                                            },
-                                            {
-                                                "theorem_number": "34",
-                                                "prgrph_text": "De wereld en de mens getuigen ervan dat zij niet in zichzelf hun eerste beginselen uiteindelijk doel hebben, maar dat zij deel hebben aan het Zijn op zich, zonder oorsprong en zonder einde. Zo kan de mens langs verschillende 'wegen' komen tot de kennis van het bestaan van een werkelijkheid die de eerste oorzaak en het uiteindelijke doel van alles is 'en dat allen God noemen'.^10",
-                                                "footnotes": [
-                                                    {
-                                                        "10": "H. Thomas van Aquino, S.Th. 1,2,3, vert. uit Lat."
-                                                    }
-                                                ],
-                                                "theo_ref": [
-                                                    "199"
-                                                ]
-                                            },
-                                            {
-                                                "theorem_number": "35",
-                                                "prgrph_text": "De vermogens van de mens stellen hem in staat het bestaan van een persoonlijke God te kennen. Maar opdat de mens in zijn intimiteit kan binnentreden,heeft God zich aan hem willen openbaren en hem de genade willen schenken om deze openbaring te kunnen ontvangen in geloof: De bewijzen van het bestaanvan God kunnen de mens niettemin voorbereiden op het geloof en hem helpen zien dat het geloof niet in strijd is met het menselijk verstand.",
-                                                "theo_ref": [
-                                                    "50",
-                                                    "159"
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "sctn_nmbr": "III",
-                                        "sctn_title": "De kennis van God volgens de kerk",
-                                        "paragraphs": [
-                                            {
-                                                "theorem_number": "36",
-                                                "prgrph_text": "“Onze moeder de heilige kerk houdt en leert dat God, beginsel en doel van alle dingen, door het natuurlijke licht van het menselijk verstand met zekerheid gekend kan worden vanuit de geschapen werkelijkheden.” cit. Zonder dit vermogen zou de mens de openbaring van God niet kunnen ontvangen. De mens heeft dit vermogen omdat hij geschapen is “naar het beeld van God”.cit. ",
-                                                "theo_ref": [
-                                                    "355"
-                                                ]
-                                            },
-                                            {
-                                                "theorem_number": "37",
-                                                "prgrph_text": "In de historische omstandigheden waarin hij leeft, ondervindt de mens echter tal van moeilijkheden om God alleen maar met het licht van zijn verstand te kennen: ",
-                                                "theo_ref": [
-                                                    "1960"
-                                                ]
-                                            },
-                                            {
-                                                "quotation": true,
-                                                "prgrph_text": "Want al kan het menselijk verstand, om het eenvoudig te zeggen, door zijn natuurlijke krachten en zijn natuurlijk licht tot een ware en zekere kennis komen van een persoonlijke God, die de wereld door zijn voorzienigheid in stand houdt en bestuurt, en omtrent de natuurwet die door de Schepper in ons hart is neergelegd, toch zijn er niet weinig factoren die het verstand verhinderen zijn natuurlijk vermogen daadwerkelijk en met vrucht te gebruiken. Want de waarheden die betrekking hebben op God en op de verhouding van de mens tot God, gaan de orde van de zintuiglijk waarneembare wereld volstrekt te boven; en wanneer men deze waarheden in praktijk gaat brengen en zijn leven ernaar gaat inrichten, vraagt dat algehele toewijding en zelfverloochening. Nu ondervindt het menselijk verstand bij het verwerven van de kennis van deze waarheden moeilijkheden zowel vanwege de invloed van de zintuigen en de verbeelding als vanwege de slechte begeerten, die een gevolg zijn van de erfzonde. En zo beelden de mensen zich bij dit alles gemakkelijk in dat de dingen die ze liever niet als waar zouden zien, ook inderdaad niet waar of minstens twijfelachtig zijn. cit."
-                                            },
-                                            {
-                                                "theorem_number": "38",
-                                                "prgrph_text": "Daarom heeft de mens er behoefte aan verlicht te worden door de openbaring van God, niet alleen inzake hetgeen zijn begrip te boven gaat, maar ook inzake “hetgeen op godsdienstig en zedelijk gebied voor het verstand op zichzelf niet ontoegankelijk is, opdat ook dit in de huidige omstandigheden waarin het mensdom verkeert, door allen gemakkelijk, met vaste zekerheid en zonder enige vermenging met dwalingen kan worden gekend”.cit.",
-                                                "theo_ref": [
-                                                    "2036"
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "sctn_nmbr": "IV",
-                                        "sctn_title": "Hoe te spreken over God?",
-                                        "paragraphs": [
-                                            {
-                                                "theorem_number": "39",
-                                                "prgrph_text": "Wanneer de kerk het vermogen van het menselijk verstand God te kennen verdedigt, dan spreekt zij haar vertrouwen uit dat het mogelijk is tot alle mensen en met alle mensen over God te spreken. Deze overtuiging is het vertrekpunt voor haar dialoog met de andere godsdiensten, met de filosofie en de wetenschappen, evenals met de ongelovigen en de atheïsten. ",
-                                                "theo_ref": [
-                                                    "851"
-                                                ]
-                                            },
-                                            {
-                                                "theorem_number": "40",
-                                                "prgrph_text": "Aangezien onze kennis van God beperkt is, is ons spreken over God het ook. Wij kunnen God slechts noemen door te beginnen bij zijn schepselen, en dat overeenkomstig onze beperkte menselijke manier van kennen en denken. "
-                                            },
-                                            {
-                                                "theorem_number": "41",
-                                                "prgrph_text": "De schepselen dragen alle een zekere gelijkenis met God in zich, heel bijzonder de mens die geschapen is naar het beeld en de gelijkenis van God. De talrijke volmaaktheden van de schepselen (hun waarheid, hun goedheid en hun schoonheid) zijn derhalve een weerspiegeling van de oneindige volmaaktheid van God. Daarom kunnen wij God benoemen uitgaand van de volmaaktheden van zijn schepselen, “want uit de grootheid en de schoonheid van de schepselen wordt men door vergelijking hun Schepper gewaar” (Wijsh. 13,5). ",
-                                                "theo_ref": [
-                                                    "213",
-                                                    "299"
-                                                ]
-                                            },
-                                            {
-                                                "theorem_number": "42",
-                                                "prgrph_text": "God gaat ieder schepsel te boven. Wij moeten daarom ons spreken over God zonder ophouden zuiveren van beelden, van wat er beperkt en onvolmaakt aan is om de “onuitsprekelijke, onbegrijpelijke, onzichtbare en ongrijpbare”. cit. God niet te verwarren met onze menselijke voorstellingen. Onze menselijke woorden schieten altijd tekort in vergelijking met het mysterie van God. ",
-                                                "theo_ref": [
-                                                    "212",
-                                                    "300",
-                                                    "370"
-                                                ]
-                                            },
-                                            {
-                                                "theorem_number": "43",
-                                                "prgrph_text": "Wanneer wij zo over God spreken, dan drukt onze taal zich weliswaar uit op een menselijke manier, maar ze bereikt werkelijk God zelf zonder Hem evenwel in zijn oneindige eenvoud onder woorden te kunnen brengen. Men moet immers niet vergeten dat “men niet kan wijzen op enige gelijkheid tussen Schepper en schepsel zonder dat er gewezen kan worden op een nog grotere ongelijkheid”cit. en dat “wij van God niet kunnen begrijpen wat Hij is, maar slechts wat Hij niet is, en in welke verhouding de andere wezens tot Hem staan”.cit. ",
-                                                "theo_ref": [
-                                                    "206"
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "sctn_title": "In het kort",
-                                        "paragraphs": [
-                                            {
-                                                "theorem_number": "44",
-                                                "prgrph_text": "De mens is van nature en door roeping een godsdienstig wezen. Omdat de mens van God komt en naar God gaat, heeft hij alleen maar een volledig menselijk leven, als hij zijn band met God vrijelijk beleeft. "
-                                            },
-                                            {
-                                                "theorem_number": "45",
-                                                "prgrph_text": "De mens is gemaakt om in gemeenschap met God te leven, in wie hij zijn geluk vindt: “Wanneer ik met mijn gehele wezen met U verenigd zal zijn, zal er voor mij geen verdriet en moeite meer zijn en geheel van U vervuld, zal mijn leven waarachtig leven zijn”.cit. "
-                                            },
-                                            {
-                                                "theorem_number": "46",
-                                                "prgrph_text": "Wanneer de mens naar de boodschap van de schepselen en de stem van zijn geweten luistert, dan kan hij komen tot de zekerheid van het bestaan van God, oorzaak en einde van alles. "
-                                            },
-                                            {
-                                                "theorem_number": "47",
-                                                "prgrph_text": "De kerk leert dat de enige, ware God, onze Schepper en Heer, met zekerheid gekend kan worden uit zijn werken dankzij het natuurlijke licht van het menselijk verstand.cit. "
-                                            },
-                                            {
-                                                "theorem_number": "48",
-                                                "prgrph_text": "Wij kunnen God werkelijk benoemen door uit te gaan van de menigvuldige volmaaktheden van de schepselen, gelijkenissen van de oneindig volmaakte God, zelfs als onze beperkte taal het mysterie ervan niet volledig tot uitdrukking kan brengen. "
-                                            },
-                                            {
-                                                "theorem_number": "49",
-                                                "prgrph_text": "“Een schepsel zonder Schepper verdwijnt in het niet”. cit. Daarom weten de gelovigen dat zij door de liefde van Christus ertoe aangezet worden het licht van de levende God te brengen aan hen die Hem niet kennen of Hem afwijzen."
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "sbchptr_title": "Tweede Hoofdstuk",
-                                "sbchptr_subtitle": "God ontmoet de mens",
-                                "paragraphs": [
-                                    {
-                                        "theorem_number": "50",
-                                        "prgrph_text": "Door het natuurlijke verstand kan de mens God met zekerheid kennen, vertrekkend vanuit zijn werken waarin Hij zich heeft laten kennen. Maar er bestaat een andere orde van kennis die de mens geenszins op eigen kracht kan bereiken: die van de goddelijke openbaring. cit. Op grond van een geheel vrije beslissing openbaart God zichzelf en geeft Hij zich aan de mens. Hij doet dit door zijn mysterie te openbaren, zijn liefdevol heilsplan dat Hij vanaf alle eeuwigheid ten gunste van alle mensen vorm gegeven heeft in Christus. Hij openbaart zijn heilsplan ten volle door zijn welbeminde Zoon, onze Heer Jezus Christus, en de heilige Geest te zenden. ",
-                                        "theo_ref": [
-                                            "36",
-                                            "1066"
-                                        ]
-                                    }
-                                ],
-                                "articles": [
-                                    {
-                                        "rtcl_title": "Artikel 1",
-                                        "rtcl_subtitle": "De openbaring van God",
-                                        "sections": [
-                                            {
-                                                "sctn_nmbr": "I",
-                                                "sctn_title": "God openbaart zijn “liefdevol heilsplan”",
-                                                "paragraphs": [
-                                                    {
-                                                        "theorem_number": "51",
-                                                        "prgrph_text": "“Het heeft God in zijn goedheid en wijsheid behaagd zichzelf te openbaren en zijn ‘geheim raadsbesluit’ (Ef. 1,9) te doen kennen, waardoor de mensen door Christus, het vleesgeworden Woord, in de heilige Geest toegang hebben tot de Vader en deelgenoten worden gemaakt van de goddelijke natuur”. cit.",
-                                                        "theo_ref": [
-                                                            "2823",
-                                                            "1996"
-                                                        ]
-                                                    },
-                                                    {
-                                                        "theorem_number": "52",
-                                                        "prgrph_text": "God die “woont in ongenaakbaar licht” (1 Tim. 6,16) wil zijn eigen goddelijk leven meedelen aan de mensen, die door Hem uit vrije wil geschapen zijn, om hen in zijn enige Zoon als kinderen aan te nemen. cit. Door zichzelf te openbaren wil God de mensen in staat stellen Hem een antwoord te geven, Hem te kennen en Hem in veel grotere mate te beminnen dan zij dit uit zichzelf zouden kunnen. "
-                                                    },
-                                                    {
-                                                        "theorem_number": "53",
-                                                        "prgrph_text": "Het goddelijk heilsplan van de openbaring wordt verwezenlijkt zowel “in daden” als “in woorden, die een innerlijke samenhang met elkaar hebben” cit. en elkaar verklaren. Het bevat een bijzondere “goddelijke pedagogiek: God deelt zich geleidelijk aan de mens mee. Hij bereidt hem stapsgewijs voor op het ontvangen van de bovennatuurlijke openbaring die Hij van zichzelf geeft, en die in de persoon en de zending van het vleesgeworden Woord, Jezus Christus, haar hoogtepunt zal hebben. "
-                                                    },
-                                                    {
-                                                        "quotation": true,
-                                                        "prgrph_text": "De heilige Ireneüs van Lyon spreekt herhaaldelijk over deze goddelijke pedagogie, waarbij hij het beeld gebruikt van de wederzijdse gewenning tussen God en mens: “Het Woord van God heeft in de mens gewoond en is Mensenzoon geworden om de mens eraan te wennen God te vernemen en God eraan te wennen in de mens te wonen naar het welbehagen van de Vader”. cit."
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "sctn_nmbr": "II",
-                                                "sctn_title": "De fases in de openbaring",
-                                                "sctn_portions": [
-                                                    {
-                                                        "sctn_prtn_title": "God laat zich vanaf het begin kennen",
-                                                        "paragraphs": [
-                                                            {
-                                                                "theorem_number": "54",
-                                                                "prgrph_text": "“God die door zijn Woord alles schept en in stand houdt, geeft in het geschapene een bestendig getuigenis van zichzelf en, omdat Hij de weg van het bovennatuurlijk heil wilde openen, heeft Hij zich vanaf het begin aan onze stamouders geopenbaard”. cit. Hij heeft hen uitgenodigd tot een innige gemeenschap met Hem door hen te bekleden met een schitterende genade en gerechtigheid. ",
-                                                                "theo_ref": [
-                                                                    "32",
-                                                                    "374"
-                                                                ]
-                                                            },
-                                                            {
-                                                                "theorem_number": "55",
-                                                                "prgrph_text": "Deze openbaring is niet onderbroken door de zonde van onze stamouders. Immers, God “heeft hen na hun val door de verlossing te beloven opgericht tot de hoop op het heil en zonder onderbreking zorg gedragen voor het menselijk geslacht om eeuwig leven te schenken aan hen die door standvastig het goede te doen het heil zoeken”. cit. ",
-                                                                "theo_ref": [
-                                                                    "397",
-                                                                    "410",
-                                                                    "761"
-                                                                ]
-                                                            },
-                                                            {
-                                                                "quotation": true,
-                                                                "prgrph_text": "Door ongehoorzaamheid aan U heeft hij uw vriendschap verloren, maar Gij hebt hem niet aan het geweld van de dood uitgeleverd (... ). Menigmaal hebt Gij aan de mensen een verbond aangeboden. cit. "
-                                                            }
+            "id": "3",
+            "name": "ARTIKELEN",
+            "objects": [
+                {
+                    "id": "0",
+                    "title": "Artikel 1",
+                    "subtitle": "De openbaring van God"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "name": "INHETKORT",
+            "objects": [
+                {
+                    "id": "0",
+                    "con_level": "2",
+                    "id_in_con_level": "0"
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "name": "PARAGRAFEN",
+            "objects": [
+            ]
+        },
+        {
+            "id": "6",
+            "name": "TITELMETROMEINSCIJFER",
+            "objects": [
+                {
+                    "id": "0",
+                    "con_level": "0",
+                    "id_in_con_level": "0",
+                    "title": "Apostolische Constitutie"
+                },
+                {
+                    "id": "1",
+                    "con_level": "0",
+                    "id_in_con_level": "2",
+                    "roman_number": "I",
+                    "title": "Het leven van de mens - God kennen en liefhebben"
+                },
+                {
+                    "id": "2",
+                    "con_level": "0",
+                    "id_in_con_level": "2",
+                    "roman_number": "II",
+                    "title": "Het doorgeven van het geloof - de Katechese"
+                },
+                {
+                    "id": "3",
+                    "con_level": "0",
+                    "id_in_con_level": "2",
+                    "roman_number": "III",
+                    "title": "Wat bedoelt deze catechismus en voor wie is hij bestemd"
+                },
+                {
+                    "id": "4",
+                    "con_level": "0",
+                    "id_in_con_level": "2",
+                    "roman_number": "IV",
+                    "title": "De opbouw van deze catechismus"
+                },
+                {
+                    "id": "5",
+                    "con_level": "0",
+                    "id_in_con_level": "2",
+                    "roman_number": "V",
+                    "title": "Praktische wenken voor het gebruik van deze catechismus"
+                },
+                {
+                    "id": "6",
+                    "con_level": "0",
+                    "id_in_con_level": "2",
+                    "roman_number": "VI",
+                    "title": "De noodzakelijke aanpassingen"
+                },
+                {
+                    "id": "7",
+                    "con_level": "2",
+                    "id_in_con_level": "0",
+                    "roman_number": "I",
+                    "title": "Het verlangen naar God"
+                },
+                {
+                    "id": "8",
+                    "con_level": "2",
+                    "id_in_con_level": "0",
+                    "roman_number": "II",
+                    "title": "De toegangswegen tot de kennis van God"
+                },
+                {
+                    "id": "9",
+                    "con_level": "2",
+                    "id_in_con_level": "0",
+                    "roman_number": "III",
+                    "title": "De kennis van God volgens de kerk"
+                },
+                {
+                    "id": "10",
+                    "con_level": "2",
+                    "id_in_con_level": "0",
+                    "roman_number": "IV",
+                    "title": "Hoe te spreken over God?"
+                },
+                {
+                    "id": "11",
+                    "con_level": "3",
+                    "id_in_con_level": "0",
+                    "roman_number": "I",
+                    "title": "God openbaart zijn “liefdevol heilsplan"
+                },
+                {
+                    "id": "12",
+                    "con_level": "3",
+                    "id_in_con_level": "0",
+                    "roman_number": "II",
+                    "title": "De fases in de openbaring"
+                }
 
-                                                        ]
+            ]
+        },
+        {
+            "id": "7",
+            "name": "TEKSTTITEl",
+            "objects": [
+                {
+                    "id": "0",
+                    "con_level": "6",
+                    "id_in_con_level": "4",
+                    "title": "Deel I: de geloofbelijdenis"
+                },
+                {
+                    "id": "1",
+                    "con_level": "6",
+                    "id_in_con_level": "4",
+                    "title": "Deel II: de scaramenten van het geloof"
+                },
+                {
+                    "id": "2",
+                    "con_level": "6",
+                    "id_in_con_level": "4",
+                    "title": "Deel III: het geloofsleven"
+                },
+                {
+                    "id": "3",
+                    "con_level": "6",
+                    "id_in_con_level": "4",
+                    "title": "Deel IV: het gebed in het geloofsleven"
+                },
+                {
+                    "id": "4",
+                    "con_level": "6",
+                    "id_in_con_level": "12",
+                    "title": "God laat zich vanaf het begin kennen"
+                },
+                {
+                    "id": "5",
+                    "con_level": "6",
+                    "id_in_con_level": "12",
+                    "title": "Het verbond met Noach"
+                },
+                {
+                    "id": "6",
+                    "con_level": "6",
+                    "id_in_con_level": "12",
+                    "title": "God kiest Abraham"
+                }
 
-                                                    },
-                                                    {
-                                                        "sctn_prtn_title": "Het verbond met Noach",
-                                                        "paragraphs": [
-                                                            {
-                                                                "theorem_number": "56",
-                                                                "prgrph_text": "Wanneer eenmaal de eenheid van het menselijk geslacht door de zonde verbroken is, probeert God de mensheid allereerst te redden door in iedere fase aanwezig te zijn. Het verbond met Noach na de zondvloed cit. brengt het principe van het goddelijk heilsbestel tot uitdrukking Jegens de “volken”, d.w.z. jegens de mensen die opnieuw verenigd zijn, “ieder naar land, taal en geslacht” (Gen. 10,5).cit. ",
-                                                                "theo_ref": [
-                                                                    "401",
-                                                                    "1219"
-                                                                ]
-                                                            },
-                                                            {
-                                                                "theorem_number": "57",
-                                                                "prgrph_text": "Deze ordening in de veelheid van volken cit. is tegelijk kosmisch, sociaal en godsdienstig. Het heeft ten doel de trots in te perken van een gevallen mensheid die, eensgezind in het kwaad,cit. uit eigen kracht haar eenheid tot stand zou willen brengen zoals in Babel.cit. Maar ten gevolge van de zondecit. bedreigt zowel het polytheïsme als de afgodische verering van het volk en zijn leider, onophoudelijk deze voorlopige heilseconomie met een heidense verwording. "
-                                                            },
-                                                            {
-                                                                "theorem_number": "58",
-                                                                "prgrph_text": "Het verbond van Noach is van kracht, zolang de tijd van de volken cit. duurt tot aan de verkondiging van het evangelie, over de hele wereld. De bijbel vereert enkele grote figuren van de “volken”, zoals “Abel de rechtvaardige”, de priesterkoning Melchisedek, cit. de voorafbeelding van Christus,cit. of de rechtvaardigen “Noach, Daniël en Job” (Ez. 14,14). Zo brengt de Schrift tot uitdrukking welke hoge graad van heiligheid zij kunnen bereiken die leven volgens het verbond van Noach, in afwachting van het ogenblik dat de Christus “alle verstrooide kinderen van God samenbrengt” (Joh. 11,52). ",
-                                                                "theo_ref": [
-                                                                    "674",
-                                                                    "2569"
-                                                                ]
-                                                            }
-                                                        ]
-                                                    },
-                                                    {
-                                                        "sctn_prtn_title": "God kiest Abraham",
-                                                        "paragraphs": [
-                                                            {
-                                                                "theorem_number": "59",
-                                                                "prgrph_text": "Om de verstrooide mensheid te verzamelen kiest God Abram door hem weg te roepen “uit zijn land, familie en huis” (Gen. 12, 1) om Abraham van hem te maken, d.w.z. “de vader van een menigte volken” (Gen. 17,5): “Door u zal zegen komen over alle geslachten op aarde” (Gen. 12,3 LXX).cit.",
-                                                                "theo_ref": [
-                                                                    "145",
-                                                                    "2570"
-                                                                ]
-                                                            },
-                                                            {
-                                                                "theorem_number": "60",
-                                                                "prgrph_text": "Het volk dat van Abraham afstamt, zal de bewaarder zijn van de belofte, aan de aartsvaders gedaan, het uitverkoren volk,cit. geroepen om eens het verzamelen van alle kinderen van God binnen de eenheid van de kerk voor te bereiden;cit. dat zal de wortel zijn waarop de heidenen, na gelovig geworden te zijn,cit. geënt zullen worden. ",
-                                                                "theo_ref": [
-                                                                    "762",
-                                                                    "781"
-                                                                ]
-                                                            },
-                                                            {
-                                                                "theorem_number": "61",
-                                                                "prgrph_text": "De aartsvaders en de profeten en andere personen uit het Oude Testament werden altijd vereerd en zullen altijd vereerd worden als heiligen in alle liturgische tradities van de kerk. "
-                                                            }
+            ]
+        },
+        {
+            "id": "8",
+            "name": "TEKSTOFQUOTE",
+            "objects": [
+                {
+                    "id": "0",
+                    "con_level": "0",
+                    "id_in_con_level": "0",
+                    "prgrph_text": "Het is een bron van grote vreugde dat de Latijnse ‘editio typica’ van de “Katechismus van de Katholieke Kerk” wordt gepubliceerd, die door mij is goedgekeurd en uitgevaardigd met deze Apostolische Brief en daarmee de definitieve tekst is geworden van de hiervoorgenoemde catechismus. Dit gebeurt ongeveer vijf jaar na de uitgave van de Apostolische Constitutie ‘Fidei Depositum’ van 11 okotober 1992, die op de 30ste verjaardag van de opening van het Tweede Vaticaanse Concilie, de publicatie van de eerste, Franstalige, tekst van de Catechismus begeleidde. "
+                },
+                {
+                    "id": "1",
+                    "con_level": "0",
+                    "id_in_con_level": "0",
+                    "prgrph_text": "Wij hebben allen verheugd kunnen vaststellen hoe de Catechismus in de afgelopen jaren overal positief is ontvangen en hoe hij wijd verspreid is, vooral bij de verschillende Kerken die de tekst vertaald hebben in hun eigen taal, zodat deze beschikbaar is voor de diverse taalgroepen in de wereld. Dit feit bewijst hoe toepasselijk het verzoek was dat de Bijzondere Bisschoppen Synode in 1985 aan mij heeft gericht om een catechismus of compendium samen te stellen van de gehele Katholieke leer met betrekking tot geloof en zeden."
+                },
+                {
+                    "id": "2",
+                    "con_level": "0",
+                    "id_in_con_level": "0",
+                    "prgrph_text": "De Catechismus, samengesteld door een speciale commissie van Kardinalen en Bisschoppen, die in 1986 is opgericht, werd door mij goedgekeurd en uitgevaardigd met de hiervoorgenoemde Apostolische Constitutie, die ook nu nog geheel haar betekenis en belang behoudt en die haar definitieve uitwerking in deze Latijnse ‘editio typica’ krijgt. Deze editie is voorbereid door een Interdicasteriale Commissie, welke ik in 1993 voor dit doel heb benoemd. Onder voorzitterschap van Kardinaal Joseph Ratzinger heeft deze commissie toegewijd gewerkt om de aan haar opgedragen taak te volbrengen. Zij besteedde in het bijzonder aandacht aan de vele voorgestelde wijzigingen die met betrekking tot de uitgaven van deze catechismus in de afgelopen jaren zijn binnengekomen vanuit de gehele wereld en diverse delen van de kerkelijke gemeenschap."
+                },
+                {
+                    "id": "3",
+                    "con_level": "0",
+                    "id_in_con_level": "0",
+                    "prgrph_text": "In dit opzicht kan men begrijpen dat zo’n aanzienlijk aantal voorstellen tot verbetering aantoont welke uitzonderlijke belangstelling deze catechismus heeft opgewekt in de gehele wereld, zelfs onder niet-christenen. Tevens bevestigt het de doelstelling van de Catechismus om te worden gepresenteerd als een volledige en complete uitleg van de Katholieke leer, zodat iedereen in de gelegenheid is om te weten wat de Kerk getuigt, viert, beleeft en bidt in haar dagelijks leven. Tegelijkertijd richt het ons op de diepe wens van iedereen om een bijdrage te leveren, zodat het christelijk geloof, waarvan de essentiële en noodzakelijke elementen bijeengebracht zijn in de Catechismus, uitgelegd kan worden aan de mensen van deze tijd op de best mogelijke wijze. Tevens kan deze samenwerking van de diverse leden van de Kerk leiden tot wat ik schreef in de Apostolische Constitutie ‘Fidei Depositum’ (no. 2): “De harmonie van zoveel stemmen is waarlijk een uitdrukking van wat genoemd kan worden een ‘symfonie’ van het geloof.” ."
+                },
+                {
+                    "id": "4",
+                    "con_level": "0",
+                    "id_in_con_level": "0",
+                    "prgrph_text": "Ook vanwege deze redenen heeft de Commissie de aangeboden suggesties zorgvuldig overwogen, diepgaand bestudeerd op diverse niveaus en de conclusies aangeboden voor mijn goedkeuring. Deze conclusies, voorzover deze een betere uitdrukking geven aan de inhoud van de Catechismus aangaande de schatten van het Katholieke geloof, of die het mogelijk maken dat bepaalde waarheden van dit geloof in een vorm worden gegoten die beter aansluit bij de vereisten van het moderne catechetisch onderricht, zijn door mij goedgekeurd en zijn daarom opgenomen in deze Latijnse editio typica’. Zij herhaalt zeker getrouw in haar leerstellingen hetgeen ik officieel presenteerde aan de Kerk en de wereld in december 1992."
+                },
+                {
+                    "id": "5",
+                    "con_level": "0",
+                    "id_in_con_level": "0",
+                    "prgrph_text": "Met de huidige uitvaardiging van de Latijnse ‘editio typica’ is de taak om een Catechismus samen te stellen, begonnen in 1986, volbracht en is de wens van de hiervoor genoemde Buitengewone Synode van Bisschoppen voorspoedig vervuld. De Kerk heeft nu deze nieuwe, gezagvolle uitleg van het ene en blijvende apostolische geloof tot haar beschikking, die een “waardig en rechtmatig instrument voor de kerkelijke gemeenschap” zal zijn en een “zekere norm voor het onderricht van het geloof”, alsmede een “zekere en authentieke referentietekst” voor het voorbereiden van locale catechismussen (vgl. Apostolische Constitutie ‘Fidei Depositum’, no. 4)."
+                },
+                {
+                    "id": "6",
+                    "con_level": "0",
+                    "id_in_con_level": "0",
+                    "prgrph_text": "Het catechetisch onderricht zal in deze goede, systematische presentatie van het geloof en van de Katholieke leer een volledig verantwoorde weg vinden om de christelijke boodschap in haar geheel en in haar afzonderlijke delen met hernieuwde gloed aan de mensen van deze tijd aan te reiken. Deze tekst zal iedere catechist de beschikking geven over een waarachtige hulp, waarmee hij de ene, blijvende schat van het geloof in de lokale Kerk kan verkondigen, terwijl hij, met de hulp van de Heilige Geest, zich inspant de wonderlijke eenheid van het Christelijke mysterie te verbinden met de verschillende noden en levensomstandigheden van hen aan wie deze boodschap gericht is. Alle catechetische activiteiten zullen kunnen ervaren dat er een nieuwe wijdverspreide geestdrift is onder het Volk Gods, wanneer zij gebruik kunnen maken van deze post-conciliaire Catechismus en hem op een goede manier beoordelen."
+                },
+                {
+                    "id": "7",
+                    "con_level": "0",
+                    "id_in_con_level": "0",
+                    "prgrph_text": "Dit schijnt des te belangrijker te zijn in deze tijd van de nadering van het derde millennium. Een toewijding aan de evangelisatie is immers bijzonder noodzakelijk opdat iedereen de boodschap van het Evangelie kan vernemen en ontvangen en daarom kan groeien “tot gehele omvang van de volheid van Christus” (Ef. 4, 13)."
+                },
+                {
+                    "id": "8",
+                    "con_level": "0",
+                    "id_in_con_level": "0",
+                    "prgrph_text": "Daarom roep ik met klem mijn Eerbiedwaardige broeders in het Bisschopsambt, aan wie de Catechismus in het bijzonder wordt toevertrouwd, op om, met het aangrijpen van deze uitgelezen mogelijkheid van de uitvaardiging van de Latijnse editie, nog ijveriger ervoor te zorgen dat deze tekst wijder verspreid wordt en goed ontvangen wordt als een voortreffelijk geschenk voor de aan hen toevertrouwde gemeenschappen, die op deze manier in staat zijn om de onuitputtelijke rijkdom van het geloof te herontdekken."
+                },
+                {
+                    "id": "9",
+                    "con_level": "0",
+                    "id_in_con_level": "0",
+                    "prgrph_text": "Moge de Catechismus, vanwege de harmonieuze en aanvullende inspanningen van alle lagen van het Volk Gods, gekend en aangenomen worden door iedereen, zodat de eenheid in het geloof, waarvan de bron en de oorsprong gevonden worden in de Drieëenheid, versterkt wordt en verspreid wordt tot aan de uiteinden van de aarde. Aan Maria, de Moeder van God, wier Tenhemelopneming met lichaam en ziel we vandaag vieren, bied ik deze wensen aan, opdat deze vervuld mogen worden ten gunste van het spirituele welzijn van de hele mensheid. Castel Gandolfo, 15 augustus 1997, het negentiende jaar van mijn pontificaat."
+                },
+                {
+                    "id": "10",
+                    "con_level": "6",
+                    "id_in_con_level": "0",
+                    "prgrph_text": "De Heer heeft aan zijn kerk de zending toevertrouwd het geloofsgoed te bewaren, een zending die zij te allen tijde vervult. Het tweede Vaticaans oecumenisch concilie, nu al dertig jaar geleden geopend door mijn voorganger Paus Johannes XXIII z.g., had de bedoeling en het verlangen om de apostolische en pastorale zending van de kerk in het licht te stellen en alle mensen - door de schittering van de waarheid van het Evangelie - te brengen tot het zoeken en ontvangen van de liefde van Christus die verheven is boven alles (vgl. Ef. 3,19). "
+                },
+                {
+                    "id": "11",
+                    "con_level": "6",
+                    "id_in_con_level": "0",
+                    "prgrph_text": "Paus Johannes XXIII had aan deze vergadering als voornaamste taak opgedragen het kostbaar christelijk geloofsgoed beter te bewaren en diepgaander uit te leggen, opdat het toegankelijker zou worden voor de christengelovigen en voor alle mensen van goede wil. Het concilie moest daarom ook niet op de eerste plaats de dwalingen van deze tijd veroordelen, maar het had tot taak op een serene wijze de kracht en de schoonheid van de geloofsleer te tonen. “Het licht dus van dit concilie, zo zei hij, zal voor de kerk - zo vertrouwen wij - een bron van geestelijke verrijking zijn. Nadat daaruit nieuwe krachten geput zijn, kan hij zonder vrees de toekomst tegemoet zien.” Wij moeten ons met vreugde en zonder vrees wijden aan het werk dat onze tijd vereist, door de weg verder te gaan die de kerk al bijna twintig eeuwen gaat”.cit. "
+                },
+                {
+                    "id": "12",
+                    "con_level": "6",
+                    "id_in_con_level": "0",
+                    "prgrph_text": "Met Gods hulp hebben de concilievaders gedurende vier jaar van inzet een aanzienlijk geheel van leerstellige uiteenzettingen en pastorale richtlijnen kunnen uitwerken die aangeboden worden aan de hele kerk. Herders en gelovigen vinden daarin richtlijnen voor deze “vernieuwing van denken, activiteit, zeden, morele kracht, vreugde en hoop, die precies de doelstelling van het concilie was”.cit. "
+                },
+                {
+                    "id": "13",
+                    "con_level": "6",
+                    "id_in_con_level": "0",
+                    "prgrph_text": "Het concilie heeft sinds zijn sluiting voortdurend het kerkelijk leven geïnspireerd. In 1985 kon ik verklaren: “Voor mij - die een bijzondere goddelijke gunst had, eraan te mogen deelnemen en actief te mogen meewerken aan het verloop ervan - is het tweede Vaticaans concilie altijd het vaste referentiepunt van heel mijn pastorale werkzaamheid geweest en het is op een bijzondere manier gebleven in deze jaren van mijn pontificaat. Dit komt tot uitdrukking in het weloverwogen streven om de richtlijnen van dit concilie te verwoorden door een concrete en getrouwe toepassing, op het vlak van iedere kerk en de gehele kerk. Voortdurend moet men weer terugkeren naar de bron”.cit. "
+                },
+                {
+                    "id": "14",
+                    "con_level": "6",
+                    "id_in_con_level": "0",
+                    "prgrph_text": "In deze geest heb ik op 25 januari 1985 een buitengewone vergadering van de bisschoppensynode samengeroepen ter gelegenheid van de twintigste verjaardag van de sluiting van het concilie. Het doel van deze vergadering was, de dankbaarheid voo rde genaden en geestelijke vruchten van het tweede Vaticaans concilie te vieren, het onderricht ervan te verdiepen, waardoor alle gelovigen beter ermee zouden instemmen en de kennis en de toepassing ervan zouden uitbreiden. "
+                },
+                {
+                    "id": "15",
+                    "con_level": "6",
+                    "id_in_con_level": "0",
+                    "prgrph_text": "Bij deze gelegenheid hebben de synodevaders hun wens geuit “dat er een catechismus of compendium van de hele katholieke leer zowel over het geloof als over de moraal zou worden voorbereid, een tekst die een referentie zou zijn voor de catechismussen of compendia die in de verschillende landen zijn samengesteld. De presentatie van de leer moet bijbels en liturgisch zijn, zodat de aldus uiteengezette leer zeker is en tegelijk aangepast aan het leven van de christenen van vandaag”.cit. Vanaf de sluiting van de synode heb ik dit verlangen tot de mijne gemaakt, in de overtuiging dat het “geheel beantwoord aan een werkelijke behoefte van de universele kerk en van de particuliere kerken”.cit. "
+                },
+                {
+                    "id": "16",
+                    "con_level": "6",
+                    "id_in_con_level": "0",
+                    "prgrph_text": "Hoe zouden wij niet van harte dank kunnen betuigen aan de Heer op deze dag waarop wij aan de gehele kerk deze referentietekst onder de naam Katechismus van de Katholieke Kerk kunnen aanbieden, een referentietekst voor een catechese die vernieuwd is vanuit de levende bronnen van het geloof! Na de liturgievernieuwing en de nieuwe coficatie van het kerkelijk recht voor de Latijnse kerk en van de canones van de oost-katholieke kerken, vormt deze catechismus een zeer belangrijke bijdrage tot de opdracht om het hele kerkelijke leven te vernieuwen, een opdracht die het tweede Vaticaans concilie beoogde en ten uitvoer gebracht heeft. "
+                },
+                {
+                    "id": "17",
+                    "con_level": "6",
+                    "id_in_con_level": "0",
+                    "prgrph_text": "De Katechismus van de Katholieke Kerk is de vrucht van een zeer brede samenwerking; hij is gerijpt gedurende zes jaar van intensieve arbeid in een geest van aandachtige openheid en met een groot enthousiasme. In 1986 heb ik aan een commissie van twaalf kardinalen en bisschoppen, onder het voorzitterschap van Joseph Kardinaal Ratzinger, de opdracht gegeven om een ontwerp voor de catechismus voor te bereiden, waar de synodevaders om gevraagd hadden. Een redactiecomité van zeven residerende bisschoppen, deskundigen in de theologie en de catechese, heeft de commissie in haar werkzaamheden bijgestaan. De commissie, die belast was met het geven van richtlijnen en met het toezicht op het verloop van de werkzaamheden, heeft met aandacht alle redactiefasen van de negen achtereenvolgende versies gevolgd. Het redactiecomité heeft op zijn beurt de verantwoordelijkheid op zich genomen om de tekst te schrijven, om er door de commissie gewenste veranderingen in aan te brengen en om de opmerkingen van tal van theologen, exegeten, catecheten en vooral van Bisschoppen uit de hele wereld te onderzoeken met de bedoeling de tekst te verbeteren. In de plenaire Vergadering zijn met een goed resultaat de verschillende inzichten vergeleken, zo ontstond een rijkere tekst en kwam in alle opzichten de eenheid en homogeniteit ervan betrouwbaar tot stand. "
+                },
+                {
+                    "id": "18",
+                    "con_level": "6",
+                    "id_in_con_level": "0",
+                    "prgrph_text": "Het ontwerp werd het onderwerp van een brede beraadslaging onder alle katholieke Bisschoppen, hun Bisschoppenconferenties of Synodes en theologische en catechetische instuten. Over het geheel genomen, hebben de Bisschoppen zeer gunstig gereageerd op het onderwerp. Men mag terecht stellen dat deze catechismus de vrucht is van een samenwerking van het hele Episcopaat van de Katholieke Kerk, dat edelmoedig mijn uitnodiging heeft aanvaard om zijn deel van de verantwoordelijkheid op te nemen inzake een initiatief, dat het kerkelijk leven van nabij raakt. Dit antwoord wekt bij mij een diep gevoel van vreugde op, want de samenklank van zoveel stemmen brengt inderdaad tot uitdrukking wat men een “symfonie” van het geloof kan noemen. De vormgeving van deze catechismus weerspiegelt zo ook de collegiale aard van het Episcopaat; die bevestigt de katholiciteit van de kerk. "
+                },
+                {
+                    "id": "19",
+                    "con_level": "6",
+                    "id_in_con_level": "0",
+                    "prgrph_text": "Een catechismus moet getrouw en samenhangend het onderricht van de heilige Schrift, van de levende Overlevering in de kerk en van het authentieke leergezag weergeven, even goed als het geestelijk erfgoed van de Kerkvaders, Kerkleraren en heiligen van de kerk, opdat men beter kennis kan nemen van het christelijk mysterie, om zo het geloof van het volk van God te verlevendigen. Hij moet rekening houden met de verwoordingen van de leer die de heilige Geest in de loop van de geschiedenis aan de kerk heeft ingegeven. Ook is het nodig dat hij vanuit het licht van het geloof hulp biedt om de nieuwe omstandigheden en de problemen die zich in het verleden nog niet hebben voorgedaan, te belichten."
+                },
+                {
+                    "id": "20",
+                    "con_level": "6",
+                    "id_in_con_level": "0",
+                    "prgrph_text": "De catechismus bevat dus iets nieuws en iets ouds (vgl. Mt. 13,52): het geloof, dat altijd hetzelfde blijft en dat tevens de bron is van telkens nieuw licht."
+                },
+                {
+                    "id": "21",
+                    "con_level": "6",
+                    "id_in_con_level": "0",
+                    "prgrph_text": "Om deze dubbele taak te vervullen, sluit de Katechismus van de Katholieke Kerk enerzijds aan bij de “oude”, traditionele volgorde, gehanteerd in de catechismus van de heilige Pius V, door de inhoud in vier delen te verwoorden: het credo; de heilige liturgie met daarin de sacramenten op de eerste plaats; het christelijk handelen uiteengezet met de geboden als uitgangspunt; en tenslotte het christelijk gebed. Maar tegelijk is de inhoud vaak op een “nieuwe” wijze uitgedrukt als antwoord op de vragen van onze tijd. De vier delen zijn onderling verbonden: het christelijk mysterie is het voorwerp van het geloof (eerste gedeelte); het wordt gevierd en meegedeeld in liturgische handelingen (tweede gedeelte); het is aanwezig om de kinderen van God te verlichten en te ondersteunen bij hun handelen (derde gedeelte); het ligt ten grondslag aan ons gebed waarvan het “Onze Vader” de voorkeursuitdrukking is en het vormt het voorwerp van onze smeekbede, onze lofprijzing en onze voorbede (vierde gedeelte). "
+                },
+                {
+                    "id": "22",
+                    "con_level": "6",
+                    "id_in_con_level": "0",
+                    "prgrph_text": "De liturgie is zelf gebed: de geloofsbelijdenis vindt haar juiste plaats binnen de liturgische viering. De genade, vrucht van de sacramenten, is de onvervangbare voorwaarde voor het christelijk handelen, zoals ook het deelnemen aan de liturgie van de kerk het geloof vereist. Als het geloof zich niet ontplooit in werken, blijft het dood (vgl. Jak. 2,14-26) en kan het geen vruchten van eeuwig leven dragen. Bij het lezen van de Katechismus van de Katholieke Kerk kan men de bewonderenswaardige eenheid van Gods mysterie ontdekken, van zijn heilsplan, alsook de centrale plaats van Jezus Christus, de eniggeboren Zoon van God, gezonden door de Vader, mens geworden in de schoot van de allerheiligste Maagd Maria door de heilige Geest om onze Verlosser te zijn. Gestorven en verrezen is Hij altijd tegenwoordig in zijn kerk, vooral in de sacramenten; Hij is de bron van ons geloof, het model voor het christelijk handelen en de Leermeester van ons gebed. De Katechismus van de Katholieke Kerk die ik op 25 juni j.l. heb goedgekeurd en waarvan ik vandaag krachtens apostolisch gezag het verschijnen verorden, is een uiteenzetting van het geloof van de kerk en van de katholieke leer, bevestigd of verlicht door de heilige Schrift, de apostolische Overlevering en het kerkelijk leergezag. Ik verklaar dat deze catechismus een betrouwbare leidraad bij het geloofsonderricht is en een krachtig en een geschikt middel voor de kerkelijke gemeenschap. Moge hij dienstbaar zijn bij de vernieuwing waartoe de heilige Geest de kerk van God onophoudelijk roept: Chistus’ Lichaam, dat onderweg is naar het onverhulde licht van het Koninkrijk!"
+                },
+                {
+                    "id": "23",
+                    "con_level": "6",
+                    "id_in_con_level": "0",
+                    "prgrph_text": "Het goedkeuren en publiceren van de Katechismus van de Katholieke Kerk behoort tot de dienst die de opvolger van Petrus wil bewijzen aan de heilige, Katholieke Kerk en aan alle particuliere kerken die in vrede en gemeenschap met de apostolische zetel van Rome leven: de dienst namelijk om het geloof van alle leerlingen van onze Heer Jezus (vgl. Lc. 22,32) in stand te houden en te versterken en tevens de banden van eenheid in hetzelfde apostolische geloof hechter te maken. "
+                },
+                {
+                    "id": "24",
+                    "con_level": "6",
+                    "id_in_con_level": "0",
+                    "prgrph_text": "Ik vraag dus aan de herders van de kerk en aan alle gelovigen om deze Catechismus in een geest van gemeenschap te ontvangen en hem met volhardende ijver te gebruiken bij de vervulling van hun zending het geloof te verkondigen en op te roepen tot een evangelisch leven. Deze Catechismus is hun gegeven om als een zekere en authentieke referentietekst te dienen ten behoeve van het onderricht van de katholieke leer, en vooral bij het samenstellen van plaatselijke catechismussen. Hij is ook een aanbod aan alle gelovigen die graag meer willen weten over de onuitputtelijke rijkdommen van het heil (vgl. Ef. 3,8). Hij wil een steun zijn voor de oecumenische contacten die ingegeven zijn door het heilig verlangen naar eenheid onder alle christenen, doordat hij nauwkeurig de inhoud en de evenwichtige samenhang van het katholieke geloof uiteenzet. De Katechismus van de Katholieke Kerk is tenslotte een aanbod aan iedere mens die ons rekenschap vraagt van de hoop die in ons leeft (vgl. 1 Petr. 3,15) en die zou willen weten wat de Katholieke Kerk gelooft. "
+                },
+                {
+                    "id": "25",
+                    "con_level": "6",
+                    "id_in_con_level": "0",
+                    "prgrph_text": "Deze catechismus is niet bedoeld om de catechismussen te vervangen die op diverse plaatsen zijn samengesteld en regulier zijn goedgekeurd door de kerkelijke gezagsdragers, de diocesane bisschoppen en de bisschoppen-conferenties, met name wanneer die de goedkeuring van de apostolische Stoel gekregen hebben. Hij is bedoeld om het ontwerpen van nieuwe locale catechismussen aan te moedigen en te ondersteunen, catechismussen die rekening houden met de verschillen in omstandigheden en culturen, maar tevens met zorg de eenheid van het geloof en de trouw aan de katholieke leer bewaren."
+                },
+                {
+                    "id": "26",
+                    "con_level": "6",
+                    "id_in_con_level": "0",
+                    "prgrph_text": "Ter afsluiting van dit document, dat de Katechismus van de Katholieke Kerk aanbiedt, bid ik tot de allerheiligste Maagd Maria, Moeder van het mensgeworden Woord en Moeder van de kerk, om door haar machtige voorspraak de catechetische inzet van de hele kerk op alle niveaus te ondersteunen, en wel in een tijd waarin de kerk is opgeroepen tot een nieuwe inzet voor de evangelisatie. Moge het licht van het ware geloof de mensheid bevrijden van onwetendheid en van de slavernij van de zonde om haar te leiden tot de enige vrijheid die deze naam waardig is (vgl. Joh. 8,32): de vrijheid van het leven in Jezus Christus onder de leiding van de heilige Geest, hier op aarde, en die van het leven in het volle geluk van de aanschouwing van God van aangezicht tot aangezicht, in het rijk der hemelen (vgl. 1 Kor. 13,12; 2 Kor. 5,6-8). Gegeven op 11 oktober 1992, op de dertigste verjaardag van de opening van het tweede Vaticaans concilie, in het veertiende jaar van mijn pontificaat."
+                },
+                {
+                    "id": "27",
+                    "con_level": "6",
+                    "id_in_con_level": "1",
+                    "theorem_number": "1",
+                    "prgrph_text": "God die oneindig volmaakt en gelukkig in zichzelf is, heeft, uit zuivere goedheid, in vrijheid de mens geschapen, om hem te laten delen in zijn eigen gelukzalig leven. Daarom nadert Hij altijd en overal tot de mens. Hij roept hem, biedt hem hulp om Hem te zoeken, te kennen en met al zijn krachten lief te hebben. Alle mensen, door de zonde verdeeld, nodigt hij uit tot de eenheid van zijn gezin, de kerk. Om dat te bereiken heeft Hij zijn Zoon gezonden als Verlosser en Redder, toen de volheid van de tijden gekomen was. In Hem en door Hem, roept Hij de mensen op om in de heilige Geest zijn aangenomen kinderen te worden en zo erfgenamen te worden van zijn gelukzalig leven."
+                },
+                {
+                    "id": "28",
+                    "con_level": "6",
+                    "id_in_con_level": "1",
+                    "theorem_number": "2",
+                    "prgrph_text": "Opdat deze uitnodiging zou weerklinken over de hele aarde, heeft Christus de 12 apostelen gezonden, die Hij had uitgekozen terwijl Hij hun de opdracht gaf het evangelie te verkondigen: 'Gaat dus en maakt alle volkeren tot mijn leerlingen en doopt hen in de naam van de Vader en de Zoon en de heilige Geest en leert hun te onderhouden alles wat Ik u bevolen heb. Ziet, Ik ben met u alle dagen tot aan de voleinding der wereld' {Mt. 28,19-20}. Belast met deze opdracht trokken de apostelen uit 'om overal te prediken, en de Heer werkte met hen mee en schonk kracht aan hun woord door de tekenen die het vergezelden' {Mc. 16,20}."
+                },
+                {
+                    "id": "29",
+                    "con_level": "6",
+                    "id_in_con_level": "1",
+                    "theorem_number": "3",
+                    "prgrph_text": "Degenen die met Gods hulp de uitnodiging van Christus hebben ontvangen en er vrijelijk op hebben geantwoord, zijn op hun beurt door de liefde van Christus ertoe aangezet om overal ter wereld de Blijde Boodschap te verkondigen. Deze van de apostelen ontvangen schat is trouw bewaard door hun opvolgers. Alle gelovigen zijn opgeroepen om deze schat van geslacht tot geslacht door te geven door het geloof te verkondigen en het te beleven in een broederlijk delen en het te vieren in liturgie en gebed.^6",
+                    "footnotes": [
+                        {
+                            "6": "Vgl. Hand. 2,42."
+                        }
+                    ]
+                },
+                {
+                    "id": "30",
+                    "con_level": "6",
+                    "id_in_con_level": "2",
+                    "theorem_number": "4",
+                    "prgrph_text": "Heel vroeg al heeft men met katechese het geheel van initiatieven aangeduid, die er in de kerk ondernomen zijn, om de mensen tot leerlingen te maken, om mensen te helpen geloven dat Jezus de Zoon van God is, opdat zij door het geloof het leven in zijn naam zouden bezitten, en om hen op te voeden en te onderrichten in dit leven en zo Christus' Lichaam op te bouwen.^7",
+                    "footnotes": [
+                        {
+                            "7": "Vgl. CT 1."
+                        }
+                    ]
+                },
+                {
+                    "id": "31",
+                    "con_level": "6",
+                    "id_in_con_level": "2",
+                    "theorem_number": "5",
+                    "prgrph_text": "'De katechese is een geloofsopvoeding van kinderen, jongeren en volwassenen, die met name een onderricht van de christelijke leer omvat en die in het algemeen gegeven wordt op organische en systematische wijze met de bedoeling om anderen binnen te leiden in de volheid van het christelijk leven'.^8",
+                    "footnotes": [
+                        {
+                            "8": "Vgl. CT 18."
+                        }
+                    ]
+                },
+                {
+                    "id": "32",
+                    "con_level": "6",
+                    "id_in_con_level": "2",
+                    "theorem_number": "6",
+                    "prgrph_text": "De katechese is een geloofsopvoeding van kinderen, jongeren en volwassenen, die met name een onderricht van de christelijke leer omvat en die in het algemeen gegeven wordt op organische en systematische wijze met de bedoeling om anderen binnen te leiden in de volheid van het christelijk leven'.^9",
+                    "footnotes": [
+                        {
+                            "9": "Vgl. CT 18."
+                        }
+                    ]
+                },
+                {
+                    "id": "33",
+                    "con_level": "6",
+                    "id_in_con_level": "2",
+                    "theorem_number": "7",
+                    "prgrph_text": "'De katechese is nauw verbonden met het hele leven van de kerk. Niet alleen de geografische verbreiding en de numerieke toename, maar ook, en meer nog, de innerlijke groei van de kerk en haar overeenstemming met het plan van God hangen er wezenlijk van af'.^10",
+                    "footnotes": [
+                        {
+                            "10": "Vgl. CT 13."
+                        }
+                    ]
+                },
+                {
+                    "id": "34",
+                    "con_level": "6",
+                    "id_in_con_level": "2",
+                    "theorem_number": "8",
+                    "prgrph_text": "De tijden van vernieuwing van de kerk zijn ook de sterke tijden van de catechese. Zo ziet men dat in het grote tijdperk van de Kerkvaders heilige bisschoppen hier een belangrijk deel van hun dienstwerk aan wijdden. Men kan wijzen op de heilige Cyrillus van Jeruzalem, de heilige Johannes Chrysostomus, de heilige Ambrosius en de heilige Augustinus en tal van andere Kerkvaders, wier catechetische werken een modelfunctie blijven behouden."
+                },
+                {
+                    "id": "35",
+                    "con_level": "6",
+                    "id_in_con_level": "2",
+                    "theorem_number": "9",
+                    "prgrph_text": "Het catechetisch dienstwerk put steeds nieuwe kracht uit de concilies. Het concilie van Trente vormt in dit opzicht een opmerkelijk voorbeeld: het heeft voorrang gegeven aan de catechese in zijn constituties en decreten; het ligt aan de oorsprong van de Catechismus Romanus die ook de naam van dit concilie draagt en die als samenvatting van de christelijke leer een uiterst belangrijk werk is; dit concilie heeft in de kerk geleid tot een opmerkelijke opbouw van de catechese, het is, dankzij heilige bisschoppen en theologen zoals de heilige Petrus Canisius, de heilige Carolus Borromeüs, de heilige Turibius van Mongrovejo en de heilige Robertus Bellarminus, de aanzet geweest tot het uitgeven van tal van catechismussen."
+                },
+                {
+                    "id": "36",
+                    "con_level": "6",
+                    "id_in_con_level": "2",
+                    "theorem_number": "10",
+                    "prgrph_text": "Vandaar is het niet verwonderlijk dat tijdens de periode na het tweede Vaticaans concilie, dat hoog geacht werd door Paus Paulus VI (als de grote catechismus van de moderne tijd), de catechese van de kerk opnieuw in de aandacht is komen te staan. Het “Algemeen directorium voor de catechese” uit 1971, de zittingen van de bisschoppensynodes die gewijd waren aan de evangelisatie (1974) en aan de catechese (1977), de apostolische exhortaties die erop volgden, “Evangelii nuntiandi” (1975) en “Catechesi tradendae” (1979), getuigen hiervan. De buitengewone zitting van de bisschoppensynode uit 1985 vroeg “dat er een catechismus of compendium van de hele katholieke leer, zowel over het geloof als over de moraal, zou worden voorbereid”.cit. De Heilige Vader, Johannes Paulus II, heeft deze wens die de bisschoppensynode had uitgesproken tot de zijne gemaakt door te erkennen dat “dit verlangen volledig beantwoordt aan een werkelijke behoefte van de universele kerk en van de particuliere kerken”.cit. Hij stelde alles in het werk om deze wens van de synodevaders te verwezenlijken."
+                },
+                {
+                    "id": "37",
+                    "con_level": "6",
+                    "id_in_con_level": "3",
+                    "theorem_number": "11",
+                    "prgrph_text": "Deze catechismus heeft als doel een organische en samenhangende uiteenzetting te “even van de wezenlijke en fundamentele inhoud van de katholieke leer zowel op het gebied van het geloof als van de moraal, in het licht van het tweede Vaticaans concilie en het geheel van de Overlevering van de kerk. Zijn belangrijkste bronnen zijn de heilige Schrift, de heilige Kerkvaders, de liturgie en het leergezag van de kerk. Hij is ertoe bestemd om te dienen “als een referentiepunt voor de catechismussen of compendia die in de verschillende landen worden samengesteld”.cit. "
+                },
+                {
+                    "id": "38",
+                    "con_level": "6",
+                    "id_in_con_level": "3",
+                    "theorem_number": "12",
+                    "prgrph_text": "Deze catechismus is hoofdzakelijk bestemd voor de verantwoordelijken voor de catechese: op de eerste plaats voor de bisschoppen als leermeesters van het geloof en herders van de kerk. Hij wordt hun aangeboden als een instrument bij het vervullen van hun opdracht om het volk van God te onderrichten. Via de bisschoppen is hij ook gericht tot de samenstellers van catechismussen, tot priesters en catechisten. Hij zal ook een nuttige lectuur zijn voor alle andere gelovigen."
+                },
+                {
+                    "id": "39",
+                    "con_level": "6",
+                    "id_in_con_level": "4",
+                    "theorem_number": "13",
+                    "prgrph_text": "De opzet van deze catechismus is ontleend aan de grote traditie van catechismussen die de catechese ordenen rond vier “zuilen”: de geloofsbelijdenis van het doopsel (het Symbolum), de sacramenten van het geloof, het geloofsleven (de Geboden), het gebed van de gelovige (het Onze Vader). "
+                },
+                {
+                    "id": "40",
+                    "con_level": "7",
+                    "id_in_con_level": "0",
+                    "theorem_number": "14",
+                    "prgrph_text": "Wie door het doopsel tot Christus behoren, moeten het geloof van hun doopsel ten overstaan van de mensen belijden. cit. Daarom zet de catechismus eerst uiteen waarin de openbaring bestaat waardoor God zich tot de mens richt en zich aan hem schenkt. Dan volgt de uiteenzetting over het geloof, het antwoord van de mens aan God (eerste sectie). De geloofsbelijdenis, het Symbolum, vat samen welke gaven God, als Bewerker van alle goed, als Verlosser en Heiligmaker aan de mens geschonken heeft. Zij ordent die aan de hand van de “drie fundamentele artikelen” van ons doopsel: het geloof in de ene God: de almachtige Vader en Schepper; Jezus Christus, zijn Zoon, onze Heer en Redder; de heilige Geest in de heilige kerk (tweede sectie). "
+                },
+                {
+                    "id": "41",
+                    "con_level": "7",
+                    "id_in_con_level": "1",
+                    "theorem_number": "15",
+                    "prgrph_text": "Het tweede deel van de catechismus zet uiteen hoe het heil van God, eens en voor altijd verwezenlijkt door Jezus Christus en door de heilige Geest, in de heilige handelingen van de liturgie van de kerk tegenwoordig gesteld wordt (eerste sectie), vooral in de zeven sacramenten (tweede sectie)."
+                },
+                {
+                    "id": "42",
+                    "con_level": "7",
+                    "id_in_con_level": "2",
+                    "theorem_number": "16",
+                    "prgrph_text": "Het derde deel van de catechismus beschrijft het uiteindelijke doel van de mens, die geschapen is naar het beeld van God: de gelukzaligheid en de wegen om die te bereiken: door een juist en vrij handelen met behulp van de wet en de genade van God (eerste sectie); door een handelen dat het dubbele gebod van de liefde verwerkelijkt, ontvouwd in de Tien Geboden van God (tweede sectie). "
+                },
+                {
+                    "id": "43",
+                    "con_level": "7",
+                    "id_in_con_level": "3",
+                    "theorem_number": "17",
+                    "prgrph_text": "Het laatste deel van de catechismus behandelt de zin en het belang van het gebed in het leven van de gelovigen (eerste sectie). Dit deel wordt afgesloten met een kort commentaar op de zeven beden van het gebed des Heren (tweede sectie). Daarin vinden wij inderdaad de samenvatting van de weldaden waarop wij mogen hopen en die onze hemelse Vader ons wil toevertrouwen. "
+                },
+                {
+                    "id": "44",
+                    "con_level": "6",
+                    "id_in_con_level": "5",
+                    "theorem_number": "18",
+                    "prgrph_text": "Deze catechismus is opgezet als een organische uiteenzetting van het hele katholieke geloof. Men moet hem dus als een eenheid lezen. Talrijke verwijzingen in de marge van de tekst (lichtblauwe nummers in de marge leiden tot andere paragrafen waarin hetzelfde onderwerp aan de orde komt) en de thematische index (wordt later toegevoegd aan deze elektronische versie, red. elektronische versie) maken het mogelijk om elk onderwerp te zien in zijn samenhang met het geheel van het geloof. "
+                },
+                {
+                    "id": "45",
+                    "con_level": "6",
+                    "id_in_con_level": "5",
+                    "theorem_number": "19",
+                    "prgrph_text": "De teksten uit de heilige Schrift zijn vaak niet letterlijk geciteerd. Veelal geven zij slechts een verwijzing naar een tekst, die (door “Vgl.”) in de voetnoot wordt aangegeven. Voor een beter begrip van dergelijke verwijzingen is het goed de teksten zelf te raadplegen. Deze bijbelse verwijzingen zijn een hulpmiddel voor de catechese. "
+                },
+                {
+                    "id": "46",
+                    "con_level": "6",
+                    "id_in_con_level": "5",
+                    "theorem_number": "20",
+                    "prgrph_text": "Het gebruik van ingesprongen tekstdelen voor bepaalde passages geeft aan dat het gaat om historische of apologetische opmerkingen of om aanvullende leerstellige uiteenzettingen."
+                },
+                {
+                    "id": "47",
+                    "con_level": "6",
+                    "id_in_con_level": "5",
+                    "theorem_number": "21",
+                    "prgrph_text": "De citaten in de in gesprongen tekstgedeelten uit patristische, liturgische, magisteriële of hagiografische bronnen zijn bedoeld om de leerstellige uiteenzetting te verrijken. Vaak zijn deze teksten gekozen met het oog op een direct catechetisch gebruik."
+                },
+                {
+                    "id": "48",
+                    "con_level": "6",
+                    "id_in_con_level": "5",
+                    "theorem_number": "22",
+                    "prgrph_text": "Op het einde van iedere thematische eenheid, wordt door een reeks korte teksten in bondige formuleringen de kern van het onderricht samengevat. Deze “IN HET KORT”-formuleringen hebben tot doel suggesties voor samenvattende en memoriseerbare formules te geven bij de plaatselijke catechese."
+                },
+                {
+                    "id": "49",
+                    "con_level": "6",
+                    "id_in_con_level": "6",
+                    "theorem_number": "23",
+                    "prgrph_text": "In deze catechismus ligt de nadruk op de leerstellige uiteenzetting. Hij wil immers een hulp zijn bij het verdiepen van de geloofskennis. Juist daardoor is hij gericht op de groei van dit geloof, hoe het geloof in het leven geworteld is en uitstraalt in het getuigenis.cit. "
+                },
+                {
+                    "id": "50",
+                    "con_level": "6",
+                    "id_in_con_level": "6",
+                    "theorem_number": "24",
+                    "prgrph_text": "Juist door zijn doelstelling streeft deze catechismus er niet naar aanpassingen van de uiteenzetting of van de catechetische methodes door te voeren, aanpassingen die vereist zijn vanwege de verschillen in cultuur, leeftijd, geestelijke rijpheid, en sociale en kerkelijke omstandigheden van degenen tot wie de catechese zich richt. Deze onmisbare aanpassingen vallen onder de verantwoordelijkheid van de uitgewerkte catechismussen en nog meer van diegenen die de gelovigen onderrichten: "
+                },
+                {
+                    "id": "51",
+                    "con_level": "6",
+                    "id_in_con_level": "6",
+                    "quotation": true,
+                    "prgrph_text": "Wie onderricht geeft, moet “alles voor allen” (1 Kor. 9,22) worden om iedereen te winnen voor Christus. (...) Vooral mag hij niet de gedachte hebben dat slechts één categorie gelovigen aan hem zou zijn toevertrouwd en dat het hem daarom vrij zou staan om alle gelovigen op dezelfde wijze tot de ware vroomheid te brengen, met een en dezelfde methode en altijd dezelfde! Men moet goed beseffen dat sommigen in Jezus Christus zijn als kleine, pasgeboren kinderen, anderen als jongeren, en sommigen tenslotte als mensen in het bezit van hun voile kracht. (...) Wie geroepen zijn tot het dienstwerk van de prediking moeten bij het doorgeven van het onderricht van de geloofsmysteries en de morele regels, hun woorden afstemmen op de geest en het begripsvermogen van hun toehoorders.cit."
+                },
+                {
+                    "id": "52",
+                    "con_level": "6",
+                    "id_in_con_level": "6",
+                    "prgrph_text": "BOVEN ALLES: DE LIEFDE"
+                },
+                {
+                    "id": "53",
+                    "con_level": "6",
+                    "id_in_con_level": "6",
+                    "theorem_number": "25",
+                    "prgrph_text": "Tot besluit van deze inleiding is het goed te herinneren aan het pastorale principe dat de Catechismus Romanus aldus heeft uitgedrukt: "
+                },
+                {
+                    "id": "54",
+                    "con_level": "6",
+                    "id_in_con_level": "6",
+                    "quotation": true,
+                    "prgrph_text": "De hele doelstelling van de leer en van het onderricht moet geplaatst worden binnen de liefde die nooit vergaat. Er moet natuurlijk een goede uitleg zijn van wet men moet geloven, hopen en doen; maar bovenal moet men altijd de liefde van Onze Heer laten doorstralen, opdat iedereen begrijpt dat elke werkelijk christelijke, deugdzame handeling geen andere oorsprong heeft den de Liefde en geen ander doel bezit dan de Liefde.cit."
+                },
+                {
+                    "id": "55",
+                    "con_level": "1",
+                    "id_in_con_level": "0",
+                    "theorem_number": "26",
+                    "prgrph_text": "Wanneer wij ons geloof belijden, beginnen wij met: 'Ik geloof' of 'Wij geloven'. Vooraleer wij het geloof van de kerk uiteenzetten zoals wij dat in het Credo belijden, in de liturgie vieren en in de toepassing van de Tien Geboden en in het gebed beleven, willen wij ons afvragen wat 'geloven' betekent. Het geloof is het antwoord van de mens aan God die zich aan hem openbaart en geeft. Bij dit antwoord verlicht Hij de mens, op zoek naar de uiteindelijke zin van het leven overvloedig. Daarom richten wij eerst onze aandacht op het zoeken van de mens (_hoofdstuk 1_), vervolgens op de goddelijke openbaring, waardoor God de mens tegemoet komt (_hoofdstuk 2_), en tenslotte op het antwoord van het geloof (_hoofdstuk 3_)."
+                },
+                {
+                    "id": "56",
+                    "con_level__6": "7",
+                    "theorem_number": "27",
+                    "prgrph_text": "Het verlangen naar God is gegrift in het hart van de mens, want de mens is door en voor God geschapen; God houdt niet op de mens naar zich toe te trekken en de mens zal slechts in God de waarheid en het geluk vinden, die hij zonder ophouden zoekt.",
+                    "theo_ref": [
+                        "355",
+                        "1701",
+                        "1718"
+                    ]
+                },
+                {
+                    "id": "57",
+                    "con_level__6": "7",
+                    "quotation": true,
+                    "prgrph_text": "De diepste grond van de menselijke waardigheid is gelegen in de roeping van de mens tot gemeenschap met God. Reeds vanaf zijn geboorte wordt de mens uitgenodigd tot een dialoog met God: immers, hij bestaat alleen, doordat hij door God uit liefde is geschapen en door Hem altijd uit liefde in stand wordt gehouden; hij leeft niet volledig volgens de waarheid, als hij die liefde niet vrijwillig erkent en zich niet aan zijn Schepper toevertrouwt.^1",
+                    "footnotes": [
+                        {
+                            "1": "Vgl. GS 19, § 1."
+                        }
+                    ]
+                },
+                {
+                    "id": "58",
+                    "con_level__6": "7",
+                    "theorem_number": "28",
+                    "prgrph_text": "In hun geschiedenis en tot op de dag van vandaag hebben de mensen op velerlei wijzen uitdrukking gegeven aan hun zoeken naar God, zowel in manier van geloven en godsdienstig gedrag (gebed, offer, eredienst, meditatie etc.). Ondanks de dubbelzinnigheden die deze uitdrukkingsvormen kunnen bevatten, zijn zijzo universeel, dat men de mens een godsdienstig wezen kan noemen.",
+                    "theo_ref": [
+                        "843",
+                        "2566",
+                        "2095-2109"
+                    ]
+                },
+                {
+                    "id": "59",
+                    "con_level__6": "7",
+                    "quotation": true,
+                    "prgrph_text": "Heel het mensengeslacht deed Hij uit één ontstaan, om de gehele oppervlakte van de aarde te bewonen, waarbij Hij de seizoenen vaststelde en de grenzen van hun woongebied, opdat zij God zouden zoeken, of zij Hem misschien al tastende zouden vinden;Hij is immers niet ver van ieder van ons. Want door Hem hebben wij het leven, het bewegen en het zijn {Hand. 17, 26-28}."
+                },
+                {
+                    "id": "60",
+                    "con_level__6": "7",
+                    "theorem_number": "29",
+                    "prgrph_text": "Maar deze 'innige en vitale verbondenheid met God'^1 kan door de mens vergeten, miskend of zelfs uitdrukkelijk afgewezen worden. De oorsprong van een dergelijke houding kan heel verschillend zijn: opstand tegen het kwaad inde wereld, godsdienstige onwetendheid of onverschilligheid, de zorgen van de wereld en de rijkdom^2, het slechte voorbeeld van de gelovigen, gedaagdenstromingen die het geloof vijandig gezind zijn en tenslotte de houding van de zondige mens die zich uit angst voor God' verbergt en vlucht voor zijn oproep.^3",
+                    "footnotes": [
+                        {
+                            "2": "Vgl. GS 19, 1"
+                        },
+                        {
+                            "3": "Vgl. {Mt. 13,22}"
+                        },
+                        {
+                            "4": "Vgl. {Gen. 3, 8-10}"
+                        }
+                    ],
+                    "theo_ref": [
+                        "2123",
+                        "2124",
+                        "2125",
+                        "2126",
+                        "2127",
+                        "2128",
+                        "398"
+                    ]
+                },
+                {
+                    "id": "61",
+                    "con_level__6": "7",
+                    "theorem_number": "30",
+                    "prgrph_text": "'Verheugt u, gij die Hem aanhangt' {Ps. 105,3}. Ook al kan de mens God vergeten of afwijzen, Hij, God, houdt niet op elke mens op te roepen Hem te zoeken opdat hij leeft en geluk vindt. Maar dat zoeken eist van de mens een volledige inzet van zijn verstand, de oprechtheid van zijn wil, 'een oprecht hart en ook het getuigenis van anderen die hem leren God te zoeken.",
+                    "theo_ref": [
+                        "2567",
+                        "845",
+                        "368"
+                    ]
+                },
+                {
+                    "id": "62",
+                    "con_level__6": "7",
+                    "quotation": true,
+                    "prgrph_text": "'Groot zijt Gij, Heer, en alle lof waardig' {Ps. 145,3}; 'Groot is uw macht en uw wijsheid is onbegrensd' {Ps. 147, 5}. Loven wil u een mens, een klein deeltje van Uw schepping,en dan nog wel de mens die, sterfelijk als hij is, het bewijs van zijn zonden en het bewijs dat Gij de hovaardigen weerstaat, met zich draagt {2 Kor. 4,10} ; {1 Petr. 5,5}. Toch wil de mens U loven, de mens, die maar een onderdeel is van Uw schepping. Gij zelf zet hem hiertoe aan. Gij maakt dat hij er zijn vreugde in vindt U te loven. Want Gij hebt ons gemaakt voor U en onrustig is ons hart totdat het rust vindt in U.",
+                    "footnotes": [
+                        {
+                            "6": "H. Augustinus, Conf. I, 1,1, vert. Getijdenboek Lect, II,6,79."
+                        }
+                    ]
+                },
+                {
+                    "id": "63",
+                    "con_level__6": "8",
+                    "theorem_number": "31",
+                    "prgrph_text": "Geschapen naar Gods beeld en geroepen om God te kennen en lief te hebben,ontdekt de mens die God zoekt, bepaalde 'wegen' om tot de kennis van God te komen. Dit worden ook wel de 'bewijzen' van het bestaan van God genoemd, niet in de zin van bewijzen die de natuurwetenschappen zoeken, maar in de zin van 'met elkaar overeenstemmende en overtuigende argumenten' die het mogelijk maken te komen tot echte zekerheden.<p>Die 'wegen' om tot God te naderen hebben als vertrekpunt de schepping: de stoffelijke wereld en de menselijke persoon.</p>"
+                },
+                {
+                    "id": "64",
+                    "con_level__6": "8",
+                    "theorem_number": "32",
+                    "prgrph_text": "De wereld: uitgaande van de beweging en de wording van de wereld, de contingentie, de orde en de schoonheid van de wereld kan men God kennen als oorsprong en doel van het heelal.",
+                    "theo_ref": [
+                        "54",
+                        "337"
+                    ]
+                },
+                {
+                    "id": "65",
+                    "con_level__6": "8",
+                    "quotation": true,
+                    "prgrph_text": "De heilige Paulus zegt over de heidenen: 'Want wat een mens van God kan weten, is in feite onder hen bekend; God zelf heeft het hun geopenbaard. Van de schepping der wereld af wordt zijn onzichtbare wezen door de rede in zijn werken aanschouwd, zijn eeuwige macht namelijk en zijn godheid'.^7",
+                    "footnotes": [
+                        {
+                            "7": "Vgl. Hand. 14,15.17; 17,27,28; Wijsh. 13,1-9"
+                        }
+                    ]
+                },
+                {
+                    "id": "66",
+                    "con_level__6": "8",
+                    "quotation": true,
+                    "prgrph_text": "En de heilige Augustinus zegt: 'Ondervraag de schoonheid van de aarde, ondervraag de schoonheid van de zee, ondervraag de schoonheid van de onmetelijke lucht die ons omgeeft, ondervraag de schoonheid van de hemel (...) ondervraag dit alles. Dit alles antwoordt u: zie hoe schoon wij zijn! Hun schoonheid is een belijdenis (confessio) Wie anders heeft deze schepselen die onveranderlijk schoon zijn, gemaakt dan Hij die onveranderlijk schoon (Pulcher) is.^8",
+                    "footnotes": [
+                        {
+                            "8": "Serm. 241,2, vert, uit Lat."
+                        }
+                    ]
+                },
+                {
+                    "id": "67",
+                    "con_level__6": "8",
+                    "theorem_number": "33",
+                    "prgrph_text": "De mens: met zijn ontvankelijkheid voor waarheid en schoonheid, zijn gevoel voor het moreel goede, zijn vrijheid en de stem van zijn geweten, zijn verlangen naar het oneindige en naar geluk, stelt de mens de vraag naar het bestaan van God. Door dit alles heen wordt hij de tekenen van zijn geestelijke ziel gewaar. 'Omdat de kiem van de eeuwigheid die hij in zich draagt niet tot louter stof te herleiden is, kan zijn ziel haar oorsprong alleen maar in God hebben.^9",
+                    "footnotes": [
+                        {
+                            "9": "GS 18 § 1, vert. uit Lat."
+                        }
+                    ],
+                    "theo_ref": [
+                        "2500",
+                        "1730",
+                        "1776"
+                    ]
+                },
+                {
+                    "id": "68",
+                    "con_level__6": "8",
+                    "theorem_number": "34",
+                    "prgrph_text": "De wereld en de mens getuigen ervan dat zij niet in zichzelf hun eerste beginselen uiteindelijk doel hebben, maar dat zij deel hebben aan het Zijn op zich, zonder oorsprong en zonder einde. Zo kan de mens langs verschillende 'wegen' komen tot de kennis van het bestaan van een werkelijkheid die de eerste oorzaak en het uiteindelijke doel van alles is 'en dat allen God noemen'.^10",
+                    "footnotes": [
+                        {
+                            "10": "H. Thomas van Aquino, S.Th. 1,2,3, vert. uit Lat."
+                        }
+                    ],
+                    "theo_ref": [
+                        "199"
+                    ]
+                },
+                {
+                    "id": "69",
+                    "con_level__6": "8",
+                    "theorem_number": "35",
+                    "prgrph_text": "De vermogens van de mens stellen hem in staat het bestaan van een persoonlijke God te kennen. Maar opdat de mens in zijn intimiteit kan binnentreden,heeft God zich aan hem willen openbaren en hem de genade willen schenken om deze openbaring te kunnen ontvangen in geloof: De bewijzen van het bestaanvan God kunnen de mens niettemin voorbereiden op het geloof en hem helpen zien dat het geloof niet in strijd is met het menselijk verstand.",
+                    "theo_ref": [
+                        "50",
+                        "159"
+                    ]
+                },
+                {
+                    "id": "70",
+                    "con_level__6": "9",
+                    "theorem_number": "36",
+                    "prgrph_text": "“Onze moeder de heilige kerk houdt en leert dat God, beginsel en doel van alle dingen, door het natuurlijke licht van het menselijk verstand met zekerheid gekend kan worden vanuit de geschapen werkelijkheden.” cit. Zonder dit vermogen zou de mens de openbaring van God niet kunnen ontvangen. De mens heeft dit vermogen omdat hij geschapen is “naar het beeld van God”.cit. ",
+                    "theo_ref": [
+                        "355"
+                    ]
+                },
+                {
+                    "id": "71",
+                    "con_level__6": "9",
+                    "theorem_number": "37",
+                    "prgrph_text": "In de historische omstandigheden waarin hij leeft, ondervindt de mens echter tal van moeilijkheden om God alleen maar met het licht van zijn verstand te kennen: ",
+                    "theo_ref": [
+                        "1960"
+                    ]
+                },
+                {
+                    "id": "72",
+                    "con_level__6": "9",
+                    "quotation": true,
+                    "prgrph_text": "Want al kan het menselijk verstand, om het eenvoudig te zeggen, door zijn natuurlijke krachten en zijn natuurlijk licht tot een ware en zekere kennis komen van een persoonlijke God, die de wereld door zijn voorzienigheid in stand houdt en bestuurt, en omtrent de natuurwet die door de Schepper in ons hart is neergelegd, toch zijn er niet weinig factoren die het verstand verhinderen zijn natuurlijk vermogen daadwerkelijk en met vrucht te gebruiken. Want de waarheden die betrekking hebben op God en op de verhouding van de mens tot God, gaan de orde van de zintuiglijk waarneembare wereld volstrekt te boven; en wanneer men deze waarheden in praktijk gaat brengen en zijn leven ernaar gaat inrichten, vraagt dat algehele toewijding en zelfverloochening. Nu ondervindt het menselijk verstand bij het verwerven van de kennis van deze waarheden moeilijkheden zowel vanwege de invloed van de zintuigen en de verbeelding als vanwege de slechte begeerten, die een gevolg zijn van de erfzonde. En zo beelden de mensen zich bij dit alles gemakkelijk in dat de dingen die ze liever niet als waar zouden zien, ook inderdaad niet waar of minstens twijfelachtig zijn. cit."
+                },
+                {
+                    "id": "73",
+                    "con_level__6": "9",
+                    "theorem_number": "38",
+                    "prgrph_text": "Daarom heeft de mens er behoefte aan verlicht te worden door de openbaring van God, niet alleen inzake hetgeen zijn begrip te boven gaat, maar ook inzake “hetgeen op godsdienstig en zedelijk gebied voor het verstand op zichzelf niet ontoegankelijk is, opdat ook dit in de huidige omstandigheden waarin het mensdom verkeert, door allen gemakkelijk, met vaste zekerheid en zonder enige vermenging met dwalingen kan worden gekend”.cit.",
+                    "theo_ref": [
+                        "2036"
+                    ]
+                },
+                {
+                    "id": "74",
+                    "con_level__6": "10",
+                    "theorem_number": "39",
+                    "prgrph_text": "Wanneer de kerk het vermogen van het menselijk verstand God te kennen verdedigt, dan spreekt zij haar vertrouwen uit dat het mogelijk is tot alle mensen en met alle mensen over God te spreken. Deze overtuiging is het vertrekpunt voor haar dialoog met de andere godsdiensten, met de filosofie en de wetenschappen, evenals met de ongelovigen en de atheïsten. ",
+                    "theo_ref": [
+                        "851"
+                    ]
+                },
+                {
+                    "id": "75",
+                    "con_level__6": "10",
+                    "theorem_number": "40",
+                    "prgrph_text": "Aangezien onze kennis van God beperkt is, is ons spreken over God het ook. Wij kunnen God slechts noemen door te beginnen bij zijn schepselen, en dat overeenkomstig onze beperkte menselijke manier van kennen en denken. "
+                },
+                {
+                    "id": "76",
+                    "con_level__6": "10",
+                    "theorem_number": "41",
+                    "prgrph_text": "De schepselen dragen alle een zekere gelijkenis met God in zich, heel bijzonder de mens die geschapen is naar het beeld en de gelijkenis van God. De talrijke volmaaktheden van de schepselen (hun waarheid, hun goedheid en hun schoonheid) zijn derhalve een weerspiegeling van de oneindige volmaaktheid van God. Daarom kunnen wij God benoemen uitgaand van de volmaaktheden van zijn schepselen, “want uit de grootheid en de schoonheid van de schepselen wordt men door vergelijking hun Schepper gewaar” (Wijsh. 13,5). ",
+                    "theo_ref": [
+                        "213",
+                        "299"
+                    ]
+                },
+                {
+                    "id": "77",
+                    "con_level__6": "10",
+                    "theorem_number": "42",
+                    "prgrph_text": "God gaat ieder schepsel te boven. Wij moeten daarom ons spreken over God zonder ophouden zuiveren van beelden, van wat er beperkt en onvolmaakt aan is om de “onuitsprekelijke, onbegrijpelijke, onzichtbare en ongrijpbare”. cit. God niet te verwarren met onze menselijke voorstellingen. Onze menselijke woorden schieten altijd tekort in vergelijking met het mysterie van God. ",
+                    "theo_ref": [
+                        "212",
+                        "300",
+                        "370"
+                    ]
+                },
+                {
+                    "id": "78",
+                    "con_level__6": "10",
+                    "theorem_number": "43",
+                    "prgrph_text": "Wanneer wij zo over God spreken, dan drukt onze taal zich weliswaar uit op een menselijke manier, maar ze bereikt werkelijk God zelf zonder Hem evenwel in zijn oneindige eenvoud onder woorden te kunnen brengen. Men moet immers niet vergeten dat “men niet kan wijzen op enige gelijkheid tussen Schepper en schepsel zonder dat er gewezen kan worden op een nog grotere ongelijkheid”cit. en dat “wij van God niet kunnen begrijpen wat Hij is, maar slechts wat Hij niet is, en in welke verhouding de andere wezens tot Hem staan”.cit. ",
+                    "theo_ref": [
+                        "206"
+                    ]
+                },
+                {
+                    "id": "79",
+                    "con_level": "4",
+                    "id_in_con_level": "0",
+                    "theorem_number": "44",
+                    "prgrph_text": "De mens is van nature en door roeping een godsdienstig wezen. Omdat de mens van God komt en naar God gaat, heeft hij alleen maar een volledig menselijk leven, als hij zijn band met God vrijelijk beleeft. "
+                },
+                {
+                    "id": "80",
+                    "con_level": "4",
+                    "id_in_con_level": "0",
+                    "theorem_number": "45",
+                    "prgrph_text": "De mens is gemaakt om in gemeenschap met God te leven, in wie hij zijn geluk vindt: “Wanneer ik met mijn gehele wezen met U verenigd zal zijn, zal er voor mij geen verdriet en moeite meer zijn en geheel van U vervuld, zal mijn leven waarachtig leven zijn”.cit. "
+                },
+                {
+                    "id": "81",
+                    "con_level": "4",
+                    "id_in_con_level": "0",
+                    "theorem_number": "46",
+                    "prgrph_text": "Wanneer de mens naar de boodschap van de schepselen en de stem van zijn geweten luistert, dan kan hij komen tot de zekerheid van het bestaan van God, oorzaak en einde van alles. "
+                },
+                {
+                    "id": "82",
+                    "con_level": "4",
+                    "id_in_con_level": "0",
+                    "theorem_number": "47",
+                    "prgrph_text": "De kerk leert dat de enige, ware God, onze Schepper en Heer, met zekerheid gekend kan worden uit zijn werken dankzij het natuurlijke licht van het menselijk verstand.cit. "
+                },
+                {
+                    "id": "83",
+                    "con_level": "4",
+                    "id_in_con_level": "0",
+                    "theorem_number": "48",
+                    "prgrph_text": "Wij kunnen God werkelijk benoemen door uit te gaan van de menigvuldige volmaaktheden van de schepselen, gelijkenissen van de oneindig volmaakte God, zelfs als onze beperkte taal het mysterie ervan niet volledig tot uitdrukking kan brengen. "
+                },
+                {
+                    "id": "84",
+                    "con_level": "4",
+                    "id_in_con_level": "0",
+                    "theorem_number": "49",
+                    "prgrph_text": "“Een schepsel zonder Schepper verdwijnt in het niet”. cit. Daarom weten de gelovigen dat zij door de liefde van Christus ertoe aangezet worden het licht van de levende God te brengen aan hen die Hem niet kennen of Hem afwijzen."
+                },
+                {
+                    "id": "85",
+                    "con_level": "2",
+                    "id_in_con_level": "1",
+                    "theorem_number": "50",
+                    "prgrph_text": "Door het natuurlijke verstand kan de mens God met zekerheid kennen, vertrekkend vanuit zijn werken waarin Hij zich heeft laten kennen. Maar er bestaat een andere orde van kennis die de mens geenszins op eigen kracht kan bereiken: die van de goddelijke openbaring. cit. Op grond van een geheel vrije beslissing openbaart God zichzelf en geeft Hij zich aan de mens. Hij doet dit door zijn mysterie te openbaren, zijn liefdevol heilsplan dat Hij vanaf alle eeuwigheid ten gunste van alle mensen vorm gegeven heeft in Christus. Hij openbaart zijn heilsplan ten volle door zijn welbeminde Zoon, onze Heer Jezus Christus, en de heilige Geest te zenden. ",
+                    "theo_ref": [
+                        "36",
+                        "1066"
+                    ]
+                },
+                {
+                    "id": "86",
+                    "con_level": "6",
+                    "id_in_con_level": "11",
+                    "theorem_number": "51",
+                    "prgrph_text": "“Het heeft God in zijn goedheid en wijsheid behaagd zichzelf te openbaren en zijn ‘geheim raadsbesluit’ (Ef. 1,9) te doen kennen, waardoor de mensen door Christus, het vleesgeworden Woord, in de heilige Geest toegang hebben tot de Vader en deelgenoten worden gemaakt van de goddelijke natuur”. cit.",
+                    "theo_ref": [
+                        "2823",
+                        "1996"
+                    ]
+                },
+                {
+                    "id": "87",
+                    "con_level": "6",
+                    "id_in_con_level": "11",
+                    "theorem_number": "52",
+                    "prgrph_text": "God die “woont in ongenaakbaar licht” (1 Tim. 6,16) wil zijn eigen goddelijk leven meedelen aan de mensen, die door Hem uit vrije wil geschapen zijn, om hen in zijn enige Zoon als kinderen aan te nemen. cit. Door zichzelf te openbaren wil God de mensen in staat stellen Hem een antwoord te geven, Hem te kennen en Hem in veel grotere mate te beminnen dan zij dit uit zichzelf zouden kunnen. "
+                },
+                {
+                    "id": "88",
+                    "con_level": "6",
+                    "id_in_con_level": "11",
+                    "theorem_number": "53",
+                    "prgrph_text": "Het goddelijk heilsplan van de openbaring wordt verwezenlijkt zowel “in daden” als “in woorden, die een innerlijke samenhang met elkaar hebben” cit. en elkaar verklaren. Het bevat een bijzondere “goddelijke pedagogiek: God deelt zich geleidelijk aan de mens mee. Hij bereidt hem stapsgewijs voor op het ontvangen van de bovennatuurlijke openbaring die Hij van zichzelf geeft, en die in de persoon en de zending van het vleesgeworden Woord, Jezus Christus, haar hoogtepunt zal hebben. "
+                },
+                {
+                    "id": "89",
+                    "con_level": "6",
+                    "id_in_con_level": "11",
+                    "quotation": true,
+                    "prgrph_text": "De heilige Ireneüs van Lyon spreekt herhaaldelijk over deze goddelijke pedagogie, waarbij hij het beeld gebruikt van de wederzijdse gewenning tussen God en mens: “Het Woord van God heeft in de mens gewoond en is Mensenzoon geworden om de mens eraan te wennen God te vernemen en God eraan te wennen in de mens te wonen naar het welbehagen van de Vader”. cit."
+                },
+                {
+                    "id": "90",
+                    "con_level": "7",
+                    "id_in_con_level": "4",
+                    "theorem_number": "54",
+                    "prgrph_text": "“God die door zijn Woord alles schept en in stand houdt, geeft in het geschapene een bestendig getuigenis van zichzelf en, omdat Hij de weg van het bovennatuurlijk heil wilde openen, heeft Hij zich vanaf het begin aan onze stamouders geopenbaard”. cit. Hij heeft hen uitgenodigd tot een innige gemeenschap met Hem door hen te bekleden met een schitterende genade en gerechtigheid. ",
+                    "theo_ref": [
+                        "32",
+                        "374"
+                    ]
+                },
+                {
+                    "id": "91",
+                    "con_level": "7",
+                    "id_in_con_level": "4",
+                    "theorem_number": "55",
+                    "prgrph_text": "Deze openbaring is niet onderbroken door de zonde van onze stamouders. Immers, God “heeft hen na hun val door de verlossing te beloven opgericht tot de hoop op het heil en zonder onderbreking zorg gedragen voor het menselijk geslacht om eeuwig leven te schenken aan hen die door standvastig het goede te doen het heil zoeken”. cit. ",
+                    "theo_ref": [
+                        "397",
+                        "410",
+                        "761"
+                    ]
+                },
+                {
+                    "id": "92",
+                    "con_level": "7",
+                    "id_in_con_level": "4",
+                    "quotation": true,
+                    "prgrph_text": "Door ongehoorzaamheid aan U heeft hij uw vriendschap verloren, maar Gij hebt hem niet aan het geweld van de dood uitgeleverd (... ). Menigmaal hebt Gij aan de mensen een verbond aangeboden. cit. "
+                },
+                {
+                    "id": "93",
+                    "con_level": "7",
+                    "id_in_con_level": "5",
+                    "theorem_number": "56",
+                    "prgrph_text": "Wanneer eenmaal de eenheid van het menselijk geslacht door de zonde verbroken is, probeert God de mensheid allereerst te redden door in iedere fase aanwezig te zijn. Het verbond met Noach na de zondvloed cit. brengt het principe van het goddelijk heilsbestel tot uitdrukking Jegens de “volken”, d.w.z. jegens de mensen die opnieuw verenigd zijn, “ieder naar land, taal en geslacht” (Gen. 10,5).cit. ",
+                    "theo_ref": [
+                        "401",
+                        "1219"
+                    ]
+                },
+                {
+                    "id": "94",
+                    "con_level": "7",
+                    "id_in_con_level": "5",
+                    "theorem_number": "57",
+                    "prgrph_text": "Deze ordening in de veelheid van volken cit. is tegelijk kosmisch, sociaal en godsdienstig. Het heeft ten doel de trots in te perken van een gevallen mensheid die, eensgezind in het kwaad,cit. uit eigen kracht haar eenheid tot stand zou willen brengen zoals in Babel.cit. Maar ten gevolge van de zondecit. bedreigt zowel het polytheïsme als de afgodische verering van het volk en zijn leider, onophoudelijk deze voorlopige heilseconomie met een heidense verwording. "
+                },
+                {
+                    "id": "95",
+                    "con_level": "7",
+                    "id_in_con_level": "5",
+                    "theorem_number": "58",
+                    "prgrph_text": "Het verbond van Noach is van kracht, zolang de tijd van de volken cit. duurt tot aan de verkondiging van het evangelie, over de hele wereld. De bijbel vereert enkele grote figuren van de “volken”, zoals “Abel de rechtvaardige”, de priesterkoning Melchisedek, cit. de voorafbeelding van Christus,cit. of de rechtvaardigen “Noach, Daniël en Job” (Ez. 14,14). Zo brengt de Schrift tot uitdrukking welke hoge graad van heiligheid zij kunnen bereiken die leven volgens het verbond van Noach, in afwachting van het ogenblik dat de Christus “alle verstrooide kinderen van God samenbrengt” (Joh. 11,52). ",
+                    "theo_ref": [
+                        "674",
+                        "2569"
+                    ]
+                },
+                {
+                    "id": "96",
+                    "con_level": "7",
+                    "id_in_con_level": "6",
+                    "theorem_number": "59",
+                    "prgrph_text": "Om de verstrooide mensheid te verzamelen kiest God Abram door hem weg te roepen “uit zijn land, familie en huis” (Gen. 12, 1) om Abraham van hem te maken, d.w.z. “de vader van een menigte volken” (Gen. 17,5): “Door u zal zegen komen over alle geslachten op aarde” (Gen. 12,3 LXX).cit.",
+                    "theo_ref": [
+                        "145",
+                        "2570"
+                    ]
+                },
+                {
+                    "id": "97",
+                    "con_level": "7",
+                    "id_in_con_level": "6",
+                    "theorem_number": "60",
+                    "prgrph_text": "Het volk dat van Abraham afstamt, zal de bewaarder zijn van de belofte, aan de aartsvaders gedaan, het uitverkoren volk,cit. geroepen om eens het verzamelen van alle kinderen van God binnen de eenheid van de kerk voor te bereiden;cit. dat zal de wortel zijn waarop de heidenen, na gelovig geworden te zijn,cit. geënt zullen worden. ",
+                    "theo_ref": [
+                        "762",
+                        "781"
+                    ]
+                },
+                {
+                    "id": "98",
+                    "con_level": "7",
+                    "id_in_con_level": "6",
+                    "theorem_number": "61",
+                    "prgrph_text": "De aartsvaders en de profeten en andere personen uit het Oude Testament werden altijd vereerd en zullen altijd vereerd worden als heiligen in alle liturgische tradities van de kerk. "
+                }
 
-                                                        ]
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
+            ]
         }
     ]
 }
+
+
+ 

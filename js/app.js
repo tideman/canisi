@@ -22,7 +22,14 @@
                 $rootScope.showMenu();
             }
         }
-        $rootScope.book = false;
+
+        $rootScope.chapterId = 0;
+        $rootScope.pageId = 0;
+        $rootScope.sectionId = 0;
+        $rootScope.paragraphNmbr = 0;
+        $rootScope.inChapter = false;
+        $rootScope.inSection = false;
+        $rootScope.next = false;
 
     })
 
@@ -52,8 +59,7 @@
         $rootScope.closeMenu();
         $scope.pageClass = 'page-home';
 
-        //hide navigation;
-        $rootScope.book = true;
+
 
         $http.get("https://canisi.iriscouch.com/db_canisi/_design/book_title/_view/book_title")
         .success(function(response) {
@@ -64,31 +70,15 @@
 
     canisiApp.controller('chapterController', function($scope, $http, $routeParams, $rootScope) {
         //show navigation;
-        $rootScope.book = true;
-        var chapterId,
-            pageId,
-            sectionId;
-        console.log('chapter book:' + $rootScope.book);
         $scope.pageClass = 'page-chapter';
-
+        $rootScope.book = true;
+        console.log('chapter executed');
         $rootScope.closeMenu();
 
+        $rootScope.chapterId = parseInt($routeParams.chapterId);
 
-
-        chapterId = parseInt($routeParams.chapterId);
-        pageId = parseInt($routeParams.pageId);
-        sectionId = parseInt($routeParams.sectionId);
-
-        if(isNaN(pageId)) {
-            pageId = 1;
-        }
-
-        $rootScope.currentChapter = chapterId;
-        $rootScope.currentPage = pageId;
-        $rootScope.currentSection = sectionId;
-
-        //check if chapter fetched
-        if($scope.chapterContent == undefined) {
+       //check if chapter fetched
+        if($rootScope.location == undefined) {
             fetchChapter();
         }
         else {
@@ -98,16 +88,23 @@
 
         function addChapterHeader() {
             //chapter head
-            $scope.chptr_title = $scope.chapterContent.chptr_title;
-            $scope.chptr_subtitle = $scope.chapterContent.chptr_subtitle;
-            $scope.chptr_preface = $scope.chapterContent.chptr_preface;
+            $scope.chptr_title = $rootScope.response.chptr_title;
+            $scope.chptr_subtitle = $rootScope.response.chptr_subtitle;
+            $scope.chptr_preface = $rootScope.response.chptr_preface;
+        }
+
+        function addSectionHeader(section_number) {
+            $scope.sctn_nmbr = $scope.chapterContent.chptr_txt.sections[section_number].sctn_nmbr;
+            $scope.sctn_title = $scope.chapterContent.chptr_txt.sections[section_number].sctn_title;
+
         }
 
         function fetchChapter() {
-            $http.get("https://canisi.iriscouch.com/db_canisi/_design/chapter/_view/chapter?key=" + chapterId)
+            $http.get("https://canisi.iriscouch.com/db_canisi/_design/chapter/_view/chapter?key=" + $rootScope.chapterId)
                 .success(function(response) {
-                    $scope.chapterContent = response.rows[0].value;
-                    if(pageId === 1) {
+                    $rootScope.response = response.rows[0].value;
+
+                    if($rootScope.pageId === 1) {
                         addChapterHeader();
                     }
                     buildPage();
@@ -117,30 +114,77 @@
 
         function buildPage() {
             //check for paragraphs
-            if($scope.chapterContent.chptr_txt.paragraphs == undefined) {
-                console.log($scope.chapterContent.chptr_txt.sections);
-                fetchParagraphs($scope.chapterContent.chptr_txt.sections[0]);
-            }
-            else {
-                console.log($scope.chapterContent.chptr_txt);
-                fetchParagraphs($scope.chapterContent.chptr_txt);
-            }
-        }
+            var paragraphs = [];
+            if($rootScope.paragraphNmbr === 0 && $rootScope.pageId === 0) {
+                $rootScope.pageId = 1;
+                 //beginning of chapter
+                //show chapter header
 
-        function fetchParagraphs(p_container) {
 
-            var p_start,
-                i,
-                paragraphs = [];
-            //fetch 3 paragraphs
-            p_start = pageId * 3;
-            for(i = 0; i < 3 ; i++) {
-                paragraphs.push(p_container.paragraphs[i]);
-                p_start++;
-
+                $rootScope.location = $rootScope.response.chptr_txt;
+                $rootScope.inChapter = true;
+                addChapterHeader();
             }
+
+            for(var i = 0; i < 3; i++) {
+                console.log('number:' + $rootScope.paragraphNmbr);
+                if($rootScope.location.paragraphs) {
+                    if($rootScope.location.paragraphs[$rootScope.paragraphNmbr] === undefined) {
+
+                        jump();
+                    }
+                    else {
+                        paragraphs.push($rootScope.location.paragraphs[$rootScope.paragraphNmbr]);
+                    }
+                }
+                else {
+
+                    jump();
+                    paragraphs.push($rootScope.location.paragraphs[$rootScope.paragraphNmbr]);
+                }
+                $rootScope.paragraphNmbr++
+            }
+            $rootScope.pageId++;
+
             $scope.paragraphs = paragraphs;
+
+            function jump() {
+                //change location
+                //check for section
+                if($rootScope.inSection) {
+                    $rootScope.location = $rootScope.response.chptr_txt.sections[$rootScope.sectionId++];
+
+                }
+                if($rootScope.inChapter) {
+
+                    if($rootScope.location.sections !== undefined) {
+                        $rootScope.inChapter = false;
+                        $rootScope.inSection = true;
+                        $rootScope.location = $rootScope.location.sections[$rootScope.sectionId++];
+
+                    }
+                }
+
+
+
+            }
+
+            //fetch 3 paragraphs for a page
+
+                //paragraphs
+                //section
+                //supersection
+                        //spr_section
+                        //spr_section_subtitle
+                            //paragraphs
+                            //subchapter
+
+
+
+
+
         }
+
 
 
 
@@ -155,34 +199,29 @@
             });
     });
 
-    canisiApp.controller('navigationController', function($scope, $rootScope) {
+    canisiApp.controller('navigationController', function($scope, $rootScope, $route) {
+
         $scope.book = $rootScope.book;
-        if($scope.currentPage == undefined) {
-            $scope.currentPage = 0;
-        }
-        if($scope.currentChapter == undefined) {
-            $scope.currentChapter= 0;
-        }
-        if($scope.currentSection == undefined) {
-            $scope.currentSection= 0;
-        }
 
         $scope.previous = function() {
-            console.log('PREVIOUS');
-            console.log('chapter within previous:' + $rootScope.currentChapter);
-            console.log('chapter: ' + $scope.currentChapter);
-            console.log('page: ' + $scope.currentPage);
-            console.log('section: ' + $scope.currentSection);
+//            console.log('PREVIOUS');
+//            console.log('chapter within previous:' + $rootScope.currentChapter);
+//            console.log('chapter: ' + $scope.currentChapter);
+//            console.log('page: ' + $scope.currentPage);
+//            console.log('section: ' + $scope.currentSection);
+            $rootScope.next = false;
+            $route.reload();
 
         }
 
 
         $scope.next = function() {
-            console.log('NEXT!');
-            console.log('chapter: ' + $scope.currentChapter);
-            console.log('page: ' + $scope.currentPage);
-            console.log('section: ' + $scope.currentSection);
-
+//            console.log('NEXT!');
+//            console.log('chapter: ' + $scope.currentChapter);
+//            console.log('page: ' + $scope.currentPage);
+//            console.log('section: ' + $scope.currentSection);
+              $rootScope.next = true;
+              $route.reload();
         }
 
 

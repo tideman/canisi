@@ -1,26 +1,28 @@
-.navigate-left
+.navigate
     position: relative
     bottom: 50vh
+    font-size: 3em
+    text-decoration: none
+    &:hover
+        color: $edward
+        text-decoration: none
+
+.right
     right: 500px
-    text-decoration: none
-    &:hover
-        color: $edward
-        text-decoration: none
 
-.navigate-right
-    position: relative
-    bottom: 50vh
+.left
     left: 500px
-    text-decoration: none
-    &:hover
-        color: $edward
-        text-decoration: none
 
-.page-chapter p
-    &:nth-of-type(1)
-        &:first-letter
-            float: left
-            font-size: 5em
-            line-height: 60px
-            padding: 6px 8px 2px 0px
-            font-family: Georgia
+.page-chapter 
+    p
+        margin-left: 25px
+        &:nth-of-type(1)
+            &:first-letter
+                float: left
+                font-size: 5em
+                line-height: 60px
+                padding: 6px 8px 2px 0px
+                font-family: Georgia
+    .theorem_nmbr
+        float: left
+        display: inline

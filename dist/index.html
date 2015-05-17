@@ -43,16 +43,6 @@
         </div>
         <div id="site-canvas">
             <div class="page {{ pageClass }}" ng-view></div>
-            <div ng-controller="navigationController">
-                <a class="navigate-left" ng-click="previous()" ng-show="book">
-                    <span class="icon-arrow-left"></span>
-                </a>
-                    <a class="navigate-right" ng-click="next()" ng-show="book">
-                        <span class="icon-arrow-right"></span>
-                    </a>
-                </div>
-            </div>
-
         </div>
     </div>
     <script src="js/canisi.min.js"></script>
