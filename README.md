@@ -9,10 +9,10 @@ JQuery
 
 INSTALLING THE FRONTEND
 
-1 npm install
-2 bower instal
-3 grunt dev
-4 grunt serve
+- npm install
+- bower install
+- grunt dev
+- grunt serve
 
 CREATE A RELEASE DIST
 

@@ -26,6 +26,9 @@
     <div id="site-wrapper">
         <div class="topbar">
             <span ng-click="toggleMenu()" class="menu-btn icon-menu"></span>
+            <form id="search-field">
+                <span class="icon-search"><input type="search"></span>
+            </form>
         </div>
         <div id="site-menu" ng-controller="menuController">
             <div>
@@ -40,16 +43,6 @@
         </div>
         <div id="site-canvas">
             <div class="page {{ pageClass }}" ng-view></div>
-            <div ng-controller="navigationController">
-                <a class="navigate-left" ng-click="previous()" ng-show="book">
-                    <span class="icon-arrow-left"></span>
-                </a>
-                    <a class="navigate-right" ng-click="next()" ng-show="book">
-                        <span class="icon-arrow-right"></span>
-                    </a>
-                </div>
-            </div>
-
         </div>
     </div>
     <script src="js/canisi.min.js"></script>
