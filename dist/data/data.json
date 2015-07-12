@@ -18,6 +18,7 @@
                     "title": "Apostolische Constitutie",
                     "subtitle": "Fidei Depositum",
                     "preface": "bij de publikatie van de Katechismus van de Katholieke Kerk opgesteld ter uitvoering van het Tweede Vaticaans Oecumenisch Concilie “Aan mijn eerbiedwaardige broeders Kardinalen, Patriarchen, Aartsbisschoppen, Bisschoppen, Priesters, Diakens en aan alle andere leden van het volk van God” JOHANNES PAULUS, BISSCHOP Dienaar der Dienaren Gods tot blijvende gedachtenis "
+                    "preface": "bij de publikatie van de Katechismus van de Katholieke Kerk opgesteld ter uitvoering van het Tweede Vaticaans Oecumenisch Concilie “Aan mijn eerbiedwaardige broeders Kardinalen, Patriarchen, Aartsbisschoppen, Bisschoppen, Priesters, Diakens en aan alle andere leden van het volk van God” JOHANNES PAULUS, BISSCHOP Dienaar der Dienaren Gods tot blijvende gedachtenis "
                 },
                 {
                     "id": "2",
@@ -116,7 +117,7 @@
                 {
                     "id": "0",
                     "con_level": "0",
-                    "id_in_con_level": "0",
+                    "id_in_con_level": "1",
                     "title": "Apostolische Constitutie"
                 },
                 {

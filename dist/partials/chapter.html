@@ -6,14 +6,14 @@
         <h3>{{sctn_nmbr}}{{sctn_title}}</h3>
         <div class="theorem_nmbr" ng-repeat-start="paragraph in paragraphs" >{{paragraph.theorem_number}}</div>
         <p ng-repeat-end>{{paragraph.prgrph_text}}</p>
-        <div ng-controller="navigationController">
-            <a class="navigate right" ng-click="previous()" ng-show="book">
-                <span class="icon-arrow-left"></span>
-            </a>
-            <a class="navigate left" ng-click="next()" ng-show="book">
-                <span class="icon-arrow-right"></span>
-            </a>
-        </div>
+        <!--<div ng-controller="NavigationController">-->
+            <!--<a class="navigate right" ng-click="previous()" ng-show="book">-->
+                <!--<span class="icon-arrow-left"></span>-->
+            <!--</a>-->
+            <!--<a class="navigate left" ng-click="next()" ng-show="book">-->
+                <!--<span class="icon-arrow-right"></span>-->
+            <!--</a>-->
+        <!--</div>-->
         </div>
 
 

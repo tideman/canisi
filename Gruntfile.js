@@ -31,7 +31,7 @@ module.exports = function(grunt) {
         },
         dist: {
             files: {
-                'dist/<%=path.js%>/<%= pkg.name %>.min.js' : ['<%=path.bw%>/angular/angular.js','<%=path.bw%>/angular-resource/angular-resource.js','<%=path.bw%>/angular-touch/angular-touch.js','<%=path.bw%>/angular-animate/angular-animate.js','<%=path.bw%>/angular-route/angular-route.js','<%=path.node%>/jquery/dist/jquery.js', '<%=path.js%>/app.js'],
+                'dist/<%=path.js%>/<%= pkg.name %>.min.js' : ['<%=path.bw%>/angular/angular.js','<%=path.bw%>/angular-resource/angular-resource.js','<%=path.bw%>/angular-touch/angular-touch.js','<%=path.bw%>/angular-animate/angular-animate.js','<%=path.bw%>/angular-route/angular-route.js','<%=path.node%>/jquery/dist/jquery.js', '<%=path.bw%>/underscore/underscore.js','<%=path.js%>/app.js'],
                 'dist/<%=path.css%>/style.min.css': ['<%=path.bw%>/bootstrap/dist/css/bootstrap.css', 'dist/<%=path.css%>/style.min.css']
             }
         }
