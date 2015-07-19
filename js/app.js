@@ -9,7 +9,6 @@
 
 
     canisiApp.run(function($rootScope) {
-        console.log('RUN');
         $rootScope.showMenu = function () {
             $('#site-wrapper').addClass('show-nav');
         }
@@ -26,13 +25,7 @@
             }
         }
 
-        $rootScope.chapterId = 0;
-        $rootScope.pageId = 0;
-        $rootScope.sectionId = 0;
-        $rootScope.paragraphNmbr = 0;
-        $rootScope.inChapter = false;
-        $rootScope.inSection = false;
-        $rootScope.next = false;
+
 
     })
 
@@ -42,10 +35,6 @@
             .when('/', {
                 templateUrl: '/partials/home.html',
                 controller: 'homeController'
-            })
-            .when('/register', {
-                templateUrl: '/partials/register.html',
-                controller: 'registerController'
             })
             .when('/chapter/:chapterId', {
                 templateUrl: '/partials/chapter.html',
@@ -59,14 +48,19 @@
             })
             .when('/chapter/:chapterId/page/:pageId', {
                 templateUrl: '/partials/chapter.html',
-                controller: 'chapterController',
+                controller: 'chapterController'
             })
+            .otherwise({ redirectTo: '/'});
         $locationProvider.html5Mode(true);
+
+
+
     });
 
     canisiApp.controller('homeController', function($scope,$http, $rootScope) {
         $rootScope.closeMenu();
         $scope.pageClass = 'page-home';
+
 
         $http.get("https://canisi.iriscouch.com/db_canisi/_design/book_title/_view/book_title")
         .success(function(response) {
@@ -76,20 +70,62 @@
     });
 
     canisiApp.controller('chapterController', function($scope, $http, $routeParams, $rootScope, Catechismus) {
-
-        //console.log($routeParams.chapterId);
-        //console.log(Level8.firstWithLevel0($routeParams.chapterId));
-        console.log( Catechismus.returnFirstWithConLevel('0','2'));
-        //Catechismus.getPart('3');
-
+        $scope.chapterID = $routeParams.chapterId;
+        if(_.isUndefined($scope.paragraphNumber)) {
+            $scope.paragraphNumber = 0;
+        };
+        var head = Catechismus.returnIdInLevel(0,$scope.chapterID);
+        $scope.chptr_title = head.title;
+        $scope.chptr_subtitle = head.subtitle;
+        $scope.chptr_preface = head.preface;
+        $scope.paragraphs = Catechismus.getPage($scope.paragraphNumber);
+        $scope.paragraphNumber += 5;
     });
 
     canisiApp.controller('menuController', function($scope, $http) {
+
         $http.get("https://canisi.iriscouch.com/db_canisi/_design/register/_view/register")
             .success(function(response) {
                 $scope.page = response;
+                //console.log(response);
             });
     });
+
+
+    canisiApp.directive('page', function() {
+        return {
+            restrict: 'E',
+            templateUrl: 'partials/page.html',
+            link: function(scope, elem, attrs) {
+                console.log('page directive');
+            }
+
+        }
+
+    });
+
+    canisiApp.directive('nav', function() {
+        return {
+            restrict: 'E',
+            template: '<div class="nav-{{dir}} icon icon-arrow-{{dir}}"></div>',
+            scope: {},
+            link: function(scope, elem, attrs) {
+
+                if(attrs.dir === 'back') {
+                    scope.dir = 'left';
+                }
+                else {
+                    scope.dir = 'right';
+                }
+
+                elem.on('click', function() {
+                    alert('clicked');
+                })
+
+            }
+        }
+    })
+
 
     canisiApp.factory('Catechismus', function($http) {
         var Catechismus = {},
@@ -114,7 +150,6 @@
 
         Catechismus.returnFirstWithConLevel = function(con_level, id_in_con_level) {
            for(var i = levels.length -1 ; i >= 1; i--) {
-               console.log(levels[i]);
                var result = _.findWhere(levels[i], {"con_level": con_level, "id_in_con_level": id_in_con_level});
                if(result !== undefined) {
                    return result
@@ -122,11 +157,21 @@
            }
         }
 
+        Catechismus.getPage = function(start_p) {
+           var page = [];
+           for(var  i = 0; i < 5; i++) {
+             page.push(levels[8][start_p])
+             start_p++;
+           }
+           console.log(page);
+           return page;
+        }
+
         return Catechismus;
     });
 
-    canisiApp.controller('NavigationContrller', function() {
-        console.log('BLA');
+    canisiApp.controller('NavigationController', function() {
+       // console.log('BLA');
     });
 
 
