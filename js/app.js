@@ -10,11 +10,11 @@
     canisiApp.run(function ($rootScope) {
         $rootScope.showMenu = function () {
             $('#site-wrapper').addClass('show-nav');
-        }
+        };
         $rootScope.closeMenu = function () {
             $('#site-wrapper').removeClass('show-nav');
             window.scrollTo(0, 0);
-        }
+        };
         $rootScope.toggleMenu = function () {
             if ($('#site-wrapper').hasClass('show-nav')) {
                 $rootScope.closeMenu();
@@ -25,7 +25,7 @@
         }
 
 
-    })
+    });
 
 
     canisiApp.config(function ($routeProvider, $locationProvider) {
@@ -87,7 +87,6 @@
         if (_.isUndefined($scope.paragraphNumber)) {
             $scope.paragraphNumber = 0;
         }
-        ;
         var head = Catechismus.returnIdInLevel(0, $scope.chapterID);
         $scope.chptr_title = head.title;
         $scope.chptr_subtitle = head.subtitle;
@@ -105,7 +104,7 @@
     });
 
 
-    canisiApp.directive('page', function (sharedVar) {
+    canisiApp.directive('page', function () {
         return {
             restrict: 'E',
             templateUrl: 'partials/page.html',
@@ -160,7 +159,7 @@
 
             }
         }
-    })
+    });
 
 
     canisiApp.factory('Catechismus', function ($http) {
@@ -168,7 +167,7 @@
             levels = [];
 
 
-        var promise = $http.get('https:/canisi.iriscouch.com/db_canisi/0f7902d1271c7560533ef86a450005ec').success(function (data) {
+        $http.get('https:/canisi.iriscouch.com/db_canisi/0f7902d1271c7560533ef86a450005ec').success(function (data) {
             _.each(data.levels, function (level, index) {
                 levels[index] = level.objects;
             })
@@ -182,7 +181,7 @@
 
         Catechismus.returnIdInLevel = function (levelId, id) {
             return levels[levelId][id];
-        }
+        };
 
         Catechismus.returnFirstWithConLevel = function (con_level, id_in_con_level) {
             for (var i = levels.length - 1; i >= 1; i--) {
@@ -191,7 +190,7 @@
                     return result
                 }
             }
-        }
+        };
 
         Catechismus.getPage = function (start_p) {
             var page = [];
@@ -200,7 +199,7 @@
                 start_p++;
             }
             return page;
-        }
+        };
 
         return Catechismus;
     });
